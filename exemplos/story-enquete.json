@@ -1,0 +1,4 @@
+{"formato":"story","tema":"escuro","saida":"out/exemplo-story","slides":[
+ {"layout":"enquete","kicker":"Enquete rápida","titulo":"Quanto tempo seu cliente espera a **primeira resposta**?","sticker":"[enquete: Menos de 5 min / Mais de 1 hora]"},
+ {"layout":"frase","tema":"azul","kicker":"Novo no feed","titulo":"4 mensagens que **recuperam** a venda esquecida","texto":"Toca no post 👇"}
+]}

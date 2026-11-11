@@ -1,0 +1,8 @@
+{"formato":"reel","tema":"escuro","saida":"out/exemplo-reel","slides":[
+ {"layout":"cena","linhas":["Seu cliente","mandou mensagem","às **23h**."],"duracao":2.6},
+ {"layout":"cena","linhas":["Ninguém respondeu.","Às 8h ele já","**comprou do outro.**"],"duracao":2.8},
+ {"layout":"cena","tema":"azul","linhas":["Não é falta","de cliente."],"duracao":2.0},
+ {"layout":"cena","linhas":["É falta de","**alguém de plantão.**"],"duracao":2.2},
+ {"layout":"cena","linhas":["Um assistente com IA","que **responde 24h**","e passa pro humano","na hora certa."],"duracao":3.6},
+ {"layout":"cena","tema":"azul","kicker":"WavooAI","linhas":["Comenta","**NEXUS**","que eu te mostro."],"duracao":3.0}
+]}

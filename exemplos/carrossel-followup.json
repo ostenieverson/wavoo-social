@@ -1,0 +1,90 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "out/exemplo-carrossel-followup",
+ "slides": [
+  {
+   "layout": "capa",
+   "kicker": "Vendas pelo WhatsApp",
+   "titulo": "O cliente não sumiu.\n**Você parou de chamar.**",
+   "texto": "4 mensagens que recuperam a venda que ficou no \"vou ver e te falo\"."
+  },
+  {
+   "layout": "chat",
+   "titulo": "Conhece essa conversa?",
+   "contato": "Cliente",
+   "mensagens": [
+    {
+     "de": "empresa",
+     "texto": "Segue a proposta 😊",
+     "hora": "10:02"
+    },
+    {
+     "de": "cliente",
+     "texto": "Show! Vou ver e te falo",
+     "hora": "10:15"
+    },
+    {
+     "de": "sistema",
+     "texto": "6 dias sem resposta"
+    }
+   ],
+   "texto": "Ninguém chamou de volta. A venda morreu **no silêncio**."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "01",
+   "kicker": "Logo após enviar",
+   "titulo": "Proposta enviada",
+   "texto": "Mande a proposta e **uma pergunta simples**: \"Faz sentido pra você esse formato?\" Pergunta pede resposta; arquivo sozinho não."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "02",
+   "kicker": "2 horas depois",
+   "titulo": "Confirmação",
+   "texto": "\"Conseguiu abrir a proposta?\" Curta, sem pressão. Muita gente só esqueceu de abrir."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "03",
+   "kicker": "2 dias depois",
+   "titulo": "Reengajamento",
+   "texto": "Traga **um motivo novo**: uma dúvida comum de outros clientes, um detalhe que ficou de fora, uma condição que vale até sexta."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "04",
+   "kicker": "7 dias depois",
+   "titulo": "Última chamada",
+   "texto": "\"Vou encerrar seu atendimento por aqui. Se quiser retomar, é só me chamar.\" Educado, e muitas vezes é a que mais recebe resposta."
+  },
+  {
+   "layout": "comparacao",
+   "titulo": "Na mão × no automático",
+   "antes": {
+    "titulo": "Na mão",
+    "itens": [
+     "Depende da memória do vendedor",
+     "Lead some no meio de 200 conversas",
+     "Ninguém sabe quem chamou quem"
+    ]
+   },
+   "depois": {
+    "titulo": "No WavooAI",
+    "itens": [
+     "Retomada automática por etapa",
+     "Lead vira card no Kanban",
+     "Histórico e dono visíveis"
+    ]
+   }
+  },
+  {
+   "layout": "cta",
+   "titulo": "Manda pro vendedor que **vive esquecendo** o follow-up 😅",
+   "texto": "Plano Free para sempre, sem cartão. Link na bio.",
+   "acao": "Salve e use hoje",
+   "tema": "azul"
+  }
+ ]
+}
