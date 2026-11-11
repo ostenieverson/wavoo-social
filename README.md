@@ -4,6 +4,7 @@ Motor de conteúdo do Instagram do WavooAI, usado pelas skills `wavoo-instagram`
 
 ```
 brand/produto.md               fatos do produto (fonte única; confira sempre a home)
+brand/logo/                    logo oficial (branco, marinho, monocromático, símbolo) — nunca desenhar outra
 brand/instagram-estrategia.md  cadência, pilares, formatos, legendas, palavra-chave
 config.json                    conta, modo (aprovacao|automatico), horários, palavras-chave ativas
 historico.json                 o que já foi publicado (evita repetir tema)

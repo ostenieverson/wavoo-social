@@ -3,6 +3,10 @@
 Fonte da verdade: https://www.wavoo.com.br/ . Se algo aqui divergir da home, vale a home.
 Nunca cite preço, plano, número ou recurso que não esteja na home.
 
+## Identidade visual
+- Logo oficial em brand/logo/ ("wav" + símbolo de infinito azul #369EFF). Nunca recriar, redesenhar ou inventar logo.
+- Cores do site: marinho #101A31, azul #3155FF, fundo claro #F5F7FC. Títulos em Outfit 800–900.
+
 ## Posicionamento
 - Headline da home: "Toda conversa é uma venda. Cada venda chega ao fim."
 - Atendimento omnichannel + CRM + IA em uma plataforma. Responder em segundos, nunca perder um follow-up, ver o funil inteiro em tempo real.

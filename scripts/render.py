@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "node_modules" / "@fontsource"
 
 PALETTE = {
-    "escuro": dict(bg="#101A31", fg="#FFFFFF", muted="#AEB8D6", accent="#6F8BFF", card="#18264A", line="#2A3A66", pill_bg="#3155FF", pill_fg="#FFFFFF"),
+    "escuro": dict(bg="#101A31", fg="#FFFFFF", muted="#AEB8D6", accent="#369EFF", card="#18264A", line="#2A3A66", pill_bg="#3155FF", pill_fg="#FFFFFF"),
     "claro":  dict(bg="#F5F7FC", fg="#101A31", muted="#55607A", accent="#3155FF", card="#FFFFFF", line="#E6EAF1", pill_bg="#3155FF", pill_fg="#FFFFFF"),
     "azul":   dict(bg="#3155FF", fg="#FFFFFF", muted="#DCE3FF", accent="#101A31", card="#2546E0", line="#5C78FF", pill_bg="#101A31", pill_fg="#FFFFFF"),
 }
@@ -39,8 +39,13 @@ def rich(text):
     return t.replace("\n", "<br>")
 
 
+LOGOS = ROOT / "brand" / "logo"
+
+
 def wordmark(c):
-    return (f'<div class="wm"><span class="dot"></span><span><b>Wavoo</b><span style="color:{c["accent"]}">AI</span></span></div>')
+    """Logo oficial: branco p/ fundo escuro, marinho p/ fundo claro, monocromático no fundo azul."""
+    f = {"#101A31": "wavoo-logo-branco.png", "#F5F7FC": "wavoo-logo-marinho.png"}.get(c["bg"], "wavoo-logo-monocromatico-branco.png")
+    return f'<img class="wm" src="file://{LOGOS / f}" alt="Wavoo">'
 
 
 def body_for(slide, fmt, idx, total, theme):
@@ -170,9 +175,7 @@ h1,h2{{font-family:Outfit;letter-spacing:-1.5px;line-height:1.02}}
 .foot{{display:flex;align-items:center;gap:22px;font:600 28px Outfit;color:{c['muted']}}}
 .foot>span:last-child{{margin-left:auto}}
 .foot.reel{{justify-content:center}} .foot.reel>span:last-child{{margin-left:0}}
-.wm{{display:flex;align-items:center;gap:10px;font:800 34px Outfit;color:{c['fg']}}}
-.wm b{{font-weight:800}}
-.dot{{width:26px;height:26px;border-radius:8px;background:{c['pill_bg']};box-shadow:10px -10px 0 -4px {c['accent']}}}
+.wm{{height:44px;width:auto;display:block}}
 </style></head><body>{inner}</body></html>"""
 
 
