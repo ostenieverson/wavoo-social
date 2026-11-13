@@ -1,0 +1,7 @@
+{"formato":"carrossel","tema":"escuro","saida":"media/teste-ia","slides":[
+ {"layout":"capa","imagem":"img01.png","titulo":"23h. A loja fechou.\nO celular, não.","texto":"E é aí que muita venda **vai embora em silêncio**."},
+ {"layout":"texto","imagem":"img02.png","titulo":"De dia, o problema é outro.","texto":"Uma pessoa no balcão, **três celulares** vibrando na mesa. Quem responde primeiro?"},
+ {"layout":"texto","imagem":"img03.png","titulo":"E o follow-up vira caderno.","texto":"Nome riscado, post-it perdido, cliente que **ninguém chamou de volta**."},
+ {"layout":"comparacao","titulo":"Na mão × no WavooAI","antes":{"titulo":"Na mão","itens":["Vários celulares","Retorno depende da memória","Fora do horário, silêncio"]},"depois":{"titulo":"No WavooAI","itens":["Uma caixa para todos os canais","Retomada automática por etapa","Nexus IA responde 24h*"]},"texto":"*Nexus IA nos planos Scale e Elite."},
+ {"layout":"cta","tema":"azul","titulo":"Manda pra quem ainda **atende em 3 celulares** 😅","texto":"Plano Free para sempre, sem cartão.","acao":"Link na bio"}
+]}
