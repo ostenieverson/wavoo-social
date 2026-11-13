@@ -1,0 +1,22 @@
+{
+ "img01.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 12
+ },
+ "img02.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 11
+ },
+ "img03.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 11
+ },
+ "img04.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 12
+ }
+}
