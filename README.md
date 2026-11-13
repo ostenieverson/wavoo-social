@@ -9,6 +9,7 @@ brand/instagram-estrategia.md  cadência, pilares, formatos, legendas, palavra-c
 config.json                    conta, modo (aprovacao|automatico), horários, palavras-chave ativas
 historico.json                 o que já foi publicado (evita repetir tema)
 scripts/render.py              JSON -> PNG (carrossel/post/story) e MP4 (reel)
+scripts/render_caso.py         JSON -> reel animado "caso de negócio" (capítulos, contador, barras, linha do tempo, fluxo)
 exemplos/                      specs de referência de cada layout
 media/AAAA-MM-DD/...           artes publicadas (URL pública raw do GitHub, lida pelo Postiz)
 ```
@@ -19,6 +20,9 @@ npm ci && pip install playwright pillow && python3 -m playwright install chromiu
 python3 scripts/render.py exemplos/carrossel-followup.json --preview
 ```
 Layouts: capa, texto (numero_etapa), lista (itens, numerada), frase, comparacao (antes/depois), chat (mensagens: empresa|cliente|sistema), kanban (colunas/cards — ilustrativo), numero, cta (palavra, acao), enquete (story), cena (reel: linhas, duracao). Temas: escuro, claro, azul (por spec ou por slide). `**texto**` = destaque.
+
+## Reel caso de negócio animado
+`python3 scripts/render_caso.py media/AAAA-MM-DD/caso-<slug>/spec.json` gera reel.mp4 (30 fps), capa.png, preview.png e roteiro.md. Tipos de cena e campos estão no topo do script; ícones do Lucide (`node_modules/lucide-static`). Exemplo: `media/2026-11-14/caso-zappos/spec.json`.
 
 ## Imagens por IA (GitHub Actions)
 1. Crie `media/AAAA-MM-DD/<slug>/imagens.json`: `[{"arquivo":"img01.png","prompt":"…","formato":"retrato"}]` e faça push.
