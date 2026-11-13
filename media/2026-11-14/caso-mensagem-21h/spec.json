@@ -1,0 +1,166 @@
+{
+ "formato": "caso",
+ "saida": "media/2026-11-14/caso-mensagem-21h",
+ "capitulos": [
+  "21H07",
+  "O SILÊNCIO",
+  "O NÚMERO",
+  "A SAÍDA"
+ ],
+ "fontes": [
+  "Harvard Business Review, The Short Life of Online Sales Leads (2011)"
+ ],
+ "cenas": [
+  {
+   "capitulo": 0,
+   "duracao": 6,
+   "tipo": "foto",
+   "imagem": "img01.png",
+   "hora": "21h07",
+   "notificacoes": [
+    {
+     "app": "WhatsApp",
+     "nome": "Cliente nova",
+     "texto": "Oi! Vocês têm horário amanhã? Quanto fica?",
+     "hora": "21:07"
+    }
+   ],
+   "linhas": [
+    "Ele quer",
+    "==comprar.=="
+   ],
+   "narracao": "Nove e sete da noite. Um cliente manda mensagem para a sua loja. Ele quer comprar."
+  },
+  {
+   "capitulo": 0,
+   "duracao": 5,
+   "tipo": "foto",
+   "imagem": "img02.png",
+   "hora": "21h08",
+   "linhas": [
+    "A loja fechou.",
+    "O celular ficou",
+    "no balcão."
+   ],
+   "narracao": "Só que a loja já fechou. E o celular ficou no balcão."
+  },
+  {
+   "capitulo": 1,
+   "duracao": 6,
+   "tipo": "foto",
+   "imagem": "img01.png",
+   "hora": "21h40",
+   "notificacoes": [
+    {
+     "app": "WhatsApp",
+     "nome": "Outra loja",
+     "texto": "Oi! Temos sim. Posso reservar pra você?",
+     "hora": "21:40"
+    }
+   ],
+   "linhas": [
+    "Outra loja",
+    "==respondeu.=="
+   ],
+   "narracao": "Trinta minutos depois, outra loja respondeu."
+  },
+  {
+   "capitulo": 1,
+   "duracao": 5.5,
+   "tipo": "foto",
+   "imagem": "img04.png",
+   "hora": "08h12",
+   "notificacoes": [
+    {
+     "app": "WhatsApp",
+     "nome": "Você",
+     "texto": "Bom dia! Ainda tem interesse?",
+     "hora": "08:12"
+    }
+   ],
+   "texto": "Ele já tinha fechado **com a outra loja**.",
+   "narracao": "No dia seguinte, às oito e doze, você responde. Mas ele já tinha fechado com a outra loja."
+  },
+  {
+   "capitulo": 2,
+   "duracao": 6,
+   "tema": "escuro",
+   "tipo": "numero",
+   "kicker": "Harvard Business Review",
+   "titulo": "Quem responde em até 1 hora tem quase",
+   "valor": "7x",
+   "texto": "mais chance de qualificar o contato do que quem demora **só uma hora a mais**.",
+   "nota": "Fonte: HBR, The Short Life of Online Sales Leads (2011)",
+   "narracao": "E não é azar. Uma pesquisa da Harvard Business Review mostrou que quem responde em até uma hora tem quase sete vezes mais chance de qualificar o contato do que quem demora só uma hora a mais."
+  },
+  {
+   "capitulo": 2,
+   "duracao": 7,
+   "tema": "escuro",
+   "tipo": "barras",
+   "titulo": "Quando 2.241 empresas responderam um contato:",
+   "barras": [
+    {
+     "rotulo": "Em até 1 hora",
+     "valor": 37,
+     "texto_valor": "37%"
+    },
+    {
+     "rotulo": "De 1 a 24 horas",
+     "valor": 16,
+     "texto_valor": "16%",
+     "destaque": true
+    },
+    {
+     "rotulo": "Depois de 24 horas",
+     "valor": 24,
+     "texto_valor": "24%"
+    },
+    {
+     "rotulo": "Nunca responderam",
+     "valor": 23,
+     "texto_valor": "23%"
+    }
+   ],
+   "texto": "A loja das 21h07 ficou **nesta barra azul**.",
+   "nota": "Fonte: HBR (2011), auditoria em empresas dos EUA",
+   "narracao": "No mesmo estudo, só trinta e sete por cento das empresas responderam em até uma hora. A loja das nove e sete ficou na barra azul."
+  },
+  {
+   "capitulo": 3,
+   "duracao": 7,
+   "tema": "escuro",
+   "tipo": "fluxo",
+   "titulo": "A mesma noite, com o WavooAI:",
+   "passos": [
+    {
+     "icone": "inbox",
+     "texto": "A mensagem cai na **caixa da loja**, junto com Instagram e site"
+    },
+    {
+     "icone": "bot",
+     "texto": "A Nexus IA **responde na hora** e tira a dúvida*"
+    },
+    {
+     "icone": "square-kanban",
+     "texto": "De manhã, o contato está no **Kanban**, pronto pra fechar",
+     "marca": "check"
+    }
+   ],
+   "nota": "*Nexus IA nos planos Scale e Elite.",
+   "narracao": "Agora a mesma noite com o WavooAI. A mensagem cai na caixa da loja, a Nexus IA responde na hora e, de manhã, o contato está no Kanban, pronto pra fechar."
+  },
+  {
+   "capitulo": 3,
+   "duracao": 5.5,
+   "tema": "azul",
+   "tipo": "cta",
+   "titulo": "Quem responde primeiro **leva**.",
+   "texto": "Quer ver a Nexus IA respondendo às 21h07?",
+   "palavra": "AGENTE",
+   "canal": "direct",
+   "acao": "no Direct do @wavooai",
+   "narracao": "Quem responde primeiro leva. Manda AGENTE no nosso Direct."
+  }
+ ]
+}

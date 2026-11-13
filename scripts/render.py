@@ -36,7 +36,18 @@ def rich(text):
     """Escapa HTML, **destaque** -> span, \n -> <br>."""
     t = html.escape(text or "")
     t = re.sub(r"\*\*(.+?)\*\*", r'<span class="hl">\1</span>', t)
+    t = re.sub(r"==(.+?)==", r'<span class="mk">\1</span>', t)
     return t.replace("\n", "<br>")
+
+
+def notifs(lst):
+    """Notificações de celular empilhadas (estilo tela de bloqueio)."""
+    out = []
+    for n in lst:
+        out.append(f'<div class="nt"><div class="nt-ic"></div><div class="nt-b"><div class="nt-h"><b>{html.escape(n.get("app","WhatsApp"))}</b>'
+                   f'<span>{html.escape(n.get("hora","agora"))}</span></div><div class="nt-n">{html.escape(n.get("nome",""))}</div>'
+                   f'<div class="nt-t">{rich(n.get("texto",""))}</div></div></div>')
+    return f'<div class="notifs">{"".join(out)}</div>' 
 
 
 LOGOS = ROOT / "brand" / "logo"
@@ -117,7 +128,10 @@ def body_for(slide, fmt, idx, total, theme):
         foot = f'<div class="foot reel">{wordmark(c)}<span>@wavooai</span></div>'
     bg = (f'<div class="bgimg" style="background-image:url(\'file://{foto}\')"></div><div class="shade"></div>') if foto else ""
     top = f'<div class="topcount">{str(idx+1).zfill(2)}/{str(total).zfill(2)}</div>' if foto and fmt == "carrossel" and total > 1 else ""
-    return c, f'{bg}{top}<div class="wrap {lay} {"tall" if tall else ""} {"temfoto" if foto else ""}"><div class="main">{main}</div>{foot}</div>'
+    if slide.get("notificacoes"):
+        main = notifs(slide["notificacoes"]) + main
+    selo = f'<div class="selo">{rich(slide["selo"])}</div>' if slide.get("selo") else ""
+    return c, f'{bg}{top}{selo}<div class="wrap {lay} {"tall" if tall else ""} {"temfoto" if foto else ""}"><div class="main">{main}</div>{foot}</div>'
 
 
 def page(c, inner, w, h, fmt):
@@ -188,6 +202,14 @@ body:has(.bgimg)::before{{display:none}}
 .foot>span:last-child{{margin-left:auto}}
 .foot.reel{{justify-content:center}} .foot.reel>span:last-child{{margin-left:0}}
 .wm{{height:44px;width:auto;display:block}}
+.mk{{background:{c['pill_bg']};color:#fff;padding:0 .18em;border-radius:.12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}}
+.notifs{{display:flex;flex-direction:column;gap:16px;margin-bottom:10px}}
+.nt{{display:flex;gap:20px;align-items:flex-start;background:rgba(245,247,252,.93);color:#101A31;border-radius:30px;padding:22px 26px;box-shadow:0 18px 50px #0007;backdrop-filter:blur(8px)}}
+.nt:nth-child(2){{transform:scale(.97);opacity:.95}} .nt:nth-child(3){{transform:scale(.94);opacity:.9}}
+.nt-ic{{flex:none;width:62px;height:62px;border-radius:16px;background:linear-gradient(135deg,#3DDC84,#1FAF5A)}}
+.nt-b{{flex:1}} .nt-h{{display:flex;justify-content:space-between;font:600 24px Inter;color:#55607A}} .nt-h b{{color:#101A31}}
+.nt-n{{font:700 30px Inter;margin-top:4px}} .nt-t{{font:400 30px/1.3 Inter;color:#26314F}}
+.selo{{position:absolute;top:70px;right:60px;z-index:5;background:#FFD43B;color:#101A31;font:900 34px/1.05 Outfit;padding:20px 28px;border-radius:22px;transform:rotate(6deg);box-shadow:0 14px 40px #0006;text-align:center;max-width:380px}}
 </style></head><body>{inner}</body></html>"""
 
 

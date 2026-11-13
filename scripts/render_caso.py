@@ -24,6 +24,7 @@ Tipos de cena (campos opcionais entre colchetes; **x** = destaque; \n = quebra):
   linha_tempo  ano [local] [titulo] [texto] [icones: nomes lucide] [rodape] [nota]
   fluxo        [kicker] titulo  passos:[{icone, texto, [marca]}] [rodape]
   frase        linhas:[...] (entram uma a uma) [kicker]
+  foto         imagem (relativa ao spec, ex.: img01.png; zoom lento) [hora: "21h07"] [notificacoes:[{app,nome,texto,hora}]] [linhas] [texto]
   lista        [kicker] titulo  itens:[...] [texto]
   cta          titulo [texto] [palavra] [canal: "direct"|"comentario"] [acao]
 Cada cena pode ter "narracao" (vai para roteiro.md e legenda) e "nota" (fonte, em letra pequena).
@@ -58,6 +59,7 @@ def font_css():
 def rich(t):
     t = html.escape(t or "")
     t = re.sub(r"\*\*(.+?)\*\*", r'<span class="hl">\1</span>', t)
+    t = re.sub(r"==(.+?)==", r'<span class="mk">\1</span>', t)
     return t.replace("\n", "<br>")
 
 
@@ -158,11 +160,24 @@ def scene_html(s):
             parts.append(A(t, f'{verbo} <b>{html.escape(s["palavra"])}</b>', "kw")); t += 0.5
         if s.get("acao"):
             parts.append(A(t, rich(s["acao"]), "btn"))
+    elif tipo == "foto":
+        if s.get("hora"):
+            parts.append(A(t, html.escape(s["hora"]), "hora")); t += 0.4
+        for n in s.get("notificacoes", []):
+            parts.append(A(t, f'<div class="nt-ic"></div><div class="nt-b"><div class="nt-h"><b>{html.escape(n.get("app","WhatsApp"))}</b><span>{html.escape(n.get("hora","agora"))}</span></div>'
+                              f'<div class="nt-n">{html.escape(n.get("nome",""))}</div><div class="nt-t">{rich(n.get("texto",""))}</div></div>', "nt")); t += 0.6
+        for ln in s.get("linhas", []):
+            parts.append(A(t, rich(ln), "fl")); t += 0.6
+        if s.get("texto"):
+            parts.append(A(t, rich(s["texto"]), "txt"))
     else:  # frase
         for ln in s.get("linhas", []):
             parts.append(A(t, rich(ln), "ln")); t += 0.6
     parts.append(nota)
-    return f'<div class="main {tipo}">{"".join(parts)}</div>'
+    bg = ""
+    if tipo == "foto" and s.get("_img"):
+        bg = f'<div class="ph" style="background-image:url(\'file://{s["_img"]}\')"></div><div class="phs"></div>'
+    return f'{bg}<div class="main {tipo}">{"".join(parts)}</div>'
 
 
 def page(s, chapters, cur):
@@ -222,6 +237,17 @@ body::before{{content:"";position:absolute;inset:0;{grain}{'' if c['grain'] else
 .kw{{align-self:flex-start;border:5px dashed {c['accent']};border-radius:28px;padding:26px 38px;font:600 54px Outfit}}
 .kw b{{color:{c['accent']};font-weight:900}}
 .btn{{align-self:flex-start;background:{c['bg'] if s.get('tema')=='azul' else c['strong']};color:#fff;font:800 42px Outfit;padding:28px 44px;border-radius:999px;{'background:#101A31' if s.get('tema')=='azul' else ''}}}
+.ph{{position:absolute;inset:-20px;filter:brightness(1.25) saturate(1.1);background-size:cover;background-position:center 18%;transform-origin:50% 30%}}
+.phs{{position:absolute;inset:0;background:linear-gradient(to top,rgba(16,26,49,.96) 0%,rgba(16,26,49,.8) 34%,rgba(16,26,49,.08) 62%,rgba(16,26,49,.4) 100%)}}
+.foto{{justify-content:flex-end;color:#fff}}
+.foto .txt{{color:#E3E8F5}}
+.hora{{align-self:flex-start;font:900 150px/1 Outfit;letter-spacing:-4px;color:#fff;text-shadow:0 6px 40px #0009}}
+.fl{{font:900 92px/1.02 Outfit;letter-spacing:-2px;text-transform:uppercase;text-shadow:0 6px 40px #0009}}
+.nt{{display:flex;gap:20px;align-items:flex-start;background:rgba(245,247,252,.94);color:#101A31;border-radius:30px;padding:22px 26px;box-shadow:0 18px 50px #0008}}
+.nt-ic{{flex:none;width:62px;height:62px;border-radius:16px;background:linear-gradient(135deg,#3DDC84,#1FAF5A)}}
+.nt-b{{flex:1}} .nt-h{{display:flex;justify-content:space-between;font:600 24px Inter;color:#55607A}} .nt-h b{{color:#101A31}}
+.nt-n{{font:700 30px Inter;margin-top:4px}} .nt-t{{font:400 30px/1.3 Inter;color:#26314F}}
+.mk{{background:#3155FF;color:#fff;padding:0 .16em;border-radius:.1em;box-decoration-break:clone;-webkit-box-decoration-break:clone;text-shadow:none}}
 .foot{{position:absolute;left:0;right:0;bottom:300px;display:flex;justify-content:center;align-items:center;gap:20px;font:600 28px Outfit;color:{c['muted']}}}
 .foot img{{height:42px}}
 </style></head><body>
@@ -237,6 +263,7 @@ function draw(t,prog){{
   document.querySelectorAll('.fill').forEach(e=>{{const k=ease((t-parseFloat(e.dataset.in))/0.9);e.style.width=(k*parseFloat(e.dataset.w))+'%';}});
   document.querySelectorAll('.big .cnt').forEach(e=>{{const p=e.closest('.a');const k=ease((t-parseFloat(p.dataset.in))/1.3);
     e.textContent=fmt(Math.round(k*parseInt(e.dataset.to)),e.dataset.dots==='1');}});
+  const ph=document.querySelector('.ph');if(ph)ph.style.transform=`scale(${{1+0.012*t}})`;
   const cur=document.querySelector('.seg[data-i="{cur}"]');cur.classList.add('cur');cur.querySelector('.sf').style.width=(prog*100)+'%';
 }}
 </script></body></html>"""
@@ -261,8 +288,15 @@ def render(spec_path):
         b = p.chromium.launch(args=["--allow-file-access-from-files"])
         pg = b.new_page(viewport={"width": W, "height": H})
         tmp = out / "_tmp.html"
+        base_dir = Path(spec_path).resolve().parent
         for i, s in enumerate(cenas):
             ch = s["capitulo"]
+            if s.get("imagem"):
+                fimg = (base_dir / s["imagem"]).resolve()
+                if fimg.exists():
+                    s = dict(s, _img=str(fimg))
+                else:
+                    print(f"AVISO: imagem não encontrada: {fimg}", file=sys.stderr)
             tmp.write_text(page(s, chapters, ch), encoding="utf-8")
             pg.goto(tmp.as_uri()); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(120)
             dur = float(s.get("duracao", 5)); n = int(dur * FPS)

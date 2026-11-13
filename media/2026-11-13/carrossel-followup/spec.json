@@ -5,9 +5,10 @@
  "slides": [
   {
    "layout": "capa",
-   "kicker": "Vendas pelo WhatsApp",
-   "titulo": "O cliente não sumiu.\n**Você parou de chamar.**",
-   "texto": "4 mensagens que recuperam a venda que ficou no \"vou ver e te falo\"."
+   "imagem": "img01.png",
+   "selo": "\"Vou ver\ne te falo\"",
+   "titulo": "O cliente não sumiu.\n==Você parou de chamar.==",
+   "texto": "4 mensagens que recuperam essa venda. Arrasta."
   },
   {
    "layout": "chat",
@@ -33,31 +34,47 @@
   },
   {
    "layout": "texto",
+   "imagem": "img02.png",
+   "titulo": "Ele só ==esqueceu==.",
+   "texto": "\"Vou ver e te falo\" quase nunca é um não. É um cliente **ocupado**, esperando alguém lembrar dele."
+  },
+  {
+   "layout": "texto",
    "numero_etapa": "01",
    "kicker": "Logo após enviar",
-   "titulo": "Proposta enviada",
+   "titulo": "Proposta + ==uma pergunta==",
    "texto": "Mande a proposta e **uma pergunta simples**: \"Faz sentido pra você esse formato?\" Pergunta pede resposta; arquivo sozinho não."
   },
   {
    "layout": "texto",
+   "imagem": "img03.png",
    "numero_etapa": "02",
    "kicker": "2 horas depois",
-   "titulo": "Confirmação",
-   "texto": "\"Conseguiu abrir a proposta?\" Curta, sem pressão. Muita gente só esqueceu de abrir."
+   "titulo": "Só ==confirme==",
+   "texto": "Curta, sem pressão. Muita gente só esqueceu de abrir.",
+   "notificacoes": [
+    {
+     "app": "WhatsApp",
+     "nome": "Loja",
+     "texto": "Conseguiu abrir a proposta?",
+     "hora": "agora"
+    }
+   ]
   },
   {
    "layout": "texto",
    "numero_etapa": "03",
    "kicker": "2 dias depois",
-   "titulo": "Reengajamento",
+   "titulo": "Traga um ==motivo novo==",
    "texto": "Traga **um motivo novo**: uma dúvida comum de outros clientes, um detalhe que ficou de fora, uma condição que vale até sexta."
   },
   {
    "layout": "texto",
    "numero_etapa": "04",
    "kicker": "7 dias depois",
-   "titulo": "Última chamada",
-   "texto": "\"Vou encerrar seu atendimento por aqui. Se quiser retomar, é só me chamar.\" Educado, e muitas vezes é a que mais recebe resposta."
+   "titulo": "A ==última chamada==",
+   "texto": "\"Vou encerrar seu atendimento por aqui. Se quiser retomar, é só me chamar.\" Educado, e muitas vezes é a que mais recebe resposta.",
+   "tema": "claro"
   },
   {
    "layout": "comparacao",
@@ -82,12 +99,12 @@
   },
   {
    "layout": "cta",
-   "tema": "azul",
-   "titulo": "Quer isso rodando **sozinho** no seu WhatsApp?",
-   "texto": "Manda a palavra que a gente te mostra como funciona.",
+   "imagem": "img04.png",
+   "titulo": "Quer isso rodando ==sozinho==?",
+   "texto": "No WavooAI essa sequência roda por etapa e o lead vira card no Kanban.",
    "palavra": "AGENTE",
-   "acao": "no Direct do @wavooai",
-   "canal": "direct"
+   "canal": "direct",
+   "acao": "no Direct do @wavooai"
   }
  ]
 }
