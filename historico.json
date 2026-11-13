@@ -1,16 +1,16 @@
 {
  "posts": [
   {
-   "data": "2026-11-13",
+   "data": "2026-11-14",
    "formato": "carrossel",
    "pilar": "CONVERTER",
    "tema": "5 perguntas antes de assinar um sistema de WhatsApp",
    "gancho": "5 perguntas antes de assinar um sistema de WhatsApp",
    "palavra_chave": null,
    "pasta": "media/2026-11-13/carrossel-5-perguntas",
-   "horario": "17:30",
-   "postiz_id": "cmwfdj4vg00041m7eyvgbkzhx",
-   "status": "rascunho no Postiz"
+   "horario": "11:30",
+   "postiz_id": "cmwfexgqe00081m7enbzsk66u",
+   "status": "rascunho no Postiz (refeito com imagens IA)"
   },
   {
    "data": "2026-11-13",
@@ -45,19 +45,19 @@
    "palavra_chave": "AGENTE",
    "pasta": "media/2026-11-13/carrossel-followup",
    "horario": "19:30",
-   "postiz_id": "cmwfdj4vz00051m7e5jdtrth7",
-   "status": "rascunho no Postiz"
+   "postiz_id": "cmwfexgpr00071m7ethawzqf8",
+   "status": "rascunho no Postiz (refeito com imagens IA)"
   },
   {
    "data": "2026-11-14",
    "formato": "reel-caso",
    "pilar": "ATRAIR",
-   "tema": "Caso Zappos: atendimento sem limite de tempo",
-   "gancho": "Uma ligação de atendimento durou 10h43",
+   "tema": "A mensagem das 21h07: demora na primeira resposta (dado HBR)",
+   "gancho": "21h07. Ele quer comprar.",
    "palavra_chave": "AGENTE",
-   "pasta": "media/2026-11-14/caso-zappos",
+   "pasta": "media/2026-11-14/caso-mensagem-21h",
    "horario": "18:30",
-   "postiz_id": "cmwfdtni500061m7e1l5vqwml",
+   "postiz_id": "cmwfexgqy00091m7e8q5z16ad",
    "status": "rascunho no Postiz"
   }
  ]

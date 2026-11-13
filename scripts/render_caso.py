@@ -10,7 +10,7 @@ capa.png (quadro final da 1ª cena), preview.png (quadro final de cada cena) e r
 Spec:
 {
  "formato": "caso",
- "saida": "media/2026-11-14/caso-zappos",
+ "saida": "media/2026-11-14/caso-mensagem-21h",
  "capitulos": ["O NÚMERO", "A HISTÓRIA", "A VIRADA", "A LIÇÃO"],
  "cenas": [
   {"capitulo": 0, "duracao": 6, "tema": "escuro|papel|azul", "tipo": "numero", ...},

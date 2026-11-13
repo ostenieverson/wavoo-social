@@ -19,10 +19,10 @@ media/AAAA-MM-DD/...           artes publicadas (URL pública raw do GitHub, lid
 npm ci && pip install playwright pillow && python3 -m playwright install chromium
 python3 scripts/render.py exemplos/carrossel-followup.json --preview
 ```
-Layouts: capa, texto (numero_etapa), lista (itens, numerada), frase, comparacao (antes/depois), chat (mensagens: empresa|cliente|sistema), kanban (colunas/cards — ilustrativo), numero, cta (palavra, acao), enquete (story), cena (reel: linhas, duracao). Temas: escuro, claro, azul (por spec ou por slide). `**texto**` = destaque.
+Layouts: capa, texto (numero_etapa), lista (itens, numerada), frase, comparacao (antes/depois), chat (mensagens: empresa|cliente|sistema), kanban (colunas/cards — ilustrativo), numero, cta (palavra, acao), enquete (story), cena (reel: linhas, duracao). Temas: escuro, claro, azul (por spec ou por slide). `**texto**` = destaque; `==texto==` = marca-texto. Em qualquer slide: `imagem` (foto IA em tela cheia), `selo` (adesivo inclinado), `notificacoes` ([{app,nome,texto,hora}], notificações de celular).
 
 ## Reel caso de negócio animado
-`python3 scripts/render_caso.py media/AAAA-MM-DD/caso-<slug>/spec.json` gera reel.mp4 (30 fps), capa.png, preview.png e roteiro.md. Tipos de cena e campos estão no topo do script; ícones do Lucide (`node_modules/lucide-static`). Exemplo: `media/2026-11-14/caso-zappos/spec.json`.
+`python3 scripts/render_caso.py media/AAAA-MM-DD/caso-<slug>/spec.json` gera reel.mp4 (30 fps), capa.png, preview.png e roteiro.md. Tipos de cena e campos estão no topo do script; ícones do Lucide (`node_modules/lucide-static`). Cena `foto` usa imagem IA (`imagem`, `hora`, `notificacoes`, `linhas`). Exemplo: `media/2026-11-14/caso-mensagem-21h/spec.json`.
 
 ## Imagens por IA (GitHub Actions)
 1. Crie `media/AAAA-MM-DD/<slug>/imagens.json`: `[{"arquivo":"img01.png","prompt":"…","formato":"retrato"}]` e faça push.

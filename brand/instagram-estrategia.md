@@ -18,7 +18,7 @@
 | Qua | Carrossel SUPORTE (repete o tema do blog de quarta) | — | 3 |
 | Qui | **Carrossel com imagens IA** (storytelling) | Reel CONVERTER | 2 |
 | Sex | Carrossel CONVERTER | — | 3 |
-| Sáb | — | **Reel caso de negócio animado** (storytelling) | 2 |
+| Sáb | — | **Reel história animada** (storytelling) | 2 |
 | Dom | — | — | 1 (enquete/caixinha) |
 Horários base (testar e ajustar pelo Insights): feed 11h30, reel 18h30, stories 9h / 13h / 20h (America/Sao_Paulo).
 
@@ -42,15 +42,23 @@ Referência de formato: @lemoncaps.br (posts de 08/11 e 12/11/2026) — foto cin
 - Prompt de imagem: descreva cena, ambiente, enquadramento e luz; nada de texto, logotipos, marcas ou pessoas reais conhecidas; deixe o terço inferior mais limpo para o texto. O estilo base é somado automaticamente.
 - O Instagram pode marcar a postagem com "Info de IA" (metadados das imagens geradas). É esperado.
 
-## Reel caso de negócio animado (todo sábado)
-Referência de formato: @lemoncaps.br (reel de 13/11/2026 sobre o McDonald's) — infográfico animado em capítulos, 40–60 s, sem rosto.
-- Estrutura em 4 capítulos com barra de progresso no topo: O NÚMERO (dado surpreendente de uma empresa conhecida) → A HISTÓRIA (ano, lugar, como começou) → A VIRADA (a decisão que mudou o jogo) → A LIÇÃO (o que uma PME aprende + ponte com o WavooAI + CTA).
-- 7–9 cenas de 4–7 s. Misture os tipos: numero (contador), barras (comparação), linha_tempo (ano + ícones), fluxo (passos com setas), frase, lista, cta. Alterne tema escuro/papel (papel = capítulo da história, "arquivo antigo") e feche no azul.
-- Tema sempre ligado a atendimento, vendas, relacionamento ou recompra (ex.: Zappos e o atendimento, Domino's e o rastreio do pedido, Nubank e o atendimento humano, Amazon e o "cliente no centro").
-- Fatos: todo número, ano e nome com fonte verificada por WebSearch/WebFetch; fonte em "nota" na cena e na legenda. Sem logo, produto ou foto da marca citada; o nome aparece só no texto. Nada de "filme" ou cena de filme.
-- A lição liga com recurso real do WavooAI (Nexus IA só Scale/Elite, com asterisco). CTA com palavra-chave ativa.
-- Áudio: sem voz sintética. Na aprovação, adicione trilha em alta (Postiz audioSearch) ou grave a narração de `roteiro.md` por cima.
-- Gerar: `python3 scripts/render_caso.py media/AAAA-MM-DD/caso-<slug>/spec.json` → reel.mp4, capa.png, preview.png, roteiro.md. Exemplo: `media/2026-11-14/caso-zappos/spec.json`.
+## Regras visuais (todo post de feed)
+Post "só texto em fundo azul" não para o dedo. Em TODO carrossel/post:
+- Capa com foto IA em tela cheia + título curto em caixa alta + `==marca-texto==` na palavra-chave do gancho + `selo` (adesivo amarelo inclinado com 2–4 palavras: "Salve antes de assinar", "\"Vou ver e te falo\"").
+- 2 a 4 slides com foto IA ao longo do carrossel (a cada 2–3 slides), incluindo o CTA final. Os demais alternam escuro/claro.
+- Pelo menos 1 elemento "de celular" que o lead reconhece: conversa (layout chat) ou `notificacoes` sobre a foto.
+- Títulos com no máximo ~8 palavras; o resto vai no texto de apoio.
+- Imagens: 4 por carrossel via `imagens.json` (GitHub Actions). Ver pessoas comuns em lojas, clínicas, escritórios, sofá à noite; mesma luz/paleta no carrossel; mesmo personagem quando a história continua.
+
+## Reel história animada (todo sábado)
+Inspiração de FORMATO (não de assunto): @lemoncaps.br, reel de 13/11/2026 — infográfico animado em capítulos com barra de progresso no topo, 40–60 s.
+- O assunto é sempre NOSSO: uma situação do dia a dia de quem vende pelo WhatsApp/Instagram, contada como uma história contínua com o MESMO personagem e o MESMO fio do começo ao fim (ex.: "a mensagem das 21h07" seguida até virar venda perdida). Nada de copiar o tema do exemplo nem contar a história de outra empresa só porque ela é famosa.
+- Cada cena continua a anterior (horário que avança, a mesma conversa, a consequência). Teste: lendo só os textos na tela, em sequência, a história faz sentido.
+- 4 capítulos com nomes da própria história (ex.: 21H07 → O SILÊNCIO → O NÚMERO → A SAÍDA): situação → o problema acontece → o dado que prova que não é azar → a mesma cena resolvida com o WavooAI + CTA.
+- 7–9 cenas de 5–7 s: 3–4 cenas `foto` (imagem IA com zoom lento, hora grande, notificações de celular, frase com `==marca-texto==`) + cenas de dado (`numero`, `barras`) + `fluxo` com o WavooAI + `cta`.
+- Dado com fonte verificada (WebSearch/WebFetch), na `nota` da cena e na legenda. Personagem é ilustrativo: nunca apresentar como cliente real. Nexus IA só Scale/Elite, com asterisco.
+- Áudio: sem voz sintética. Na aprovação, trilha em alta (Postiz audioSearch) ou narração de `roteiro.md` gravada por cima.
+- Gerar: `python3 scripts/render_caso.py media/AAAA-MM-DD/caso-<slug>/spec.json` → reel.mp4, capa.png, preview.png, roteiro.md. Exemplo: `media/2026-11-14/caso-mensagem-21h/spec.json`.
 
 ## Legendas
 - Primeira linha = gancho (aparece antes do "mais", ~125 caracteres).
