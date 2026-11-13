@@ -1,19 +1,24 @@
 {
-  "conta_instagram": "@wavooai",
-  "perfil_pessoal": "@ostenisilva",
-  "fuso": "America/Sao_Paulo",
-  "modo": "aprovacao",
-  "modo_opcoes": "aprovacao = cria rascunho no Postiz (ou envia os arquivos no chat) | automatico = agenda direto no Postiz",
-  "horarios": {
-    "feed": "11:30",
-    "reel": "18:30",
-    "stories": [
-      "09:00",
-      "13:00",
-      "20:00"
-    ]
-  },
-  "keywords_ativas": [],
-  "keywords_obs": "Formato: [{\"palavra\":\"AGENTE\",\"canal\":\"direct\"}] ou canal \"comentario\". CTA: direct = \"Manda AGENTE no Direct\"; comentario = \"Comenta AGENTE\". Só inclua quando a automação (WavooAI para direct, N8N para comentário) estiver respondendo. Vazio = CTA de salvar/enviar/link na bio.",
-  "repo_media_raw": "https://raw.githubusercontent.com/ostenieverson/wavoo-social/main/"
+ "conta_instagram": "@wavooai",
+ "perfil_pessoal": "@ostenisilva",
+ "fuso": "America/Sao_Paulo",
+ "modo": "aprovacao",
+ "modo_opcoes": "aprovacao = cria rascunho no Postiz (ou envia os arquivos no chat) | automatico = agenda direto no Postiz",
+ "horarios": {
+  "feed": "11:30",
+  "reel": "18:30",
+  "stories": [
+   "09:00",
+   "13:00",
+   "20:00"
+  ]
+ },
+ "keywords_ativas": [
+  {
+   "palavra": "AGENTE",
+   "canal": "direct"
+  }
+ ],
+ "keywords_obs": "Formato: [{\"palavra\":\"AGENTE\",\"canal\":\"direct\"}] ou canal \"comentario\". CTA: direct = \"Manda AGENTE no Direct\"; comentario = \"Comenta AGENTE\". Só inclua quando a automação (WavooAI para direct, N8N para comentário) estiver respondendo. Vazio = CTA de salvar/enviar/link na bio.",
+ "repo_media_raw": "https://raw.githubusercontent.com/ostenieverson/wavoo-social/main/"
 }
