@@ -67,6 +67,8 @@ Inspiração de FORMATO (não de assunto): @lemoncaps.br, reel de 13/11/2026 —
 - 3–5 hashtags de nicho no fim (#atendimentowhatsapp #crm #vendaspelowhatsapp #pequenasempresas #automacao). Nunca 30.
 
 ## Palavra-chave nos comentários (captação)
+Ativo desde 13/11/2026: comentário com AGENTE → N8N (flows.i10tecnologia.com.br, fluxo "Instagram @wavooai — comentário com palavra-chave → Direct") manda a mensagem no Direct e responde no comentário "Te mandei no Direct". CTA preferido no feed: "Comenta AGENTE que eu te mando no Direct" (canal comentario no spec). Nova palavra só depois de criada no nó "Comentário tem palavra-chave?" do N8N e incluída em config.json.
+
 Instagram é um canal do WavooAI (Direct e comentários). Usar palavras-chave fixas por campanha (WAVOO, KANBAN, FOLLOWUP, NEXUS) para a automação responder no Direct e criar o card no CRM. Só use a palavra-chave em post depois que a automação estiver ativa (ver config.json → keywords_ativas).
 
 ## Comunidade

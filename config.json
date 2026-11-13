@@ -16,6 +16,10 @@
  "keywords_ativas": [
   {
    "palavra": "AGENTE",
+   "canal": "comentario"
+  },
+  {
+   "palavra": "AGENTE",
    "canal": "direct"
   }
  ],
