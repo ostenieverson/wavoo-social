@@ -94,7 +94,8 @@ def body_for(slide, fmt, idx, total, theme):
         main = f'{kick}<div class="big">{rich(slide.get("numero",""))}</div><h2 class="t-l">{titulo}</h2>{texto}'
     elif lay == "cta":
         kw = slide.get("palavra")
-        kwbox = f'<div class="kw">Comenta <b>{html.escape(kw)}</b></div>' if kw else ""
+        verbo = "Manda" if slide.get("canal", "comentario") == "direct" else "Comenta"
+        kwbox = f'<div class="kw">{verbo} <b>{html.escape(kw)}</b></div>' if kw else ""
         acao = slide.get("acao", "")
         btn = f'<div class="btn">{rich(acao)}</div>' if acao else ""
         main = f'{kick}<h1 class="t-xl">{titulo}</h1>{texto}{kwbox}{btn}'
