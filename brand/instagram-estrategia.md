@@ -16,7 +16,7 @@
 | Seg | Carrossel ATRAIR | — | 2 |
 | Ter | Post único PROVA | Reel ATRAIR | 2 |
 | Qua | Carrossel SUPORTE (repete o tema do blog de quarta) | — | 3 |
-| Qui | Post único COMUNIDADE | Reel CONVERTER | 2 |
+| Qui | **Carrossel com imagens IA** (storytelling) | Reel CONVERTER | 2 |
 | Sex | Carrossel CONVERTER | — | 3 |
 | Sáb | — | Reel COMUNIDADE | 2 |
 | Dom | — | — | 1 (enquete/caixinha) |
@@ -34,6 +34,13 @@ Horários base (testar e ajustar pelo Insights): feed 11h30, reel 18h30, stories
 - Post único 1080x1350: frase forte, dado verificável ou meme de rotina comercial.
 - Story 1080x1920: enquete, caixinha, quiz, bastidor, "novo post no feed" (repost), link sticker para cadastro.
 - Reel automático 1080x1920, 15–30 s: 4–7 cenas de texto grande em movimento, sem voz; a trilha vem da biblioteca do Instagram (Postiz audioSearch) ou é adicionada na aprovação.
+
+## Carrossel com imagens IA (toda quinta, mínimo 1x/semana)
+Referência de formato: @lemoncaps.br (posts de 08/11 e 12/11/2026) — foto cinematográfica em tela cheia, degradê escuro embaixo, título grande em caixa alta, frase de apoio com destaque colorido, numeração 01/07 no topo e seta.
+- Linhas de história: (1) caso de grande empresa com lição para PME (fato verificado, fonte na legenda; o nome da empresa vai no texto, NUNCA logo ou produto da marca na imagem); (2) cena do dia a dia de quem vende pelo WhatsApp (balcão de loja, recepção de clínica, celular vibrando à noite, vendedor com 3 celulares); (3) "antes e depois" do atendimento.
+- 5–8 slides: 3–5 com foto IA + 1–2 só texto/produto + CTA. Imagens retrato, mesma luz e paleta em todo o carrossel.
+- Prompt de imagem: descreva cena, ambiente, enquadramento e luz; nada de texto, logotipos, marcas ou pessoas reais conhecidas; deixe o terço inferior mais limpo para o texto. O estilo base é somado automaticamente.
+- O Instagram pode marcar a postagem com "Info de IA" (metadados das imagens geradas). É esperado.
 
 ## Legendas
 - Primeira linha = gancho (aparece antes do "mais", ~125 caracteres).

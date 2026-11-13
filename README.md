@@ -20,6 +20,11 @@ python3 scripts/render.py exemplos/carrossel-followup.json --preview
 ```
 Layouts: capa, texto (numero_etapa), lista (itens, numerada), frase, comparacao (antes/depois), chat (mensagens: empresa|cliente|sistema), kanban (colunas/cards — ilustrativo), numero, cta (palavra, acao), enquete (story), cena (reel: linhas, duracao). Temas: escuro, claro, azul (por spec ou por slide). `**texto**` = destaque.
 
+## Imagens por IA (GitHub Actions)
+1. Crie `media/AAAA-MM-DD/<slug>/imagens.json`: `[{"arquivo":"img01.png","prompt":"…","formato":"retrato"}]` e faça push.
+2. O workflow `.github/workflows/gerar-imagens.yml` gera as imagens (secret `OPENAI_API_KEY` ou `GEMINI_API_KEY`; modelo opcional na variável `IMAGE_MODEL`) e faz commit dos PNGs + `imagens.log.json` (status/erros).
+3. `git pull` até os PNGs aparecerem (1–5 min) e use `"imagem": "img01.png"` no slide do spec (caminho relativo ao spec). Slide com imagem vira foto em tela cheia com degradê, título em caixa alta e numeração no topo.
+
 ## Publicação via Postiz (self-host)
 1. Suba o Postiz pelo repositório oficial `gitroomhq/postiz-docker-compose` (pede ~2 GB RAM, Postgres, Redis e Temporal). Defina `MAIN_URL`, `FRONTEND_URL` e `NEXT_PUBLIC_BACKEND_URL` com o domínio (ex.: https://social.wavoo.com.br).
 2. Instagram: use o app da Meta (`FACEBOOK_APP_ID`/`FACEBOOK_APP_SECRET` para Instagram ligado a Página do Facebook — necessário para busca de áudio em Reels; ou `INSTAGRAM_APP_ID`/`INSTAGRAM_APP_SECRET` para Instagram standalone). Redirect: `{FRONTEND_URL}/integrations/social/{provider}`. Conecte o @wavooai (conta Business).

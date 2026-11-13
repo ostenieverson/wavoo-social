@@ -49,7 +49,8 @@ def wordmark(c):
 
 
 def body_for(slide, fmt, idx, total, theme):
-    c = PALETTE[slide.get("tema", theme)]
+    foto = slide.get("_img")
+    c = PALETTE["escuro"] if foto else PALETTE[slide.get("tema", theme)]
     lay = slide.get("layout", "texto")
     k = slide.get("kicker", "")
     kick = f'<div class="kicker">{rich(k)}</div>' if k else ""
@@ -109,11 +110,13 @@ def body_for(slide, fmt, idx, total, theme):
         badge = (f'<div class="badge">{html.escape(str(num))}</div><div class="ghost">{html.escape(str(num))}</div>') if num else ""
         main = f'{badge}{kick}<h2 class="t-l">{titulo}</h2>{texto}'
 
-    counter = f'<span>{idx+1}/{total}</span>' if fmt == "carrossel" and total > 1 else ""
+    counter = f'<span>{idx+1}/{total}</span>' if fmt == "carrossel" and total > 1 and not foto else ('<span>→</span>' if foto and fmt == "carrossel" and idx < total - 1 else "")
     foot = f'<div class="foot">{wordmark(c)}<span>@wavooai</span>{counter}</div>'
     if fmt == "reel":
         foot = f'<div class="foot reel">{wordmark(c)}<span>@wavooai</span></div>'
-    return c, f'<div class="wrap {lay} {"tall" if tall else ""}"><div class="main">{main}</div>{foot}</div>'
+    bg = (f'<div class="bgimg" style="background-image:url(\'file://{foto}\')"></div><div class="shade"></div>') if foto else ""
+    top = f'<div class="topcount">{str(idx+1).zfill(2)}/{str(total).zfill(2)}</div>' if foto and fmt == "carrossel" and total > 1 else ""
+    return c, f'{bg}{top}<div class="wrap {lay} {"tall" if tall else ""} {"temfoto" if foto else ""}"><div class="main">{main}</div>{foot}</div>'
 
 
 def page(c, inner, w, h, fmt):
@@ -166,6 +169,14 @@ h1,h2{{font-family:Outfit;letter-spacing:-1.5px;line-height:1.02}}
 .kw{{align-self:flex-start;border:4px dashed {c['accent']};border-radius:28px;padding:26px 36px;font:600 48px Outfit}}
 .kw b{{color:{c['accent']};font-weight:900}}
 .btn{{align-self:flex-start;background:{c['pill_bg']};color:{c['pill_fg']};font:800 42px Outfit;padding:28px 44px;border-radius:999px}}
+.bgimg{{position:absolute;inset:0;background-size:cover;background-position:center}}
+.shade{{position:absolute;inset:0;background:linear-gradient(to top,rgba(16,26,49,.98) 0%,rgba(16,26,49,.9) 28%,rgba(16,26,49,.35) 55%,rgba(16,26,49,0) 72%),linear-gradient(to bottom,rgba(16,26,49,.55) 0%,rgba(16,26,49,0) 14%)}}
+.topcount{{position:absolute;top:44px;right:56px;font:600 28px Outfit;color:#fff;opacity:.85;z-index:2}}
+.temfoto .main{{justify-content:flex-end;padding-bottom:36px}}
+.temfoto .foot>span:last-child{{font-size:40px;color:#fff}}
+.temfoto h1,.temfoto h2{{text-transform:uppercase;letter-spacing:-1px;text-shadow:0 4px 30px #0008}}
+.temfoto .txt{{color:#E3E8F5}}
+body:has(.bgimg)::before{{display:none}}
 .sys{{align-self:center;background:#182229;color:#8696A0;font-size:26px;padding:10px 22px;border-radius:14px}}
 .ghost{{position:absolute;right:40px;bottom:120px;font:900 520px Outfit;letter-spacing:-20px;color:{c['fg']};opacity:.05;line-height:1}}
 .sticker{{margin-top:40px;width:760px;height:300px;border:4px dashed {c['line']};border-radius:40px;display:flex;align-items:center;justify-content:center;color:{c['muted']};font:600 34px Outfit}}
@@ -194,7 +205,15 @@ def render(spec_path, preview=False):
         pg = b.new_page(viewport={"width": w, "height": h})
         tmp = out / "_tmp.html"
 
+        base = Path(spec_path).resolve().parent
+
         def shot(slide, i, name):
+            if slide.get("imagem") and not slide.get("_img"):
+                f = (base / slide["imagem"]).resolve()
+                if f.exists():
+                    slide = dict(slide, _img=str(f))
+                else:
+                    print(f"AVISO: imagem não encontrada: {f} (slide {i+1} sai sem foto)", file=sys.stderr)
             c, inner = body_for(slide, fmt, i, len(slides), theme)
             tmp.write_text(page(c, inner, w, h, fmt), encoding="utf-8")
             pg.goto(tmp.as_uri())
