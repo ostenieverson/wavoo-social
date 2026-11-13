@@ -1,1 +1,28 @@
-{"posts": []}
+{
+ "posts": [
+  {
+   "data": "2026-11-13",
+   "formato": "carrossel",
+   "pilar": "CONVERTER",
+   "tema": "5 perguntas antes de assinar um sistema de WhatsApp",
+   "gancho": "5 perguntas antes de assinar um sistema de WhatsApp",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-13/carrossel-5-perguntas",
+   "horario": "11:30",
+   "postiz_id": null,
+   "status": "entregue no chat (sem Postiz)"
+  },
+  {
+   "data": "2026-11-13",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Enquete sistema que a equipe não usou + repost + caixinha dúvidas antes de assinar",
+   "gancho": "Você já pagou por um sistema que a equipe não usou?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-13/stories",
+   "horario": "09:00/13:00/20:00",
+   "postiz_id": null,
+   "status": "entregue no chat (sem Postiz)"
+  }
+ ]
+}

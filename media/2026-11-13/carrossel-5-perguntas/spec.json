@@ -1,0 +1,74 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-13/carrossel-5-perguntas",
+ "slides": [
+  {
+   "layout": "capa",
+   "kicker": "Checklist",
+   "titulo": "5 perguntas\nantes de **assinar**\num sistema\nde WhatsApp",
+   "texto": "Salve pra usar na próxima demonstração."
+  },
+  {
+   "layout": "frase",
+   "kicker": "O erro mais caro",
+   "titulo": "Assinar 12 meses de um sistema que **a equipe não usa**.",
+   "texto": "Dá pra evitar com 5 perguntas simples 👉"
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "01",
+   "kicker": "Pergunta 1",
+   "titulo": "Posso testar sem cartão?",
+   "texto": "Teste com **conversas reais** da sua equipe, não só na demonstração. É no dia a dia que você descobre se funciona."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "02",
+   "kicker": "Pergunta 2",
+   "titulo": "Tem fidelidade ou multa?",
+   "texto": "Se o sistema não servir, você precisa conseguir sair **sem pagar para sair**."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "03",
+   "kicker": "Pergunta 3",
+   "titulo": "Quem me ajuda a implantar?",
+   "texto": "Sistema sem implantação vira assinatura esquecida. Pergunte **quem conecta os canais** e quem ajuda a equipe a começar."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "04",
+   "kicker": "Pergunta 4",
+   "titulo": "O lead vira oportunidade sozinho?",
+   "texto": "Se alguém precisa copiar contato para uma planilha, **ele vai ser esquecido**. Procure CRM ligado à conversa."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "05",
+   "kicker": "Pergunta 5",
+   "titulo": "E o follow-up, quem faz?",
+   "texto": "O sistema retoma o cliente que parou de responder **sem depender da memória** do vendedor?"
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "As 5 respostas no **WavooAI**",
+   "numerada": false,
+   "itens": [
+    "Plano Free para sempre, sem cartão",
+    "Sem fidelidade nem multa",
+    "Implantação assistida",
+    "Lead vira card no Kanban automaticamente",
+    "Retomada automática em 4 etapas"
+   ]
+  },
+  {
+   "layout": "cta",
+   "tema": "azul",
+   "titulo": "Manda pro sócio antes de **assinar qualquer contrato** 👀",
+   "texto": "Comece no plano Free, sem cartão. Link na bio.",
+   "acao": "Salve este checklist"
+  }
+ ]
+}
