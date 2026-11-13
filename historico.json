@@ -23,6 +23,18 @@
    "horario": "09:00/13:00/20:00",
    "postiz_id": null,
    "status": "entregue no chat (sem Postiz)"
+  },
+  {
+   "data": "2026-11-13",
+   "formato": "carrossel-ia",
+   "pilar": "ATRAIR",
+   "tema": "Atendimento fora do horário, vários celulares e follow-up no caderno",
+   "gancho": "23h. A loja fechou. O celular, não.",
+   "palavra_chave": null,
+   "pasta": "media/teste-ia",
+   "horario": "13:58",
+   "postiz_id": "cmwf7tfzv00021m7ee5leyfbj",
+   "status": "publicado via Postiz"
   }
  ]
 }
