@@ -1,0 +1,62 @@
+{
+ "voz/cena01.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 3
+ },
+ "voz/cena02.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 2
+ },
+ "voz/cena03.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 2
+ },
+ "voz/cena04.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 2
+ },
+ "voz/cena05.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 2
+ },
+ "voz/cena06.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 2
+ },
+ "voz/cena07.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 2
+ },
+ "voz/cena08.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 2
+ },
+ "voz/amostra-ash.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "ash",
+  "segundos": 2
+ },
+ "voz/amostra-echo.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "echo",
+  "segundos": 2
+ }
+}
