@@ -1,0 +1,25 @@
+{
+ "instrucoes": "Português do Brasil, voz masculina jovem. Energia ALTA, ritmo RÁPIDO, como criador de conteúdo de negócios no Instagram contando uma história que prende. Varie bastante a entonação, dê ênfase forte em 'nove e sete' e 'quer comprar', sorriso na voz, zero tom de locutor ou de leitura. Pausas curtíssimas.",
+ "falas": [
+  {
+   "arquivo": "ash.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar!",
+   "voz": "ash"
+  },
+  {
+   "arquivo": "verse.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar!",
+   "voz": "verse"
+  },
+  {
+   "arquivo": "echo.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar!",
+   "voz": "echo"
+  },
+  {
+   "arquivo": "onyx.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar!",
+   "voz": "onyx"
+  }
+ ]
+}
