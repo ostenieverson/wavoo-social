@@ -59,6 +59,78 @@
    "horario": "18:30",
    "postiz_id": "cmwfexgqy00091m7e8q5z16ad",
    "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-14",
+   "formato": "carrossel",
+   "pilar": "ATRAIR",
+   "tema": "Isca: guia Cliente sumiu (mockups das páginas)",
+   "gancho": "Cliente sumiu? Baixe o guia.",
+   "palavra_chave": "GUIA",
+   "pasta": "media/2026-11-14/carrossel-guia",
+   "horario": "09:00",
+   "postiz_id": "cmwfpq5wv000d1m7eylvtm8oi",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-14",
+   "formato": "post",
+   "pilar": "ATRAIR",
+   "tema": "Silêncio não é não, é ainda não",
+   "gancho": "Silêncio não é não",
+   "palavra_chave": "GUIA",
+   "pasta": "media/2026-11-14/post-silencio",
+   "horario": "15:00",
+   "postiz_id": "cmwfpq5xg000e1m7eufxcdqub",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-14",
+   "formato": "carrossel",
+   "pilar": "SUPORTE",
+   "tema": "3 respostas para tá caro",
+   "gancho": "3 respostas para tá caro",
+   "palavra_chave": "GUIA",
+   "pasta": "media/2026-11-14/carrossel-ta-caro",
+   "horario": "20:30",
+   "postiz_id": "cmwfpq5y0000f1m7e67i84iwk",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-14",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "5 stories: bom dia, novo no feed, dica, guia, reel",
+   "gancho": "—",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-14/stories",
+   "horario": "08:30-19:00",
+   "postiz_id": "cmwfpq5zc000i1m7ejlnrhifd...",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-15",
+   "formato": "carrossel",
+   "pilar": "ATRAIR",
+   "tema": "5 sinais de que seu WhatsApp virou bagunça",
+   "gancho": "5 sinais",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-15/carrossel-sinais",
+   "horario": "11:30",
+   "postiz_id": "cmwfpq5yh000g1m7e490uon46",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-15",
+   "formato": "carrossel-ia",
+   "pilar": "COMUNIDADE",
+   "tema": "Um dia de quem vende pelo WhatsApp (personagem ilustrativa)",
+   "gancho": "08h. 40 mensagens antes do café",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-15/carrossel-dia",
+   "horario": "18:30",
+   "postiz_id": "cmwfpq5yx000h1m7e6nb4q1t6",
+   "status": "rascunho no Postiz"
   }
  ]
 }
