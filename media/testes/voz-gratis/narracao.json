@@ -1,0 +1,43 @@
+{
+ "instrucoes": "Leia como um criador de conteúdo brasileiro de negócios no Instagram contando uma história que prende: voz masculina jovem, energia alta, ritmo rápido, entonação bem variada, ênfase forte em 'nove e sete', 'quer comprar' e 'já fechou', tom de conversa e sorriso na voz. Nada de locutor.",
+ "falas": [
+  {
+   "arquivo": "gemini-Puck.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar! Só que a loja já fechou… e o celular ficou no balcão.",
+   "provedor": "gemini",
+   "voz": "Puck"
+  },
+  {
+   "arquivo": "gemini-Fenrir.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar! Só que a loja já fechou… e o celular ficou no balcão.",
+   "provedor": "gemini",
+   "voz": "Fenrir"
+  },
+  {
+   "arquivo": "gemini-Orus.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar! Só que a loja já fechou… e o celular ficou no balcão.",
+   "provedor": "gemini",
+   "voz": "Orus"
+  },
+  {
+   "arquivo": "gemini-Charon.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar! Só que a loja já fechou… e o celular ficou no balcão.",
+   "provedor": "gemini",
+   "voz": "Charon"
+  },
+  {
+   "arquivo": "kokoro-pm_alex.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar! Só que a loja já fechou… e o celular ficou no balcão.",
+   "provedor": "kokoro",
+   "voz": "pm_alex",
+   "velocidade": 1.15
+  },
+  {
+   "arquivo": "kokoro-pm_santa.mp3",
+   "texto": "Nove e sete da noite. Um cliente manda mensagem pra sua loja. Ele quer comprar! Só que a loja já fechou… e o celular ficou no balcão.",
+   "provedor": "kokoro",
+   "voz": "pm_santa",
+   "velocidade": 1.15
+  }
+ ]
+}

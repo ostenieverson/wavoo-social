@@ -16,13 +16,19 @@ concurrency:
 jobs:
   gerar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+      - name: Dependências (Kokoro, código aberto)
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y espeak-ng ffmpeg >/dev/null
+          pip install -q "kokoro>=0.9.4" soundfile numpy
       - name: Gerar falas pendentes
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           TTS_MODEL: ${{ vars.TTS_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_TTS_MODEL: ${{ vars.GEMINI_TTS_MODEL }}
         run: python3 scripts/gerar_voz.py
       - name: Commit das falas
         run: |
