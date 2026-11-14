@@ -19,10 +19,20 @@
    "canal": "comentario"
   },
   {
+   "palavra": "GUIA",
+   "canal": "comentario"
+  },
+  {
    "palavra": "AGENTE",
    "canal": "direct"
   }
  ],
  "keywords_obs": "Formato: [{\"palavra\":\"AGENTE\",\"canal\":\"direct\"}] ou canal \"comentario\". CTA: direct = \"Manda AGENTE no Direct\"; comentario = \"Comenta AGENTE\". Só inclua quando a automação (WavooAI para direct, N8N para comentário) estiver respondendo. Vazio = CTA de salvar/enviar/link na bio.",
- "repo_media_raw": "https://raw.githubusercontent.com/ostenieverson/wavoo-social/main/"
+ "repo_media_raw": "https://raw.githubusercontent.com/ostenieverson/wavoo-social/main/",
+ "isca_digital": {
+  "nome": "Guia gratuito: Cliente sumiu?",
+  "url": "https://www.wavoo.com.br/wp-content/uploads/2026/11/guia-cliente-sumiu-wavooai.pdf",
+  "palavra": "GUIA",
+  "cta": "Comenta GUIA que eu te mando o guia grátis no Direct"
+ }
 }

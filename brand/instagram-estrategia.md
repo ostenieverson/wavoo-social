@@ -66,6 +66,9 @@ Inspiração de FORMATO (não de assunto): @lemoncaps.br, reel de 13/11/2026 —
 - CTA único: "Comenta WAVOO que eu te mando o acesso" / "Manda pra quem ainda controla venda no caderninho" / "Link na bio: plano Free para sempre".
 - 3–5 hashtags de nicho no fim (#atendimentowhatsapp #crm #vendaspelowhatsapp #pequenasempresas #automacao). Nunca 30.
 
+## Isca digital (desde 13/11/2026)
+Guia PDF "Cliente sumiu?" (cadência de 4 toques + 20 mensagens), em materiais/guia-cliente-sumiu e no WordPress. Entrega 100% própria (N8N): comentário GUIA → Direct com botão "Sim, manda aí 🚀" → PDF; botões fixos no Direct do @wavooai ("Quero o guia grátis 📘", "Quero conhecer o WavooAI"); quem digita GUIA no Direct também recebe. Use CTA "Comenta GUIA" em 1–2 posts por semana (carrosséis ATRAIR e SUPORTE) e no destaque "Comece aqui". Boas-vindas automáticas a novo seguidor não existem na API pública (só no beta da Meta com ManyChat).
+
 ## Palavra-chave nos comentários (captação)
 Ativo desde 13/11/2026: comentário com AGENTE → N8N (flows.i10tecnologia.com.br, fluxo "Instagram @wavooai — comentário com palavra-chave → Direct") manda a mensagem no Direct e responde no comentário "Te mandei no Direct". CTA preferido no feed: "Comenta AGENTE que eu te mando no Direct" (canal comentario no spec). Nova palavra só depois de criada no nó "Comentário tem palavra-chave?" do N8N e incluída em config.json.
 
