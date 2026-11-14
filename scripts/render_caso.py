@@ -269,20 +269,59 @@ function draw(t,prog){{
 </script></body></html>"""
 
 
+def adur(f):
+    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)], capture_output=True, text=True)
+    try:
+        return float(r.stdout.strip())
+    except ValueError:
+        return 0.0
+
+
+def make_sfx(dirp):
+    """Efeitos sonoros sintetizados (sem direitos autorais): plim de notificação e whoosh de troca de capítulo."""
+    dirp.mkdir(exist_ok=True)
+    ping, whoosh = dirp / "ping.wav", dirp / "whoosh.wav"
+    if not ping.exists():
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "sine=f=1318:d=0.11", "-f", "lavfi", "-i", "sine=f=1760:d=0.22",
+                        "-filter_complex", "[0]afade=t=out:st=0.06:d=0.05,volume=0.35[a];[1]afade=t=out:st=0.05:d=0.17,volume=0.35,adelay=90|90[b];[a][b]amix=inputs=2:normalize=0,aformat=channel_layouts=stereo",
+                        "-ar", "44100", str(ping)], check=True)
+    if not whoosh.exists():
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anoisesrc=d=0.6:c=pink:a=0.5",
+                        "-af", "highpass=f=400,lowpass=f=5000,afade=t=in:d=0.3,afade=t=out:st=0.3:d=0.3,volume=0.5,aformat=channel_layouts=stereo",
+                        "-ar", "44100", str(whoosh)], check=True)
+    return ping, whoosh
+
+
+def notif_times(s):
+    """Momentos (s) em que as notificações aparecem numa cena (espelha scene_html)."""
+    if s.get("tipo") != "foto":
+        return []
+    t = 0.25 + (0.4 if s.get("hora") else 0)
+    return [t + 0.6 * k for k in range(len(s.get("notificacoes", [])))]
+
+
 def render(spec_path):
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
     out = (ROOT / spec["saida"]).resolve() if not Path(spec["saida"]).is_absolute() else Path(spec["saida"])
     out.mkdir(parents=True, exist_ok=True)
-    chapters, cenas = spec["capitulos"], spec["cenas"]
+    chapters, cenas = spec["capitulos"], [dict(c) for c in spec["cenas"]]
+    base_dir0 = Path(spec_path).resolve().parent
+    vozes = []
+    for i, c in enumerate(cenas):
+        vf = base_dir0 / "voz" / f"cena{i+1:02d}.mp3"
+        d = adur(vf) if vf.exists() else 0.0
+        vozes.append((vf, d) if d else (None, 0.0))
+        if d:
+            c["duracao"] = round(max(float(c.get("duracao", 5)) * 0.6, d + 0.9), 2)  # cena acompanha a fala
+    com_voz = any(v for v, _ in vozes)
     chap_dur = {}
     for s in cenas:
         chap_dur[s["capitulo"]] = chap_dur.get(s["capitulo"], 0) + float(s.get("duracao", 5))
     from playwright.sync_api import sync_playwright
     mp4 = out / "reel.mp4"
+    silent = out / "_video.mp4"
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-c:v", "mjpeg", "-r", str(FPS), "-i", "-",
-                           "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-shortest",
-                           "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-                           "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(mp4)], stdin=subprocess.PIPE)
+                           "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", str(silent)], stdin=subprocess.PIPE)
     finals, elapsed_in_chap = [], {}
     with sync_playwright() as p:
         b = p.chromium.launch(args=["--allow-file-access-from-files"])
@@ -311,6 +350,31 @@ def render(spec_path):
             pg.screenshot(path=str(fin)); finals.append(fin)
         tmp.unlink(missing_ok=True); b.close()
     ff.stdin.close(); ff.wait()
+    # trilha: voz por cena + plim nas notificações + whoosh na troca de capítulo
+    ping, whoosh = make_sfx(out / "_sfx")
+    inputs, filt, labels, t0, prev = [], [], [], 0.0, None
+    for i, c in enumerate(cenas):
+        ev = []
+        if prev is not None and c["capitulo"] != prev:
+            ev.append((whoosh, t0))
+        ev += [(ping, t0 + x) for x in notif_times(c)]
+        if vozes[i][0]:
+            ev.append((vozes[i][0], t0 + 0.35))
+        for f, at in ev:
+            k = len(inputs) // 2 + 1; inputs += ["-i", str(f)]
+            ms = int(at * 1000)
+            filt.append(f"[{k}]aresample=44100,aformat=channel_layouts=stereo,adelay={ms}|{ms}[a{k}]"); labels.append(f"[a{k}]")
+        t0 += float(c.get("duracao", 5)); prev = c["capitulo"]
+    total = t0
+    if labels:
+        filt.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0:duration=longest,apad,atrim=0:{total:.2f},alimiter=limit=0.95[aout]")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), *inputs, "-filter_complex", ";".join(filt),
+                        "-map", "0:v", "-map", "[aout]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(mp4)], check=True)
+    else:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-shortest",
+                        "-c:v", "copy", "-c:a", "aac", "-movflags", "+faststart", str(mp4)], check=True)
+    silent.unlink(missing_ok=True)
+    import shutil; shutil.rmtree(out / "_sfx", ignore_errors=True)
     # capa = quadro final da 1ª cena
     (out / "capa.png").write_bytes(finals[0].read_bytes())
     from PIL import Image
