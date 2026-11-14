@@ -367,7 +367,7 @@ def render(spec_path):
         t0 += float(c.get("duracao", 5)); prev = c["capitulo"]
     total = t0
     if labels:
-        filt.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0:duration=longest,apad,atrim=0:{total:.2f},alimiter=limit=0.95[aout]")
+        filt.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0:duration=longest,apad,atrim=0:{total:.2f},loudnorm=I=-15:TP=-1.5:LRA=11[aout]")
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), *inputs, "-filter_complex", ";".join(filt),
                         "-map", "0:v", "-map", "[aout]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(mp4)], check=True)
     else:
