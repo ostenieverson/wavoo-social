@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Cliente sumiu? — Guia WavooAI</title>
+<style>
+@font-face{font-family:Outfit;font-weight:800;src:url('../../node_modules/@fontsource/outfit/files/outfit-latin-800-normal.woff2')}
+@font-face{font-family:Outfit;font-weight:900;src:url('../../node_modules/@fontsource/outfit/files/outfit-latin-900-normal.woff2')}
+@font-face{font-family:Outfit;font-weight:600;src:url('../../node_modules/@fontsource/outfit/files/outfit-latin-600-normal.woff2')}
+@font-face{font-family:Inter;font-weight:400;src:url('../../node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2')}
+@font-face{font-family:Inter;font-weight:500;src:url('../../node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2')}
+@font-face{font-family:Inter;font-weight:700;src:url('../../node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2')}
+@page{size:148mm 210mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,sans-serif;color:#14203D;font-size:9.6pt;line-height:1.5}
+.pg{width:148mm;height:210mm;padding:15mm 13mm 16mm;position:relative;overflow:hidden;page-break-after:always;background:#fff}
+.pg:last-child{page-break-after:auto}
+.dark{background:#101A31;color:#fff}
+.blue{background:#3155FF;color:#fff}
+h1{font:900 34pt/0.98 Outfit;letter-spacing:-1px}
+h2{font:900 19pt/1.05 Outfit;letter-spacing:-.4px;margin-bottom:4mm}
+h3{font:800 11.5pt/1.2 Outfit;margin:4mm 0 1.5mm}
+p{margin-bottom:2.6mm}
+.kick{display:inline-block;background:#3155FF;color:#fff;font:800 7.5pt Outfit;letter-spacing:1.2px;text-transform:uppercase;padding:1.4mm 3mm;border-radius:20mm;margin-bottom:4mm}
+.dark .kick{background:#369EFF;color:#101A31}
+.hl{color:#3155FF;font-weight:700}
+.dark .hl,.blue .hl{color:#7CC4FF}
+.mk{background:#3155FF;color:#fff;padding:0 .12em;border-radius:.08em}
+.muted{color:#5B6478}
+.dark .muted{color:#AEB8D6}
+.foot{position:absolute;left:13mm;right:13mm;bottom:7mm;display:flex;justify-content:space-between;align-items:center;font:600 7pt Outfit;color:#8A93A8}
+.foot img{height:4mm}
+.dark .foot,.blue .foot{color:#AEB8D6}
+.card{background:#F5F7FC;border-radius:3mm;padding:3.5mm 4mm;margin-bottom:3mm}
+.dark .card{background:#18264A}
+.row{display:flex;gap:3mm}
+.row>*{flex:1}
+.num{font:900 24pt/1 Outfit;color:#3155FF}
+.dark .num{color:#369EFF}
+ul.ck{list-style:none}
+ul.ck li{padding-left:6mm;position:relative;margin-bottom:2mm}
+ul.ck li:before{content:"";position:absolute;left:0;top:1.1mm;width:3.4mm;height:3.4mm;border-radius:1mm;background:#3155FF url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='4'><path d='M5 12l5 5L20 7'/></svg>") center/2.6mm no-repeat}
+.msg{background:#E7F7EE;border-radius:3mm 3mm 3mm .8mm;padding:2.6mm 3.4mm;margin:0 0 2.4mm;font-size:9.2pt;position:relative}
+.msg .tag{display:inline-block;font:700 6.6pt Inter;text-transform:uppercase;letter-spacing:.6px;color:#1F8A4C;margin-bottom:.8mm}
+.msg .tag.s{color:#3155FF}
+.timeline{position:relative;margin-top:2mm}
+.step{display:flex;gap:4mm;margin-bottom:3.6mm;align-items:flex-start}
+.dot{flex:none;width:11mm;height:11mm;border-radius:50%;background:#3155FF;color:#fff;font:900 12pt Outfit;display:flex;align-items:center;justify-content:center}
+.step b{font:800 10.5pt Outfit;display:block}
+.src{font-size:6.8pt;color:#8A93A8;margin-top:1mm}
+.tbl{width:100%;border-collapse:collapse;font-size:8pt;margin-top:2mm}
+.tbl th,.tbl td{border:.3mm solid #D9DFEE;padding:1.6mm;text-align:left}
+.tbl th{background:#F5F7FC;font-weight:700}
+.btn{display:inline-block;background:#fff;color:#3155FF;font:800 10pt Outfit;padding:3mm 6mm;border-radius:20mm;margin-top:3mm}
+.cover-art{position:absolute;right:-18mm;top:22mm;width:90mm;height:90mm;border-radius:50%;background:radial-gradient(circle at 35% 35%,#3155FF,#101A31 70%);opacity:.9}
+.bubble{position:absolute;background:#fff;color:#14203D;border-radius:4mm 4mm 4mm 1mm;padding:2.6mm 3.6mm;font-size:8.6pt;box-shadow:0 2mm 6mm #0006}
+</style></head><body>
+
+<!-- 1 CAPA -->
+<section class="pg dark">
+  <div class="cover-art"></div>
+  <div class="bubble" style="right:16mm;top:40mm">Vou ver e te falo 👍</div>
+  <div class="bubble" style="right:30mm;top:58mm;background:#E7F7EE">Conseguiu ver a proposta?</div>
+  <div class="bubble" style="right:12mm;top:76mm;background:#18264A;color:#AEB8D6;box-shadow:none">visto há 6 dias</div>
+  <div style="position:absolute;left:13mm;right:13mm;bottom:30mm">
+    <span class="kick">Guia gratuito</span>
+    <h1>Cliente<br><span class="mk">sumiu?</span></h1>
+    <p style="font:600 12.5pt/1.3 Outfit;margin-top:5mm">Como recuperar a venda que morreu no silêncio do WhatsApp</p>
+    <p class="muted" style="margin-top:3mm">A cadência de 4 toques + 20 mensagens prontas para quem vende produto ou serviço.</p>
+  </div>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-branco.png"><span>@wavooai</span></div>
+</section>
+
+<!-- 2 POR QUE SOME -->
+<section class="pg">
+  <span class="kick">Antes de tudo</span>
+  <h2>O cliente quase nunca some porque desistiu</h2>
+  <p>Você mandou a proposta, ele respondeu "show, vou ver e te falo"… e nunca mais. A tentação é concluir que ele perdeu o interesse. Na maioria das vezes, não é isso.</p>
+  <h3>Os 5 motivos mais comuns do silêncio</h3>
+  <div class="card"><b>1. Esqueceu.</b> Abriu sua mensagem no meio de outra coisa e ela afundou na lista de conversas.</div>
+  <div class="card"><b>2. Está ocupado.</b> Quer comprar, mas não é prioridade hoje. Sem um lembrete, "hoje" vira "nunca".</div>
+  <div class="card"><b>3. Ficou com uma dúvida que não perguntou.</b> Prazo, forma de pagamento, se serve para o caso dele.</div>
+  <div class="card"><b>4. Está comparando.</b> Pediu orçamento em mais lugares e vai fechar com quem estiver mais presente.</div>
+  <div class="card"><b>5. Precisa de aprovação.</b> Do sócio, do marido, da esposa, do financeiro.</div>
+  <p style="margin-top:3mm">Em 4 desses 5 casos, <span class="hl">uma boa mensagem na hora certa resolve</span>. Silêncio não é "não". É "ainda não".</p>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-marinho.png"><span>2</span></div>
+</section>
+
+<!-- 3 VELOCIDADE + CADÊNCIA -->
+<section class="pg">
+  <span class="kick">A regra de ouro</span>
+  <h2>Quem lembra primeiro, vende primeiro</h2>
+  <div class="card row" style="align-items:center">
+    <div style="flex:0 0 22mm" class="num">7x</div>
+    <div>Empresas que tentaram contato em até 1 hora tiveram quase 7 vezes mais chance de qualificar o cliente do que as que tentaram uma hora depois.
+      <div class="src">Fonte: Harvard Business Review, "The Short Life of Online Sales Leads" (2011).</div></div>
+  </div>
+  <p>Velocidade importa na primeira resposta e também no acompanhamento. Por isso, em vez de "mandar uma mensagem quando lembrar", use uma <b>cadência</b>: toques combinados, com intervalos definidos.</p>
+  <h3>A cadência de 4 toques</h3>
+  <div class="timeline">
+    <div class="step"><div class="dot">1</div><div><b>Logo após enviar a proposta</b>Proposta + uma pergunta simples. Pergunta pede resposta; arquivo sozinho, não.</div></div>
+    <div class="step"><div class="dot">2</div><div><b>2 horas depois (sem resposta)</b>Uma confirmação curta: "conseguiu abrir?". Sem pressão.</div></div>
+    <div class="step"><div class="dot">3</div><div><b>2 dias depois</b>Um motivo novo para conversar: uma dica, uma dúvida comum, uma condição.</div></div>
+    <div class="step"><div class="dot">4</div><div><b>7 dias depois</b>A última chamada, educada. Dá ao cliente uma saída fácil, e é a que mais recebe resposta.</div></div>
+  </div>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-marinho.png"><span>3</span></div>
+</section>
+
+<!-- 4 REGRAS -->
+<section class="pg">
+  <span class="kick">Antes de mandar</span>
+  <h2>5 regras para a mensagem não parecer cobrança</h2>
+  <ul class="ck">
+    <li><b>Termine sempre com uma pergunta fácil.</b> "Faz sentido?" responde-se em 2 segundos. "Me dá um retorno" não.</li>
+    <li><b>Uma ideia por mensagem.</b> Textão no WhatsApp é lido depois, e "depois" é onde as vendas morrem.</li>
+    <li><b>Use o nome e o contexto.</b> "Oi, Carla! Sobre o vestido azul…" vale mais que "Olá, cliente".</li>
+    <li><b>Ofereça uma saída.</b> "Se não for o momento, tudo bem, me avisa?" Tirar a pressão faz o cliente responder.</li>
+    <li><b>Anote em que toque cada cliente está.</b> Sem registro, você manda o toque 4 para quem ainda está no 1, ou esquece de todo mundo.</li>
+  </ul>
+  <h3>Como usar as mensagens prontas</h3>
+  <p>As próximas páginas trazem <b>20 mensagens</b>, 5 para cada toque. Elas estão marcadas como <span style="color:#1F8A4C;font-weight:700">PRODUTO</span> ou <span class="hl">SERVIÇO</span>, mas quase todas funcionam nos dois casos. Troque o que está entre colchetes, ajuste ao seu jeito de falar e salve as que mais combinam com você como respostas rápidas.</p>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-marinho.png"><span>4</span></div>
+</section>
+
+<!-- 5 TOQUE 1 e 2 -->
+<section class="pg">
+  <span class="kick">Toque 1 · logo após a proposta</span>
+  <div class="msg"><span class="tag">Produto</span><br>Pronto, [nome]! Te mandei as fotos e o valor do [produto]. Você prefere receber em casa ou retirar aqui na loja?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>[nome], segue a proposta do [serviço]. Faz sentido para o que você me contou ou quer que eu ajuste alguma coisa?</div>
+  <div class="msg"><span class="tag">Produto</span><br>Separei as 3 opções que mais combinam com o que você pediu. Qual delas chamou mais sua atenção?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>Enviei o orçamento com os dois formatos que conversamos. Para você, qual faz mais sentido: o completo ou o essencial?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>Proposta enviada! Uma pergunta rápida: para quando você precisa disso resolvido?</div>
+  <span class="kick" style="margin-top:3mm">Toque 2 · 2 horas depois</span>
+  <div class="msg"><span class="tag">Produto</span><br>[nome], conseguiu ver as fotos? Se quiser, mando um vídeo mostrando melhor.</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>Oi, [nome]! Só confirmando: o arquivo da proposta abriu certinho aí?</div>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-marinho.png"><span>5</span></div>
+</section>
+
+<!-- 6 TOQUE 2 cont e 3 -->
+<section class="pg">
+  <span class="kick">Toque 2 · continuação</span>
+  <div class="msg"><span class="tag">Produto</span><br>Uma informação que esqueci: esse modelo tem [tamanho/cor] disponível para entrega [hoje/amanhã]. Quer que eu reserve?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>Ficou alguma dúvida sobre prazo ou forma de pagamento? Posso te explicar em 1 minuto por áudio.</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>[nome], qualquer coisa que não ficou clara na proposta, pode me perguntar por aqui mesmo, tá?</div>
+  <span class="kick" style="margin-top:3mm">Toque 3 · 2 dias depois (motivo novo)</span>
+  <div class="msg"><span class="tag">Produto</span><br>[nome], lembrei de você: chegou [novidade/reposição] daquele [produto] que você gostou. Ainda tem interesse?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>Uma dúvida que muita gente tem nessa fase é [dúvida comum]. A resposta é [resposta curta]. Isso ajuda na sua decisão?</div>
+  <div class="msg"><span class="tag">Produto</span><br>Essa semana consigo [condição real: frete, parcelamento, brinde]. Quer que eu deixe separado no seu nome?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>Fechei a agenda da próxima semana e ainda tenho [dia/horário] livre. Quer que eu reserve para você?</div>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-marinho.png"><span>6</span></div>
+</section>
+
+<!-- 7 TOQUE 3 cont e 4 -->
+<section class="pg">
+  <span class="kick">Toque 3 · continuação</span>
+  <div class="msg"><span class="tag s">Serviço</span><br>Se precisar mostrar a proposta para alguém antes de decidir, posso te mandar um resumo de uma página. Ajuda?</div>
+  <span class="kick" style="margin-top:3mm">Toque 4 · 7 dias depois (última chamada)</span>
+  <div class="msg"><span class="tag">Produto</span><br>[nome], vou liberar o [produto] que estava separado para você. Antes, quer que eu segure mais um pouco?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>Vou encerrar seu atendimento por aqui para não ficar te incomodando. Se quiser retomar, é só me chamar. Posso fazer isso?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>Imagino que a rotina apertou. Prefere que eu volte a falar com você no mês que vem?</div>
+  <div class="msg"><span class="tag">Produto</span><br>Última mensagem sobre isso, prometo 🙂 Ainda faz sentido para você ou posso tirar da sua lista?</div>
+  <div class="msg"><span class="tag s">Serviço</span><br>[nome], só para eu me organizar: devo considerar que você decidiu por outra opção ou ainda está avaliando?</div>
+  <p class="muted" style="margin-top:3mm">Repare: as mensagens do toque 4 dão ao cliente permissão para dizer "não". É justamente isso que faz muita gente responder "não, espera, ainda quero!".</p>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-marinho.png"><span>7</span></div>
+</section>
+
+<!-- 8 BÔNUS OBJEÇÕES -->
+<section class="pg">
+  <span class="kick">Bônus</span>
+  <h2>Quando o cliente responde… com uma objeção</h2>
+  <h3>"Vou ver e te falo."</h3>
+  <div class="msg"><span class="tag s">Resposta</span><br>Claro! Para te ajudar a decidir: o que ainda está pesando mais, o valor ou o prazo?</div>
+  <h3>"Tá caro."</h3>
+  <div class="msg"><span class="tag s">Resposta</span><br>Entendo. Caro comparado com o quê? Se me contar, vejo se consigo um formato que caiba melhor para você.</div>
+  <h3>"Depois eu vejo."</h3>
+  <div class="msg"><span class="tag s">Resposta</span><br>Sem problema! Qual o melhor dia para eu te dar um toque, segunda ou quarta?</div>
+  <h3>"Preciso falar com meu sócio/marido/esposa."</h3>
+  <div class="msg"><span class="tag s">Resposta</span><br>Faz todo sentido. Quer que eu prepare um resumo curto para você mostrar? Assim fica mais fácil a conversa.</div>
+  <p style="margin-top:3mm">O padrão é sempre o mesmo: <span class="hl">acolha, faça uma pergunta e ofereça um próximo passo concreto</span>.</p>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-marinho.png"><span>8</span></div>
+</section>
+
+<!-- 9 CONTROLE -->
+<section class="pg">
+  <span class="kick">Na prática</span>
+  <h2>Como controlar sem perder ninguém</h2>
+  <p>O motivo nº 1 de a cadência não funcionar é simples: <b>ninguém lembra em que toque cada cliente está</b>. Comece com um controle simples:</p>
+  <table class="tbl">
+    <tr><th>Cliente</th><th>Proposta enviada</th><th>Toque</th><th>Próximo contato</th></tr>
+    <tr><td>Carla</td><td>seg 10h</td><td>2</td><td>qua</td></tr>
+    <tr><td>Marcos</td><td>ter 15h</td><td>1</td><td>ter 17h</td></tr>
+    <tr><td>Ana</td><td>qui 9h</td><td>4</td><td>encerrar</td></tr>
+  </table>
+  <h3>Checklist do dia</h3>
+  <ul class="ck">
+    <li>Abri o controle antes do WhatsApp</li>
+    <li>Mandei todos os toques que venciam hoje</li>
+    <li>Atualizei o toque de quem respondeu</li>
+    <li>Encerrei com educação quem chegou ao toque 4</li>
+    <li>Salvei as mensagens que funcionaram como respostas rápidas</li>
+  </ul>
+  <p class="muted" style="margin-top:3mm">Com 10 clientes, a planilha resolve. Com 50, ela começa a falhar. Com 200, alguém sempre fica para trás.</p>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-marinho.png"><span>9</span></div>
+</section>
+
+<!-- 10 WAVOO -->
+<section class="pg blue">
+  <span class="kick" style="background:#101A31">Quando crescer</span>
+  <h2>E se a cadência rodasse sozinha?</h2>
+  <p>No <b>WavooAI</b>, cada conversa vira um card no Kanban, e o follow-up é automático por etapa: o cliente parou de responder, a mensagem do próximo toque sai no tempo que você definiu.</p>
+  <ul class="ck" style="margin-top:3mm">
+    <li>WhatsApp, Instagram e outros canais numa caixa só</li>
+    <li>Follow-up automático por etapa, sem depender da memória</li>
+    <li>Kanban para ver em que fase cada cliente está</li>
+    <li>Nexus IA respondendo 24h e chamando um humano quando precisa*</li>
+  </ul>
+  <p style="font-size:7pt;opacity:.8">*Nexus IA nos planos Scale e Elite.</p>
+  <div style="background:#101A31;border-radius:4mm;padding:5mm;margin-top:5mm">
+    <p style="font:800 13pt/1.2 Outfit">Comece grátis, sem cartão</p>
+    <p style="color:#AEB8D6">O plano Free é para sempre. Teste com as suas conversas reais.</p>
+    <a class="btn" href="https://portal.wavoo.com.br/cadastro" style="text-decoration:none">portal.wavoo.com.br/cadastro</a>
+  </div>
+  <p style="margin-top:4mm">Dúvidas? Chama a gente no Direct do <b>@wavooai</b>.</p>
+  <div class="foot"><img src="../../brand/logo/wavoo-logo-monocromatico-branco.png"><span>10</span></div>
+</section>
+</body></html>
