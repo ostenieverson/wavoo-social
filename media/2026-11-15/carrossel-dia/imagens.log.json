@@ -1,0 +1,32 @@
+{
+ "img01.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 14
+ },
+ "img02.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 22
+ },
+ "img03.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 15
+ },
+ "img04.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 22
+ },
+ "img05.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 10
+ },
+ "img06.png": {
+  "status": "ok",
+  "modelo": "gpt-image-2",
+  "segundos": 11
+ }
+}
