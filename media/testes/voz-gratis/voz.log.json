@@ -1,0 +1,36 @@
+{
+ "gemini-Puck.mp3": {
+  "status": "erro",
+  "provedor": "gemini",
+  "erro": "secret GEMINI_API_KEY ausente"
+ },
+ "gemini-Fenrir.mp3": {
+  "status": "erro",
+  "provedor": "gemini",
+  "erro": "secret GEMINI_API_KEY ausente"
+ },
+ "gemini-Orus.mp3": {
+  "status": "erro",
+  "provedor": "gemini",
+  "erro": "secret GEMINI_API_KEY ausente"
+ },
+ "gemini-Charon.mp3": {
+  "status": "erro",
+  "provedor": "gemini",
+  "erro": "secret GEMINI_API_KEY ausente"
+ },
+ "kokoro-pm_alex.mp3": {
+  "status": "ok",
+  "provedor": "kokoro",
+  "modelo": "kokoro",
+  "voz": "pm_alex",
+  "segundos": 12
+ },
+ "kokoro-pm_santa.mp3": {
+  "status": "ok",
+  "provedor": "kokoro",
+  "modelo": "kokoro",
+  "voz": "pm_santa",
+  "segundos": 3
+ }
+}
