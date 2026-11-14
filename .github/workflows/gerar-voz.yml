@@ -1,0 +1,35 @@
+name: Gerar narração IA
+
+on:
+  push:
+    paths:
+      - "media/**/narracao.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gerar-voz
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar falas pendentes
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TTS_MODEL: ${{ vars.TTS_MODEL }}
+        run: python3 scripts/gerar_voz.py
+      - name: Commit das falas
+        run: |
+          git config user.name "wavoo-social-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add media
+          git diff --cached --quiet && exit 0
+          git commit -m "ia: narração gerada"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          exit 1
