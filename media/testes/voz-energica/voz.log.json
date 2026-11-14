@@ -1,0 +1,26 @@
+{
+ "ash.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "ash",
+  "segundos": 2
+ },
+ "verse.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "verse",
+  "segundos": 2
+ },
+ "echo.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "echo",
+  "segundos": 1
+ },
+ "onyx.mp3": {
+  "status": "ok",
+  "modelo": "gpt-4o-mini-tts",
+  "voz": "onyx",
+  "segundos": 2
+ }
+}
