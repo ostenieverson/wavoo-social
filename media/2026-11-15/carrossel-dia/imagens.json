@@ -1,0 +1,32 @@
+[
+ {
+  "arquivo": "img01.png",
+  "prompt": "08h da manhã, a mesma personagem em todas as cenas: mulher brasileira de cerca de 35 anos, pele morena clara, cabelo castanho preso em rabo de cavalo, camisa jeans azul, dona de uma pequena loja de roupas, na cozinha de casa segurando o celular cheio de notificações antes do café, caneca na mão, luz da manhã. Fotografia realista, tons azulados. Enquadramento vertical.",
+  "formato": "retrato"
+ },
+ {
+  "arquivo": "img02.png",
+  "prompt": "10h, a mesma personagem em todas as cenas: mulher brasileira de cerca de 35 anos, pele morena clara, cabelo castanho preso em rabo de cavalo, camisa jeans azul, dona de uma pequena loja de roupas, atrás do balcão da loja atendendo uma cliente presencialmente enquanto o celular vibra sobre o balcão. Fotografia realista, tons azulados. Enquadramento vertical.",
+  "formato": "retrato"
+ },
+ {
+  "arquivo": "img03.png",
+  "prompt": "13h, a mesma personagem em todas as cenas: mulher brasileira de cerca de 35 anos, pele morena clara, cabelo castanho preso em rabo de cavalo, camisa jeans azul, dona de uma pequena loja de roupas, almoçando um marmita no estoque da loja com o celular na mão respondendo mensagens. Fotografia realista, tons azulados. Enquadramento vertical.",
+  "formato": "retrato"
+ },
+ {
+  "arquivo": "img04.png",
+  "prompt": "16h, a mesma personagem em todas as cenas: mulher brasileira de cerca de 35 anos, pele morena clara, cabelo castanho preso em rabo de cavalo, camisa jeans azul, dona de uma pequena loja de roupas, olhando para o celular com cara de dúvida, um post-it caindo do monitor, caderno de anotações aberto. Fotografia realista, tons azulados. Enquadramento vertical.",
+  "formato": "retrato"
+ },
+ {
+  "arquivo": "img05.png",
+  "prompt": "21h, a mesma personagem em todas as cenas: mulher brasileira de cerca de 35 anos, pele morena clara, cabelo castanho preso em rabo de cavalo, camisa jeans azul, dona de uma pequena loja de roupas, apagando as luzes da loja e fechando a porta, o celular aceso na mão iluminando o rosto. Fotografia realista, tons azulados. Enquadramento vertical.",
+  "formato": "retrato"
+ },
+ {
+  "arquivo": "img06.png",
+  "prompt": "23h, a mesma personagem em todas as cenas: mulher brasileira de cerca de 35 anos, pele morena clara, cabelo castanho preso em rabo de cavalo, camisa jeans azul, dona de uma pequena loja de roupas, deitada no sofá de casa cansada respondendo mensagens no celular, sala escura. Fotografia realista, tons azulados. Enquadramento vertical.",
+  "formato": "retrato"
+ }
+]

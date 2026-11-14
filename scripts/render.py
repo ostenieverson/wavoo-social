@@ -110,6 +110,10 @@ def body_for(slide, fmt, idx, total, theme):
         acao = slide.get("acao", "")
         btn = f'<div class="btn">{rich(acao)}</div>' if acao else ""
         main = f'{kick}<h1 class="t-xl">{titulo}</h1>{texto}{kwbox}{btn}'
+    elif lay == "mockup":  # página de material (PDF, tela) em destaque, levemente inclinada
+        mk = slide.get("_mock")
+        img = f'<div class="mockwrap"><img class="mockimg" src="file://{mk}"></div>' if mk else ""
+        main = f'{kick}<h2 class="t-l">{titulo}</h2>{texto}{img}'
     elif lay == "enquete":  # story: deixa espaço para o sticker
         main = f'{kick}<h1 class="t-xl center">{titulo}</h1>{texto}<div class="sticker">{rich(slide.get("sticker","espaço do sticker"))}</div>'
     elif lay == "cena":  # reel
@@ -202,6 +206,9 @@ body:has(.bgimg)::before{{display:none}}
 .foot>span:last-child{{margin-left:auto}}
 .foot.reel{{justify-content:center}} .foot.reel>span:last-child{{margin-left:0}}
 .wm{{height:44px;width:auto;display:block}}
+.mockwrap{{display:flex;justify-content:center;margin-top:34px}}
+.mockimg{{height:640px;border-radius:18px;box-shadow:0 30px 80px #0009,0 0 0 2px #ffffff22;transform:rotate(-3deg)}}
+.tall .mockimg{{height:900px}}
 .mk{{background:{c['pill_bg']};color:#fff;padding:0 .18em;border-radius:.12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}}
 .notifs{{display:flex;flex-direction:column;gap:16px;margin-bottom:10px}}
 .nt{{display:flex;gap:20px;align-items:flex-start;background:rgba(245,247,252,.93);color:#101A31;border-radius:30px;padding:22px 26px;box-shadow:0 18px 50px #0007;backdrop-filter:blur(8px)}}
@@ -237,6 +244,10 @@ def render(spec_path, preview=False):
                     slide = dict(slide, _img=str(f))
                 else:
                     print(f"AVISO: imagem não encontrada: {f} (slide {i+1} sai sem foto)", file=sys.stderr)
+            if slide.get("mock") and not slide.get("_mock"):
+                f = (base / slide["mock"]).resolve()
+                if f.exists():
+                    slide = dict(slide, _mock=str(f))
             c, inner = body_for(slide, fmt, i, len(slides), theme)
             tmp.write_text(page(c, inner, w, h, fmt), encoding="utf-8")
             pg.goto(tmp.as_uri())
