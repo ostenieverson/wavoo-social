@@ -1,0 +1,57 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-15/carrossel-dia",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Arrasta →",
+   "titulo": "08h.\n==40 mensagens== antes do café.",
+   "texto": "Um dia comum de quem vende pelo WhatsApp."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "titulo": "10h. Cliente pergunta preço.\n==Você está atendendo outro.=="
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "titulo": "13h. Almoço com o celular\n==na mão.=="
+  },
+  {
+   "layout": "texto",
+   "imagem": "img04.png",
+   "titulo": "16h. \"Vou ver e te falo.\"\n==Ninguém anota.==",
+   "notificacoes": [
+    {
+     "app": "WhatsApp",
+     "nome": "Cliente",
+     "texto": "Vou ver e te falo 👍",
+     "hora": "16:04"
+    }
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img05.png",
+   "titulo": "21h. A loja fecha.\n==O celular, não.=="
+  },
+  {
+   "layout": "texto",
+   "imagem": "img06.png",
+   "titulo": "23h. Você responde ==o que deu.==",
+   "texto": "O resto fica pra amanhã. E amanhã começa com 40 mensagens de novo."
+  },
+  {
+   "layout": "cta",
+   "tema": "azul",
+   "titulo": "E se o dia fosse ==outro?==",
+   "texto": "Caixa única, follow-up automático e IA respondendo à noite (Nexus IA nos planos Scale e Elite).",
+   "palavra": "AGENTE",
+   "canal": "comentario",
+   "acao": "que eu te mando no Direct"
+  }
+ ]
+}

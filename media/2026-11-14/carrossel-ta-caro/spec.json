@@ -1,0 +1,75 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-14/carrossel-ta-caro",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "\"Tá caro…\"",
+   "titulo": "3 respostas para ==\"tá caro\"== sem baixar o preço",
+   "texto": "Salva pra usar no próximo orçamento."
+  },
+  {
+   "layout": "chat",
+   "titulo": "Você já viu esse filme",
+   "contato": "Cliente",
+   "mensagens": [
+    {
+     "de": "cliente",
+     "texto": "Quanto fica?",
+     "hora": "14:02"
+    },
+    {
+     "de": "empresa",
+     "texto": "Fica R$ 450 😊",
+     "hora": "14:05"
+    },
+    {
+     "de": "cliente",
+     "texto": "Nossa, tá caro 😬",
+     "hora": "14:06"
+    }
+   ],
+   "texto": "A resposta mais comum é a pior: dar desconto na hora."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "01",
+   "titulo": "Pergunte ==\"caro comparado com o quê?\"==",
+   "texto": "Você descobre se o problema é **orçamento**, **concorrente** ou dúvida sobre o que está incluso."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "02",
+   "titulo": "Mostre o ==que está incluso==",
+   "texto": "Prazo, garantia, entrega, suporte. Muitas vezes o cliente comparou coisas diferentes."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "03",
+   "titulo": "Ofereça ==outro formato==",
+   "texto": "Parcelar, versão essencial, começar menor. Mude o pacote, **não o valor do seu trabalho**."
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "O que ==não== fazer",
+   "numerada": false,
+   "itens": [
+    "Dar desconto antes de entender o motivo",
+    "Sumir depois do \"tá caro\"",
+    "Mandar textão justificando o preço"
+   ]
+  },
+  {
+   "layout": "cta",
+   "imagem": "img03.png",
+   "titulo": "As respostas prontas estão ==no guia grátis==",
+   "palavra": "GUIA",
+   "canal": "comentario",
+   "acao": "que eu te mando no Direct"
+  }
+ ]
+}

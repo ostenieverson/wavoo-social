@@ -149,8 +149,9 @@ body::before{{content:"";position:absolute;inset:0;background:radial-gradient(90
 .wrap{{position:relative;height:100%;padding:{pad_top}px 88px {pad_bot}px;display:flex;flex-direction:column}}
 .main{{flex:1;display:flex;flex-direction:column;justify-content:center;gap:34px}}
 .kicker{{align-self:flex-start;background:{c['pill_bg']};color:{c['pill_fg']};font:600 30px Outfit;padding:12px 26px;border-radius:999px;letter-spacing:.5px}}
-h1,h2{{font-family:Outfit;letter-spacing:-1.5px;line-height:1.02}}
-.t-xl{{font-weight:900;font-size:{124 if fmt in ('story','reel') else 104}px}}
+h1,h2{{font-family:Outfit;letter-spacing:-1.5px;line-height:1.08}}
+h1 .mk,h2 .mk{{padding:.02em .14em}}
+.t-xl{{font-weight:900;font-size:{104 if fmt in ('story','reel') else 104}px}}
 .t-l{{font-weight:800;font-size:{88 if fmt in ('story','reel') else 72}px}}
 .t-m{{font-weight:800;font-size:60px}}
 .center{{text-align:center}}

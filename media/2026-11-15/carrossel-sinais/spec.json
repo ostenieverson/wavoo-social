@@ -1,0 +1,83 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-15/carrossel-sinais",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Quantos você\nmarcou?",
+   "titulo": "5 sinais de que seu WhatsApp ==virou bagunça==",
+   "texto": "Conta nos comentários quantos são verdade aí."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "01",
+   "titulo": "Cliente pergunta ==a mesma coisa duas vezes==",
+   "texto": "Porque ninguém viu a primeira mensagem."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "02",
+   "titulo": "Você descobre o pedido ==pela reclamação==",
+   "notificacoes": [
+    {
+     "app": "WhatsApp",
+     "nome": "Cliente",
+     "texto": "Alguém aí? Tô esperando desde ontem",
+     "hora": "14:52"
+    }
+   ]
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "03",
+   "titulo": "O celular da loja ==tem dono==",
+   "texto": "Se a pessoa falta ou sai, o atendimento **para junto**."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "04",
+   "titulo": "Follow-up depende ==da memória==",
+   "texto": "E memória não tem lembrete, nem histórico."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "05",
+   "titulo": "Você não sabe ==quantas vendas perdeu==",
+   "texto": "Sem histórico, não dá pra medir o que escapou."
+  },
+  {
+   "layout": "comparacao",
+   "tema": "claro",
+   "titulo": "Na mão × no ==WavooAI==",
+   "antes": {
+    "titulo": "Na mão",
+    "itens": [
+     "Cada um no seu celular",
+     "Lead some no meio das conversas",
+     "Ninguém sabe quem chamou quem"
+    ]
+   },
+   "depois": {
+    "titulo": "No WavooAI",
+    "itens": [
+     "Todos os canais numa caixa só",
+     "Lead vira card no Kanban",
+     "Follow-up automático por etapa"
+    ]
+   }
+  },
+  {
+   "layout": "cta",
+   "imagem": "img04.png",
+   "titulo": "Marcou 3 ou mais? ==Hora de organizar.==",
+   "texto": "Começa no plano Free, sem cartão.",
+   "palavra": "AGENTE",
+   "canal": "comentario",
+   "acao": "que eu te mando no Direct"
+  }
+ ]
+}

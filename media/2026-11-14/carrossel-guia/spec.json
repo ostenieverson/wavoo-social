@@ -1,0 +1,50 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-14/carrossel-guia",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Grátis",
+   "titulo": "Cliente sumiu?\n==Baixe o guia.==",
+   "texto": "A cadência de 4 toques + 20 mensagens prontas para recuperar a venda."
+  },
+  {
+   "layout": "mockup",
+   "mock": "pag1.png",
+   "kicker": "O que tem dentro",
+   "titulo": "10 páginas pra ler ==no celular==",
+   "texto": "Direto ao ponto, sem enrolação."
+  },
+  {
+   "layout": "mockup",
+   "mock": "pag3.png",
+   "kicker": "Página 3",
+   "titulo": "A cadência de ==4 toques==",
+   "texto": "Quando chamar de volta, sem parecer cobrança."
+  },
+  {
+   "layout": "mockup",
+   "mock": "pag5.png",
+   "kicker": "Páginas 5 a 7",
+   "titulo": "==20 mensagens== prontas",
+   "texto": "Para produto e serviço. Copia, ajusta e manda."
+  },
+  {
+   "layout": "mockup",
+   "mock": "pag8.png",
+   "kicker": "Bônus",
+   "titulo": "Respostas para ==\"tá caro\"==",
+   "texto": "E para \"vou ver e te falo\" e \"depois eu vejo\"."
+  },
+  {
+   "layout": "cta",
+   "imagem": "img02.png",
+   "titulo": "Quer o guia?\n==É grátis.==",
+   "palavra": "GUIA",
+   "canal": "comentario",
+   "acao": "que eu te mando no Direct"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-14/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia ☕",
+   "titulo": "Sábado. A loja abre.\n==O WhatsApp já estava aberto.==",
+   "texto": "Força pra quem vende no fim de semana."
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "5 perguntas antes de assinar um ==sistema de WhatsApp==",
+   "texto": "Toca no post e salva 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "escuro",
+   "kicker": "Dica rápida",
+   "titulo": "Termine toda mensagem com ==uma pergunta fácil==",
+   "texto": "\"Faz sentido pra você?\" se responde em 2 segundos. \"Me dá um retorno\" fica pra depois."
+  },
+  {
+   "layout": "frase",
+   "imagem": "st2.png",
+   "kicker": "Guia grátis 📘",
+   "titulo": "Cliente sumiu?\n==20 mensagens prontas.==",
+   "texto": "Comenta GUIA no post do guia que eu te mando no Direct."
+  },
+  {
+   "layout": "frase",
+   "imagem": "st3.png",
+   "kicker": "Reel novo",
+   "titulo": "21h07.\n==Ele quer comprar.==",
+   "texto": "O que acontece depois tá no feed 👇"
+  }
+ ]
+}
