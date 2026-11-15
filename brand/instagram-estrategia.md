@@ -19,7 +19,7 @@
 | Qui | **Carrossel com imagens IA** (storytelling) | Reel CONVERTER | 2 |
 | Sex | Carrossel CONVERTER | — | 3 |
 | Sáb | — | **Reel história animada** (storytelling) | 2 |
-| Dom | — | — | 1 (enquete/caixinha) |
+| Dom | — | — | 1 (pergunta "responde esse story") |
 Horários base (testar e ajustar pelo Insights): feed 11h30, reel 18h30, stories 9h / 13h / 20h (America/Sao_Paulo).
 
 ## Pilares
@@ -32,7 +32,10 @@ Horários base (testar e ajustar pelo Insights): feed 11h30, reel 18h30, stories
 ## Formatos
 - Carrossel 1080x1350, 6–9 slides: capa com gancho → problema → virada → passos/lista → prova/produto → CTA. Último slide pede envio ou palavra-chave.
 - Post único 1080x1350: frase forte, dado verificável ou meme de rotina comercial.
-- Story 1080x1920: enquete, caixinha, quiz, bastidor, "novo post no feed" (repost), link sticker para cadastro.
+- Story 1080x1920: pergunta aberta com "responde esse story", bastidor, dica, "novo post no feed" (repost), contagem/novidade.
+- REGRA DE STICKER (desde 15/11/2026): a API da Meta NÃO publica stickers interativos (caixa de pergunta, enquete, quiz, link, contagem). NUNCA desenhar uma caixinha, enquete ou botão falso na arte: parece golpe e tira a credibilidade.
+  - Story automático (Postiz): sem nada que pareça clicável. Para interação, use a barra de resposta nativa: "Responde esse story com 1, 2 ou 3" / "Me conta aqui embaixo 👇" (a resposta cai no Direct do WavooAI e conta como sinal forte pro algoritmo).
+  - Story com sticker real: só se o Osteni for postar pelo app. Gere a arte LIMPA (fundo + pergunta, com espaço vazio de ~600 px no meio para o sticker), envie com SendUserFile, NÃO agende no Postiz e diga no relatório qual sticker e texto colocar.
 - Reel automático 1080x1920, 15–30 s: 4–7 cenas de texto grande em movimento, sem voz; a trilha vem da biblioteca do Instagram (Postiz audioSearch) ou é adicionada na aprovação.
 
 ## Carrossel com imagens IA (toda quinta, mínimo 1x/semana)
@@ -88,7 +91,7 @@ Instagram é um canal do WavooAI (Direct e comentários). Usar palavras-chave fi
 
 ## Comunidade
 - Responder todo comentário nas primeiras 2 horas (tarefa humana; o agente lembra no relatório).
-- Toda semana: 1 story de caixinha "qual sua maior dor no atendimento?" — as respostas viram pauta.
+- Toda semana: 1 story "qual sua maior dor no atendimento? responde aqui 👇" (barra de resposta nativa; ou caixinha real se o Osteni postar pelo app) — as respostas viram pauta.
 - Mensal: destaque de cliente/parceiro, só com autorização e fatos reais.
 
 ## Banco de pautas (use antes de inventar tema; risque com [feito AAAA-MM-DD] ao usar)
