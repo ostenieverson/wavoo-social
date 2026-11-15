@@ -7,7 +7,7 @@ Formato:
  "instrucoes": "Português do Brasil...",  # tom, ritmo, sotaque
  "falas": [{"arquivo": "voz/cena01.mp3", "texto": "...", "voz": "opcional"}]
 }
-Usa OPENAI_API_KEY (modelo TTS_MODEL, padrão gpt-4o-mini-tts; cai para tts-1-hd se não aceitar).
+Padrão: Gemini TTS voz Charon (GEMINI_API_KEY, camada grátis). Também: "provedor": "openai" (OPENAI_API_KEY (modelo TTS_MODEL, padrão gpt-4o-mini-tts; cai para tts-1-hd se não aceitar).
 Pula arquivos que já existem. Grava voz.log.json ao lado.
 """
 import glob, json, os, sys, time, urllib.request, urllib.error
@@ -38,8 +38,15 @@ def gemini_tts(texto, voz, instr, key):
         req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
                                      data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=180) as r:
-                data = json.loads(r.read())
+            for tent in range(4):  # camada grátis tem limite por minuto: espera e tenta de novo
+                try:
+                    with urllib.request.urlopen(req, timeout=180) as r:
+                        data = json.loads(r.read())
+                    break
+                except urllib.error.HTTPError as e:
+                    if e.code not in (429, 500, 503) or tent == 3:
+                        raise
+                    time.sleep(30 * (tent + 1))
             pcm = base64.b64decode(data["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
             buf = io.BytesIO()
             with wave.open(buf, "wb") as w:
@@ -83,10 +90,10 @@ def main():
             if out.exists():
                 continue
             out.parent.mkdir(parents=True, exist_ok=True)
-            voz = f.get("voz") or cfg.get("voz", "onyx")
+            voz = f.get("voz") or cfg.get("voz", "Charon")
             instr = cfg.get("instrucoes") or INSTR_PADRAO
             t0 = time.time()
-            prov = f.get("provedor") or cfg.get("provedor", "openai")
+            prov = f.get("provedor") or cfg.get("provedor", "gemini")
             if prov in ("gemini", "kokoro"):
                 try:
                     if prov == "gemini":

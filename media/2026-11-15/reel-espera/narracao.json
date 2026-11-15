@@ -1,0 +1,35 @@
+{
+ "provedor": "gemini",
+ "voz": "Charon",
+ "instrucoes": "Leia como um criador de conteúdo brasileiro de negócios no Instagram, num anúncio curto que prende: voz masculina jovem, energia alta, ritmo rápido, entonação bem variada, sorriso na voz, tom de conversa com o dono de uma pequena empresa. Ênfase forte na palavra mais importante de cada frase. Nada de locutor nem de pausa longa.",
+ "falas": [
+  {
+   "arquivo": "voz/cena01.mp3",
+   "texto": "Sua empresa não perde venda por preço."
+  },
+  {
+   "arquivo": "voz/cena02.mp3",
+   "texto": "Perde porque o cliente ficou esperando resposta."
+  },
+  {
+   "arquivo": "voz/cena03.mp3",
+   "texto": "É mensagem no WhatsApp, no Instagram, no Messenger… cada uma num lugar diferente."
+  },
+  {
+   "arquivo": "voz/cena04.mp3",
+   "texto": "No WavooAI, tudo cai numa caixa só."
+  },
+  {
+   "arquivo": "voz/cena05.mp3",
+   "texto": "Cada conversa vira um card no funil. E você vê na hora quem ficou parado."
+  },
+  {
+   "arquivo": "voz/cena06.mp3",
+   "texto": "A IA sugere a resposta, e o follow-up sai sozinho, no dia certo."
+  },
+  {
+   "arquivo": "voz/cena07.mp3",
+   "texto": "Comenta AGENTE aqui embaixo, que eu te mando o acesso grátis."
+  }
+ ]
+}
