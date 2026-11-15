@@ -131,6 +131,19 @@
    "horario": "18:30",
    "postiz_id": "cmwfpq5yx000h1m7e6nb4q1t6",
    "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-15",
+   "formato": "reel-narrado",
+   "pilar": "produto",
+   "tema": "Venda perdida por demora: caixa única, funil e follow-up (voz Charon)",
+   "gancho": "Você não perde venda por preço",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-15/reel-espera",
+   "postiz_ids": [
+    "cmwh3jyco000w1m7eyj0cl3s0"
+   ],
+   "audio": "How It Works - Magnetic Sirens (Postiz, 15%)"
   }
  ]
 }

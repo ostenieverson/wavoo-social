@@ -56,6 +56,12 @@ Post "só texto em fundo azul" não para o dedo. Em TODO carrossel/post:
 - Carrossel com música: publicar a versão "carrossel em vídeo" (slides animados como reel, com som em alta) OU deixar o carrossel como rascunho para o Osteni postar pelo app e escolher a música.
 - Story com som: story em vídeo com áudio próprio (voz Charon e/ou trilha) embutido no arquivo.
 
+## Reel narrado estilo anúncio (todo reel que não for o de sábado)
+- 20–35 s, 6–8 cenas, uma frase falada por cena (≈ 8–14 palavras), voz Charon. Estrutura: gancho que contraria (0–2 s) → dor concreta (chat/notificações) → produto resolvendo em telas do WavooAI (caixa de entrada, funil, IA sugerindo, follow-up) → CTA com palavra-chave.
+- Visual: fundo claro, telas do WavooAI animadas, tudo em movimento, legenda de 2–3 palavras no ritmo da fala com 1 palavra destacada. Só recursos reais.
+- Gerar: narracao.json (falas) → push → Actions gera voz/cenaNN.mp3 → spec.json com as mesmas falas → `python3 scripts/render_narrado.py <spec>`. Exemplo: media/2026-11-15/reel-espera/.
+- Publicar reel.mp4 (sem música) com som em alta do Postiz: audioSearch com q vazio, escolher instrumental animado, audio_volume 15, video_volume 100. reel-preview.mp4 (trilha sintética) só serve para revisão.
+
 ## Reel história animada (todo sábado)
 Inspiração de FORMATO (não de assunto): @lemoncaps.br, reel de 13/11/2026 — infográfico animado em capítulos com barra de progresso no topo, 40–60 s.
 - O assunto é sempre NOSSO: uma situação do dia a dia de quem vende pelo WhatsApp/Instagram, contada como uma história contínua com o MESMO personagem e o MESMO fio do começo ao fim (ex.: "a mensagem das 21h07" seguida até virar venda perdida). Nada de copiar o tema do exemplo nem contar a história de outra empresa só porque ela é famosa.
