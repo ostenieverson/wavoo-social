@@ -143,7 +143,20 @@
    "postiz_ids": [
     "cmwh3jyco000w1m7eyj0cl3s0"
    ],
-   "audio": "How It Works - Magnetic Sirens (Postiz, 15%)"
+   "audio": "How It Works - Magnetic Sirens (Postiz, 15%)",
+   "postiz_id": "cmwh3jyco000w1m7eyj0cl3s0",
+   "status": "agendado no Postiz (18:30, som How It Works)"
+  },
+  {
+   "data": "2026-11-15",
+   "formato": "story",
+   "pilar": "COMUNIDADE",
+   "tema": "Caixinha semanal: qual sua maior dor no atendimento?",
+   "gancho": "Qual sua maior dor no atendimento?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-15/story-caixinha",
+   "postiz_id": null,
+   "status": "rascunho no Postiz"
   }
  ]
 }
