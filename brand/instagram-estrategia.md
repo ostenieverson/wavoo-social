@@ -50,6 +50,12 @@ Post "só texto em fundo azul" não para o dedo. Em TODO carrossel/post:
 - Títulos com no máximo ~8 palavras; o resto vai no texto de apoio.
 - Imagens: 4 por carrossel via `imagens.json` (GitHub Actions). Ver pessoas comuns em lojas, clínicas, escritórios, sofá à noite; mesma luz/paleta no carrossel; mesmo personagem quando a história continua.
 
+## Áudio (regras)
+- Voz de narração padrão: Gemini TTS, voz Charon (grátis), acelerada 1,12x, sem pausas, com trilha baixa por baixo e volume final -15 LUFS. Instruções de estilo: criador de conteúdo jovem, energia alta, entonação variada, nada de locutor.
+- Som em alta via API (Postiz, configuração "audio"): só funciona em REEL. Carrossel e story não aceitam música pela API da Meta.
+- Carrossel com música: publicar a versão "carrossel em vídeo" (slides animados como reel, com som em alta) OU deixar o carrossel como rascunho para o Osteni postar pelo app e escolher a música.
+- Story com som: story em vídeo com áudio próprio (voz Charon e/ou trilha) embutido no arquivo.
+
 ## Reel história animada (todo sábado)
 Inspiração de FORMATO (não de assunto): @lemoncaps.br, reel de 13/11/2026 — infográfico animado em capítulos com barra de progresso no topo, 40–60 s.
 - O assunto é sempre NOSSO: uma situação do dia a dia de quem vende pelo WhatsApp/Instagram, contada como uma história contínua com o MESMO personagem e o MESMO fio do começo ao fim (ex.: "a mensagem das 21h07" seguida até virar venda perdida). Nada de copiar o tema do exemplo nem contar a história de outra empresa só porque ela é famosa.

@@ -34,5 +34,13 @@
   "url": "https://www.wavoo.com.br/wp-content/uploads/2026/11/guia-cliente-sumiu-wavooai.pdf",
   "palavra": "GUIA",
   "cta": "Comenta GUIA que eu te mando o guia grátis no Direct"
+ },
+ "voz_padrao": {
+  "provedor": "gemini",
+  "voz": "Charon",
+  "acelerar": 1.12,
+  "sem_pausas": true,
+  "aprovada_em": "2026-11-14",
+  "obs": "Escolhida pelo Osteni no teste de 6 vozes grátis; mixar com trilha baixa e loudnorm -15"
  }
 }
