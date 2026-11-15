@@ -1,23 +1,31 @@
 {
  "gemini-Puck.mp3": {
-  "status": "erro",
+  "status": "ok",
   "provedor": "gemini",
-  "erro": "secret GEMINI_API_KEY ausente"
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Puck",
+  "segundos": 6
  },
  "gemini-Fenrir.mp3": {
-  "status": "erro",
+  "status": "ok",
   "provedor": "gemini",
-  "erro": "secret GEMINI_API_KEY ausente"
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Fenrir",
+  "segundos": 5
  },
  "gemini-Orus.mp3": {
-  "status": "erro",
+  "status": "ok",
   "provedor": "gemini",
-  "erro": "secret GEMINI_API_KEY ausente"
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Orus",
+  "segundos": 5
  },
  "gemini-Charon.mp3": {
-  "status": "erro",
+  "status": "ok",
   "provedor": "gemini",
-  "erro": "secret GEMINI_API_KEY ausente"
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Charon",
+  "segundos": 5
  },
  "kokoro-pm_alex.mp3": {
   "status": "ok",
