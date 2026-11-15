@@ -1,0 +1,173 @@
+{
+ "formato": "narrado",
+ "saida": "media/2026-11-15/reel-espera",
+ "acelerar": 1.12,
+ "cenas": [
+  {
+   "tipo": "frase",
+   "fala": "Sua empresa não perde venda por **preço**.",
+   "linhas": [
+    "Você não",
+    "perde venda",
+    "por ~~preço~~."
+   ]
+  },
+  {
+   "tipo": "chat",
+   "fala": "Perde porque o cliente **ficou esperando** resposta.",
+   "nome": "Juliana",
+   "status": "online",
+   "mensagens": [
+    {
+     "de": "cliente",
+     "texto": "Oi! Ainda tem o modelo azul? 😍",
+     "hora": "10:02"
+    },
+    {
+     "de": "cliente",
+     "texto": "Qual o valor?",
+     "hora": "10:03"
+    },
+    {
+     "de": "cliente",
+     "texto": "Oi?? 👀",
+     "hora": "10:41"
+    },
+    {
+     "de": "cliente",
+     "texto": "Deixa, comprei em outra loja.",
+     "hora": "11:15"
+    }
+   ]
+  },
+  {
+   "tipo": "notifs",
+   "fala": "É mensagem no WhatsApp, no Instagram, no Messenger… cada uma num **lugar diferente**.",
+   "titulo": "3 canais.\n==3 celulares.==",
+   "itens": [
+    {
+     "app": "WhatsApp",
+     "nome": "Carlos",
+     "texto": "Vocês entregam hoje?",
+     "hora": "agora"
+    },
+    {
+     "app": "Instagram",
+     "nome": "@bia.store",
+     "texto": "Quanto custa o kit?",
+     "hora": "1 min"
+    },
+    {
+     "app": "Messenger",
+     "nome": "Rafael",
+     "texto": "Tem horário amanhã?",
+     "hora": "3 min"
+    }
+   ]
+  },
+  {
+   "tipo": "inbox",
+   "fala": "No WavooAI, tudo cai numa **caixa só**.",
+   "titulo": "Caixa de entrada",
+   "destaque": 0,
+   "conversas": [
+    {
+     "canal": "WhatsApp",
+     "nome": "Carlos",
+     "texto": "Vocês entregam hoje?",
+     "tempo": "agora",
+     "nao_lidas": 1
+    },
+    {
+     "canal": "Instagram",
+     "nome": "@bia.store",
+     "texto": "Quanto custa o kit?",
+     "tempo": "1 min",
+     "nao_lidas": 2
+    },
+    {
+     "canal": "Messenger",
+     "nome": "Rafael",
+     "texto": "Tem horário amanhã?",
+     "tempo": "3 min",
+     "nao_lidas": 1
+    },
+    {
+     "canal": "WhatsApp",
+     "nome": "Juliana",
+     "texto": "Ainda tem o modelo azul?",
+     "tempo": "8 min"
+    }
+   ]
+  },
+  {
+   "tipo": "kanban",
+   "fala": "Cada conversa vira um **card no funil**. E você vê na hora quem ficou parado.",
+   "colunas": [
+    "Novo",
+    "Negociando",
+    "Fechado"
+   ],
+   "cards": [
+    {
+     "titulo": "Juliana",
+     "sub": "Modelo azul",
+     "coluna": 0
+    },
+    {
+     "titulo": "Carlos",
+     "sub": "Entrega hoje",
+     "coluna": 0
+    },
+    {
+     "titulo": "@bia.store",
+     "sub": "Kit presente",
+     "coluna": 1
+    },
+    {
+     "titulo": "Rafael",
+     "sub": "Horário",
+     "coluna": 1
+    }
+   ],
+   "move": {
+    "card": 0,
+    "colunas": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "tipo": "chat",
+   "fala": "A IA sugere a resposta, e o **follow-up** sai sozinho, no dia certo.",
+   "nome": "Juliana",
+   "status": "online",
+   "mensagens": [
+    {
+     "de": "cliente",
+     "texto": "Ainda tem o modelo azul?",
+     "hora": "10:02"
+    },
+    {
+     "de": "ia",
+     "texto": "Tem sim! Separo um pra você? Entrego hoje 🚚",
+     "hora": "10:02"
+    },
+    {
+     "de": "loja",
+     "texto": "Oi, Juliana! Seu modelo azul ainda está separado. Fecho pra você? 💙",
+     "hora": "amanhã 09:00"
+    }
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "Comenta **AGENTE** aqui embaixo, que eu te mando o acesso grátis.",
+   "titulo": "Teste grátis\nno seu negócio",
+   "palavra": "AGENTE",
+   "canal": "comentario",
+   "texto": "Te mando o acesso no Direct 📩"
+  }
+ ]
+}
