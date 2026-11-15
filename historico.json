@@ -141,11 +141,12 @@
    "palavra_chave": "AGENTE",
    "pasta": "media/2026-11-15/reel-espera",
    "postiz_ids": [
-    "cmwh3jyco000w1m7eyj0cl3s0"
+    "cmwi4yz8700101m7e6txi2968"
    ],
    "audio": "How It Works - Magnetic Sirens (Postiz, 15%)",
    "postiz_id": "cmwh3jyco000w1m7eyj0cl3s0",
-   "status": "agendado no Postiz (18:30, som How It Works)"
+   "status": "agendado no Postiz (18:30, som How It Works)",
+   "horario": "20:00"
   },
   {
    "data": "2026-11-15",
