@@ -158,6 +158,34 @@
    "pasta": "media/2026-11-15/story-caixinha",
    "postiz_id": "cmwho0onl000y1m7ej4iz8v27",
    "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-16",
+   "formato": "carrossel",
+   "pilar": "ATRAIR",
+   "tema": "O atendente saiu e levou os clientes (número e histórico no celular pessoal)",
+   "gancho": "O atendente saiu. Os clientes foram junto.",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-16/carrossel-atendente-saiu",
+   "horario": "11:30",
+   "postiz_id": "cmwj3j8uk00111m7e6xcs3vr7",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-16",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2: clientes ficariam com a empresa ou com o atendente? + repost do carrossel",
+   "gancho": "Se seu atendente saísse hoje, os clientes ficariam com quem?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-16/stories",
+   "horario": "09:00/13:00",
+   "postiz_ids": [
+    "cmwj3j8v100121m7e8akw4kqk",
+    "cmwj3j8vi00131m7e3cp4iz9x"
+   ],
+   "postiz_id": "cmwj3j8v100121m7e8akw4kqk",
+   "status": "rascunho no Postiz"
   }
  ]
 }
