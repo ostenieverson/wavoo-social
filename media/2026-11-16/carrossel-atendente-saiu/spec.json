@@ -1,0 +1,80 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-16/carrossel-atendente-saiu",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Manda pro\nseu sócio",
+   "titulo": "O atendente saiu. ==Os clientes foram junto.==",
+   "texto": "E ninguém percebeu até o mês fechar."
+  },
+  {
+   "layout": "chat",
+   "titulo": "Conhece essa conversa?",
+   "contato": "Ju (celular pessoal)",
+   "mensagens": [
+    {"de": "cliente", "texto": "Oi Ju! Ainda quero fechar aquele pedido 😊", "hora": "10:12"},
+    {"de": "empresa", "texto": "Saí da loja, mas te atendo por aqui mesmo!", "hora": "10:20"},
+    {"de": "sistema", "texto": "A loja nunca soube dessa conversa"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "01",
+   "titulo": "O número era ==dele, não da empresa==",
+   "texto": "Contato salvo no celular pessoal **vai embora junto**."
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "02",
+   "titulo": "O histórico ==sumiu com ele==",
+   "texto": "Ninguém sabe o que foi cotado, prometido ou combinado."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "03",
+   "titulo": "Quem assume ==começa do zero==",
+   "notificacoes": [
+    {"app": "WhatsApp", "nome": "Cliente", "texto": "Já expliquei tudo isso pra outra pessoa…", "hora": "15:40"}
+   ]
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "Como ==blindar== sua carteira",
+   "numerada": true,
+   "itens": [
+    "Número da empresa, não do atendente",
+    "Todas as conversas numa caixa compartilhada",
+    "Cada conversa com um dono visível",
+    "Histórico completo pra quem assumir"
+   ]
+  },
+  {
+   "layout": "comparacao",
+   "tema": "claro",
+   "titulo": "No celular dele × no ==WavooAI==",
+   "antes": {
+    "titulo": "No celular dele",
+    "itens": ["Contatos no aparelho pessoal", "Histórico some quando ele sai", "Novo atendente começa do zero"]
+   },
+   "depois": {
+    "titulo": "No WavooAI",
+    "itens": ["Caixa de entrada compartilhada", "Histórico completo da conversa", "Dono visível e lead no Kanban"]
+   }
+  },
+  {
+   "layout": "cta",
+   "imagem": "img04.png",
+   "titulo": "Gente sai. ==O cliente fica.==",
+   "texto": "Começa no plano Free, sem cartão.",
+   "palavra": "AGENTE",
+   "canal": "comentario",
+   "acao": "que eu te mando no Direct"
+  }
+ ]
+}
