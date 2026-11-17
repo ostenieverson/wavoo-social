@@ -96,12 +96,12 @@ Instagram é um canal do WavooAI (Direct e comentários). Usar palavras-chave fi
 
 ## Banco de pautas (use antes de inventar tema; risque com [feito AAAA-MM-DD] ao usar)
 Ideias adaptadas da observação de concorrentes (ex.: @neurochatbot, nov/2026). Nunca copiar texto, arte ou frase; fazer com gancho, história e visual próprios do WavooAI.
-1. "O problema não é falta de lead. É o que acontece depois que ele chega." Antes de pagar mais anúncio, veja quantos leads ficam sem resposta. (carrossel ou reel narrado)
+1. [feito 2026-11-17] "O problema não é falta de lead. É o que acontece depois que ele chega." Antes de pagar mais anúncio, veja quantos leads ficam sem resposta. (carrossel ou reel narrado)
 2. "5 números do atendimento que todo dono deveria olhar toda semana": tempo da 1ª resposta, conversas sem resposta, conversas por atendente, volume por canal, quantos voltaram depois do follow-up. Só citar no WavooAI os relatórios que existem na home.
 3. [feito 2026-11-16] "O atendente saiu da empresa. Os clientes foram junto." Contatos e histórico no celular pessoal = carteira na mão de quem sai. Solução: número e histórico da empresa num só lugar. (reel narrado)
 4. Frases do cliente que matam a venda, uma por post: "Vou ver e te aviso", "Tá caro", "Depois eu falo com você", "Vou pensar". Como responder + follow-up no dia certo. (série; reel ou carrossel)
 5. Série por segmento, "Atendimento no WhatsApp para…": clínica (agenda e confirmação), loja (pedido e entrega), prestador de serviço (orçamento), escola/curso (matrícula). Um por semana.
 6. "Não é só juntar WhatsApp e Instagram": o que vem depois de centralizar (funil, follow-up, IA, relatórios, distribuição por equipe). Carrossel de recursos reais.
-7. "Quanto maior a equipe, mais o WhatsApp vira bagunça": 1 celular por atendente vs. caixa compartilhada com responsável por conversa.
+7. [feito 2026-11-17] "Quanto maior a equipe, mais o WhatsApp vira bagunça": 1 celular por atendente vs. caixa compartilhada com responsável por conversa.
 8. Rosto do fundador (Osteni) em reels curtos de opinião, alternando com os sem rosto: aumenta confiança no produto.
 O que NÃO repetir deles: legenda genérica, mesma legenda em posts diferentes, CTA só "agende uma demonstração", arte sem gancho. O engajamento deles é baixo apesar de 10 mil seguidores: vale a ideia, não a execução.

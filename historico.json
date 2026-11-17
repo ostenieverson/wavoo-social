@@ -186,6 +186,43 @@
    ],
    "postiz_id": "cmwj3j8v100121m7e8akw4kqk",
    "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-17",
+   "formato": "post",
+   "pilar": "PROVAR",
+   "tema": "Equipe com 1 celular por atendente vs caixa compartilhada com responsável",
+   "gancho": "3 atendentes. 3 celulares. Nenhum dono.",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-17/post-equipe",
+   "horario": "11:30",
+   "postiz_id": "cmwkjbl1x00171m7e1xq69hie",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-17",
+   "formato": "reel-narrado",
+   "pilar": "ATRAIR",
+   "tema": "O problema não é falta de lead, é o que acontece depois (dado Ramper 12,2%)",
+   "gancho": "Sua empresa não precisa de mais lead",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-17/reel-lead",
+   "horario": "18:30",
+   "audio": "Ready Or Not (Instrumental) — Villa",
+   "postiz_id": "cmwkjbl2a00181m7esmomnd4i",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-17",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta: quantas mensagens ficaram sem resposta ontem? + repost do post",
+   "gancho": "Quantas mensagens ficaram sem resposta ontem?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-17/stories",
+   "horario": "09:00 / 13:00",
+   "postiz_id": "cmwkjbl2q00191m7e80acbv7o, cmwkjbl35001a1m7ec5ptlnu5",
+   "status": "rascunho no Postiz"
   }
  ]
 }
