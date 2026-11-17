@@ -1,0 +1,17 @@
+{
+ "formato": "post",
+ "tema": "escuro",
+ "saida": "media/2026-11-17/post-equipe",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Quem respondeu\na cliente?",
+   "titulo": "3 atendentes. 3 celulares. ==Nenhum dono.==",
+   "texto": "No WavooAI a equipe atende na **mesma caixa** e cada conversa tem um **responsável visível**.",
+   "notificacoes": [
+    {"app": "WhatsApp", "nome": "Márcia", "texto": "Alguém pode me responder? Já perguntei 2x", "hora": "17:42"}
+   ]
+  }
+ ]
+}

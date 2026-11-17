@@ -1,0 +1,21 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-17/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia ☕",
+   "titulo": "Quantas mensagens ficaram ==sem resposta ontem?==",
+   "texto": "Chuta um número e responde esse story 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "3 atendentes. 3 celulares. ==Nenhum dono.==",
+   "texto": "Toca no post e manda pra sua equipe 👇"
+  }
+ ]
+}

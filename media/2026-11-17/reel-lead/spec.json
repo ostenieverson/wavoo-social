@@ -1,0 +1,44 @@
+{
+ "formato": "narrado",
+ "saida": "media/2026-11-17/reel-lead",
+ "acelerar": 1.12,
+ "cenas": [
+  {"tipo": "frase", "fala": "Sua empresa não precisa de **mais lead**. Precisa responder os que já chegaram.",
+   "linhas": ["Você não precisa", "de ~~mais lead~~.", "==Precisa responder.=="]},
+  {"tipo": "notifs", "fala": "Mensagem no WhatsApp, no Instagram, no chat do site… e **ninguém viu**.",
+   "titulo": "3 mensagens.\n==Ninguém viu.==",
+   "itens": [
+    {"app": "WhatsApp", "nome": "Paula", "texto": "Vocês fazem orçamento hoje?", "hora": "agora"},
+    {"app": "Instagram", "nome": "@lu.reformas", "texto": "Qual o valor do serviço?", "hora": "4 min"},
+    {"app": "Site", "nome": "Visitante", "texto": "Tem horário pra amanhã?", "hora": "12 min"}
+   ]},
+  {"tipo": "chat", "fala": "O cliente pergunta o preço, espera, espera… e **compra em outro lugar**.",
+   "nome": "Paula", "status": "online",
+   "mensagens": [
+    {"de": "cliente", "texto": "Oi! Quanto fica o orçamento? 🙂", "hora": "09:14"},
+    {"de": "cliente", "texto": "Alguém aí?", "hora": "10:02"},
+    {"de": "cliente", "texto": "Deixa, já fechei com outra empresa.", "hora": "11:30"}
+   ]},
+  {"tipo": "frase", "fala": "Uma pesquisa da Ramper mostrou: só **doze por cento** das empresas respondem em menos de dez minutos.",
+   "kicker": "Pesquisa Ramper · 1.900+ empresas",
+   "linhas": ["Só ==12%==", "respondem", "em menos", "de 10 min."]},
+  {"tipo": "inbox", "fala": "No WavooAI, todos os canais caem numa **caixa só**, e cada conversa tem um dono.",
+   "titulo": "Caixa de entrada", "destaque": 0,
+   "conversas": [
+    {"canal": "WhatsApp", "nome": "Paula", "texto": "Vocês fazem orçamento hoje?", "tempo": "agora", "nao_lidas": 1},
+    {"canal": "Instagram", "nome": "@lu.reformas", "texto": "Qual o valor do serviço?", "tempo": "4 min", "nao_lidas": 1},
+    {"canal": "Site", "nome": "Visitante", "texto": "Tem horário pra amanhã?", "tempo": "12 min", "nao_lidas": 1}
+   ]},
+  {"tipo": "kanban", "fala": "Cada lead vira um **card no funil**. Você vê na hora quem ficou sem resposta.",
+   "colunas": ["Novo", "Atendendo", "Proposta"],
+   "cards": [
+    {"titulo": "Paula", "sub": "Orçamento", "coluna": 0},
+    {"titulo": "@lu.reformas", "sub": "Valor do serviço", "coluna": 0},
+    {"titulo": "Visitante", "sub": "Horário amanhã", "coluna": 1}
+   ],
+   "move": {"card": 0, "colunas": [1, 2]}},
+  {"tipo": "cta", "fala": "Antes de pagar mais anúncio, comenta **AGENTE** que eu te mando o acesso grátis.",
+   "titulo": "Antes de pagar\nmais anúncio", "palavra": "AGENTE", "canal": "comentario",
+   "texto": "Te mando o acesso grátis no Direct 📩"}
+ ]
+}
