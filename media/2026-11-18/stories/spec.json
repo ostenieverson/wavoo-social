@@ -1,0 +1,28 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-18/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia ☕",
+   "titulo": "Quanto tempo seu cliente ==espera pelo 1º oi?==",
+   "texto": "1 = minutos · 2 = horas · 3 = nem sei\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "5 números que ==todo dono== deveria olhar",
+   "texto": "Toca no post e salva pra segunda 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "claro",
+   "kicker": "Dica rápida",
+   "titulo": "Toda segunda, conte as ==conversas sem resposta==",
+   "texto": "Esse número é o termômetro do seu atendimento. **Zere a fila antes do almoço.**"
+  }
+ ]
+}

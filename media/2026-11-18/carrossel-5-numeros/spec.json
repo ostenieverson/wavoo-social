@@ -1,0 +1,85 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-18/carrossel-5-numeros",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Salva pra\nsegunda",
+   "titulo": "5 números que ==todo dono== deveria olhar",
+   "texto": "Toda semana. Antes de pagar mais anúncio."
+  },
+  {
+   "layout": "chat",
+   "titulo": "Você saberia responder?",
+   "contato": "Equipe comercial",
+   "mensagens": [
+    {"de": "empresa", "texto": "Pessoal, quantos clientes ficaram sem resposta essa semana?", "hora": "08:05"},
+    {"de": "cliente", "texto": "Acho que nenhum… 🤔", "hora": "08:12"},
+    {"de": "cliente", "texto": "Não sei, uns ficaram no meu celular", "hora": "08:14"},
+    {"de": "sistema", "texto": "Ninguém sabe o número"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "01",
+   "titulo": "Tempo da ==1ª resposta==",
+   "texto": "Quanto o cliente espera até alguém dizer oi. **Quem responde primeiro sai na frente.**",
+   "notificacoes": [
+    {"app": "WhatsApp", "nome": "Cliente", "texto": "Oi, ainda tem disponível?", "hora": "09:02"},
+    {"app": "WhatsApp", "nome": "Cliente", "texto": "Alguém aí?", "hora": "09:41"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "numero_etapa": "02",
+   "titulo": "Conversas ==sem resposta==",
+   "texto": "Cada uma é um cliente esperando. **Olhe toda segunda e zere a fila.**"
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "03",
+   "titulo": "Conversas ==por atendente==",
+   "texto": "Mostra quem está afogado e quem tem espaço. **Divida antes de alguém largar cliente.**"
+  },
+  {
+   "layout": "texto",
+   "tema": "claro",
+   "numero_etapa": "04",
+   "titulo": "Volume ==por canal==",
+   "texto": "WhatsApp, Instagram, site: **saiba de onde vem quem compra** e reforce ali."
+  },
+  {
+   "layout": "texto",
+   "tema": "claro",
+   "numero_etapa": "05",
+   "titulo": "Quem ==voltou== depois do follow-up",
+   "texto": "Cliente que sumiu não é cliente perdido. **Conte quantos responderam quando você chamou de novo.**"
+  },
+  {
+   "layout": "comparacao",
+   "tema": "claro",
+   "titulo": "No achismo × no ==WavooAI==",
+   "antes": {
+    "titulo": "No achismo",
+    "itens": ["Cada conversa num celular", "Ninguém sabe quem esperou", "Número só aparece quando a venda some"]
+   },
+   "depois": {
+    "titulo": "No WavooAI",
+    "itens": ["Relatórios em tempo real", "1ª resposta e conversas por agente", "Volume por canal e lead no Kanban"]
+   }
+  },
+  {
+   "layout": "cta",
+   "imagem": "img04.png",
+   "titulo": "O que não se mede ==não melhora==",
+   "texto": "Quer o passo a passo pra recuperar quem sumiu?",
+   "palavra": "GUIA",
+   "canal": "comentario",
+   "acao": "que eu te mando o guia grátis no Direct"
+  }
+ ]
+}
