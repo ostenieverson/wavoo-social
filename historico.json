@@ -223,6 +223,26 @@
    "horario": "09:00 / 13:00",
    "postiz_id": "cmwkjbl2q00191m7e80acbv7o, cmwkjbl35001a1m7ec5ptlnu5",
    "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-18",
+   "formato": "carrossel",
+   "pilar": "SUPORTE",
+   "tema": "5 números do atendimento para olhar toda semana (1ª resposta, sem resposta, por atendente, por canal, retorno do follow-up)",
+   "gancho": "5 números que todo dono deveria olhar",
+   "palavra_chave": "GUIA",
+   "pasta": "media/2026-11-18/carrossel-5-numeros",
+   "postiz_id": "cmwlyf7ef001f1m7e9965skdy"
+  },
+  {
+   "data": "2026-11-18",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2/3: quanto tempo o cliente espera pelo 1º oi + repost do carrossel + dica conversas sem resposta",
+   "gancho": "Quanto tempo seu cliente espera pelo 1º oi?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-18/stories",
+   "postiz_id": "cmwlyf7er001g1m7ezo8zvc2x, cmwlyf7f6001h1m7err97crwp, cmwlyf7fj001i1m7eoakhf5jc"
   }
  ]
 }
