@@ -1,0 +1,78 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-19/carrossel-vou-ver",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "\"Vou ver e\nte aviso\"",
+   "titulo": "A frase que ==encerrou a venda==",
+   "texto": "Sexta, 17h40. O Rafael mandou o orçamento da cozinha."
+  },
+  {
+   "layout": "chat",
+   "titulo": "Parecia venda certa",
+   "contato": "Camila · cozinha planejada",
+   "mensagens": [
+    {"de": "empresa", "texto": "Camila, segue o orçamento da cozinha 📐", "hora": "17:40"},
+    {"de": "cliente", "texto": "Amei! Vou ver com meu marido e te aviso 😊", "hora": "18:02"},
+    {"de": "empresa", "texto": "Combinado! Fico no aguardo 🙌", "hora": "18:03"},
+    {"de": "sistema", "texto": "O aviso nunca chegou"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "01",
+   "titulo": "Ele ==esperou==. Por educação.",
+   "texto": "Não quis parecer chato. **Uma semana. Duas. Nenhuma mensagem.**"
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "02",
+   "titulo": "3 semanas ==depois==",
+   "texto": "A Camila postou a cozinha nova. **Feita por quem chamou de novo no 2º dia.**"
+  },
+  {
+   "layout": "texto",
+   "imagem": "img04.png",
+   "numero_etapa": "03",
+   "titulo": "\"Vou ver\" ==não é não==",
+   "texto": "Quer dizer: me ajuda a decidir. **Quem chama de novo, ajuda. Quem espera, some.**"
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "O que ==responder na hora==",
+   "itens": [
+    "Combine o retorno: **\"Posso te chamar quinta?\"**",
+    "Pergunte o que falta: **prazo, preço ou opinião de alguém?**",
+    "Depois, mande algo útil: **foto de um projeto parecido**"
+   ]
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "Follow-up no ==dia certo==",
+   "numerada": false,
+   "itens": [
+    "**Agora:** proposta enviada",
+    "**2 horas:** confirmação",
+    "**2 dias:** reengajamento",
+    "**7 dias:** última chamada"
+   ],
+   "texto": "No WavooAI, a retomada automática faz isso por você (planos Scale e Elite)."
+  },
+  {
+   "layout": "cta",
+   "imagem": "img05.png",
+   "titulo": "Não espere ==o aviso==",
+   "texto": "Quer as mensagens prontas pra cada toque?",
+   "palavra": "GUIA",
+   "canal": "comentario",
+   "acao": "que eu te mando o guia grátis no Direct"
+  }
+ ]
+}

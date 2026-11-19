@@ -1,0 +1,39 @@
+{
+ "formato": "narrado",
+ "saida": "media/2026-11-19/reel-free",
+ "acelerar": 1.12,
+ "cenas": [
+  {"tipo": "frase", "fala": "Não assine nenhum sistema de atendimento antes de **testar** com a sua equipe.",
+   "linhas": ["Não assine", "nenhum sistema", "==antes de testar.=="]},
+  {"tipo": "chat", "fala": "Contrato de doze meses, multa pra sair… e **ninguém da equipe usou**.",
+   "nome": "Equipe comercial", "status": "online",
+   "mensagens": [
+    {"de": "loja", "texto": "Gente, e o sistema novo? Já estão usando?", "hora": "09:10"},
+    {"de": "cliente", "texto": "Ainda não… tá tudo no meu WhatsApp mesmo 😅", "hora": "09:24"},
+    {"de": "loja", "texto": "Mas o contrato é de 12 meses, com multa 😬", "hora": "09:25"}
+   ]},
+  {"tipo": "frase", "fala": "No WavooAI tem plano **Free para sempre**. Sem cartão de crédito.",
+   "kicker": "WavooAI",
+   "linhas": ["Plano ==Free==", "para sempre.", "Sem cartão."]},
+  {"tipo": "inbox", "fala": "Você conecta o chat do site e vê as conversas chegando numa **caixa só**.",
+   "titulo": "Caixa de entrada", "destaque": 0,
+   "conversas": [
+    {"canal": "Site", "nome": "Visitante", "texto": "Vocês entregam no sábado?", "tempo": "agora", "nao_lidas": 1},
+    {"canal": "Site", "nome": "Júlia", "texto": "Qual o prazo do orçamento?", "tempo": "6 min", "nao_lidas": 1},
+    {"canal": "Site", "nome": "Visitante", "texto": "Tem horário amanhã cedo?", "tempo": "15 min"}
+   ]},
+  {"tipo": "kanban", "fala": "Cada contato vira um **card no funil**, do primeiro oi até a venda.",
+   "colunas": ["Novo", "Atendendo", "Venda"],
+   "cards": [
+    {"titulo": "Júlia", "sub": "Orçamento", "coluna": 0},
+    {"titulo": "Visitante", "sub": "Entrega sábado", "coluna": 0},
+    {"titulo": "Visitante", "sub": "Horário amanhã", "coluna": 1}
+   ],
+   "move": {"card": 0, "colunas": [1, 2]}},
+  {"tipo": "frase", "fala": "Precisou de WhatsApp e mais gente? Sobe de plano. **Sem fidelidade** e sem multa.",
+   "linhas": ["Cresceu?", "Sobe de plano.", "==Sem fidelidade.=="]},
+  {"tipo": "cta", "fala": "Comenta **AGENTE** que eu te mando o acesso grátis no Direct.",
+   "titulo": "Teste antes\nde pagar", "palavra": "AGENTE", "canal": "comentario",
+   "texto": "Te mando o acesso grátis no Direct 📩"}
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-19/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia ☕",
+   "titulo": "O cliente disse ==\"vou ver e te aviso\"==. E agora?",
+   "texto": "1 = espero ele chamar · 2 = chamo de novo · 3 = depende\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "A frase que ==encerrou a venda== do Rafael",
+   "texto": "Toca no post e manda pra quem vende por orçamento 👇"
+  }
+ ]
+}

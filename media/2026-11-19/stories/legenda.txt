@@ -1,0 +1,2 @@
+Story 1 (09:00): pergunta "vou ver e te aviso" com resposta 1/2/3 pela barra nativa.
+Story 2 (13:00): novo no feed (carrossel "A frase que encerrou a venda").
