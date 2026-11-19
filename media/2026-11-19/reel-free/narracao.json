@@ -1,0 +1,14 @@
+{
+ "provedor": "gemini",
+ "voz": "Charon",
+ "instrucoes": "Leia como um criador de conteúdo brasileiro de negócios no Instagram, num anúncio curto que prende: voz masculina jovem, energia alta, ritmo rápido, entonação bem variada, sorriso na voz, tom de conversa com o dono de uma pequena empresa. Ênfase forte na palavra mais importante de cada frase. Nada de locutor nem de pausa longa.",
+ "falas": [
+  {"arquivo": "voz/cena01.mp3", "texto": "Não assine nenhum sistema de atendimento antes de testar com a sua equipe."},
+  {"arquivo": "voz/cena02.mp3", "texto": "Contrato de doze meses, multa pra sair… e ninguém da equipe usou."},
+  {"arquivo": "voz/cena03.mp3", "texto": "No WavooAI tem plano Free para sempre. Sem cartão de crédito."},
+  {"arquivo": "voz/cena04.mp3", "texto": "Você conecta o chat do site e vê as conversas chegando numa caixa só."},
+  {"arquivo": "voz/cena05.mp3", "texto": "Cada contato vira um card no funil, do primeiro oi até a venda."},
+  {"arquivo": "voz/cena06.mp3", "texto": "Precisou de WhatsApp e mais gente? Sobe de plano. Sem fidelidade e sem multa."},
+  {"arquivo": "voz/cena07.mp3", "texto": "Comenta AGENTE que eu te mando o acesso grátis no Direct."}
+ ]
+}
