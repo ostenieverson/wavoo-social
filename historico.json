@@ -243,6 +243,43 @@
    "palavra_chave": null,
    "pasta": "media/2026-11-18/stories",
    "postiz_id": "cmwlyf7er001g1m7ezo8zvc2x, cmwlyf7f6001h1m7err97crwp, cmwlyf7fj001i1m7eoakhf5jc"
+  },
+  {
+   "data": "2026-11-19",
+   "formato": "carrossel-ia",
+   "pilar": "ATRAIR",
+   "tema": "\"Vou ver e te aviso\": história ilustrativa do marceneiro que esperou o aviso + como responder + follow-up no dia certo",
+   "gancho": "A frase que encerrou a venda",
+   "palavra_chave": "GUIA",
+   "pasta": "media/2026-11-19/carrossel-vou-ver",
+   "horario": "11:30",
+   "postiz_id": "cmwne1pdn001n1m7eo7d1q21i",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-19",
+   "formato": "reel-narrado",
+   "pilar": "CONVERTER",
+   "tema": "Teste antes de pagar: Free para sempre sem cartão, sobe de plano sem fidelidade (voz Charon)",
+   "gancho": "Não assine nenhum sistema antes de testar",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-19/reel-free",
+   "horario": "18:30",
+   "audio": "Bad Teleprompter (Instrumental) — TrackTribe (Postiz, 15%)",
+   "postiz_id": "cmwne1pe1001o1m7ejyo9ud6g",
+   "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-19",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2/3: o que fazer quando o cliente diz vou ver e te aviso + repost do carrossel",
+   "gancho": "O cliente disse \"vou ver e te aviso\". E agora?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-19/stories",
+   "horario": "09:00 / 13:00",
+   "postiz_id": "cmwne1pew001p1m7edprpq332, cmwne1pfc001q1m7e179tesfn",
+   "status": "rascunho no Postiz"
   }
  ]
 }

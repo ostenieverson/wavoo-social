@@ -99,7 +99,7 @@ Ideias adaptadas da observação de concorrentes (ex.: @neurochatbot, nov/2026).
 1. [feito 2026-11-17] "O problema não é falta de lead. É o que acontece depois que ele chega." Antes de pagar mais anúncio, veja quantos leads ficam sem resposta. (carrossel ou reel narrado)
 2. [feito 2026-11-18] "5 números do atendimento que todo dono deveria olhar toda semana": tempo da 1ª resposta, conversas sem resposta, conversas por atendente, volume por canal, quantos voltaram depois do follow-up. Só citar no WavooAI os relatórios que existem na home.
 3. [feito 2026-11-16] "O atendente saiu da empresa. Os clientes foram junto." Contatos e histórico no celular pessoal = carteira na mão de quem sai. Solução: número e histórico da empresa num só lugar. (reel narrado)
-4. Frases do cliente que matam a venda, uma por post: "Vou ver e te aviso", "Tá caro", "Depois eu falo com você", "Vou pensar". Como responder + follow-up no dia certo. (série; reel ou carrossel)
+4. [feito 2026-11-19: "Vou ver e te aviso"] Frases do cliente que matam a venda, uma por post: "Vou ver e te aviso", "Tá caro", "Depois eu falo com você", "Vou pensar". Como responder + follow-up no dia certo. (série; reel ou carrossel)
 5. Série por segmento, "Atendimento no WhatsApp para…": clínica (agenda e confirmação), loja (pedido e entrega), prestador de serviço (orçamento), escola/curso (matrícula). Um por semana.
 6. "Não é só juntar WhatsApp e Instagram": o que vem depois de centralizar (funil, follow-up, IA, relatórios, distribuição por equipe). Carrossel de recursos reais.
 7. [feito 2026-11-17] "Quanto maior a equipe, mais o WhatsApp vira bagunça": 1 celular por atendente vs. caixa compartilhada com responsável por conversa.
