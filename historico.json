@@ -302,6 +302,18 @@
    "pasta": "media/2026-11-20/stories",
    "postiz_id": "cmwotby4m001w1m7eqh8iqy8t,cmwotby5a001x1m7eo6s0kzt9,cmwotby60001y1m7elavetskx",
    "status": "rascunho"
+  },
+  {
+   "data": "2026-11-23",
+   "formato": "carrossel",
+   "pilar": "ATRAIR",
+   "tema": "Novidade v1.20.0: leads de formulários de anúncios da Meta viram contatos no WavooAI (+ bloqueio de duplicidade, Chat da equipe, follow-ups no Dashboard)",
+   "gancho": "Seu lead de anúncio esfriou na planilha?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-23/carrossel-leads-anuncio",
+   "postiz_id": "cmwoynu2j00231m7e6wivgbps",
+   "status": "rascunho no Postiz",
+   "obs": "Criado pela skill atualizar-partner (passo 6). Ocupa o carrossel ATRAIR de segunda; stories do dia seguem com o agente diário."
   }
  ]
 }
