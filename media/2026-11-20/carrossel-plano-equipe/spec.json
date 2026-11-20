@@ -1,0 +1,74 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-20/carrossel-plano-equipe",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Salve antes\nde escolher",
+   "titulo": "Qual plano cabe na ==sua equipe==?",
+   "texto": "Não escolha pelo preço. Escolha por quantas pessoas respondem cliente."
+  },
+  {
+   "layout": "chat",
+   "titulo": "Plano pequeno demais é isso",
+   "contato": "Equipe · vendas",
+   "mensagens": [
+    {"de": "empresa", "texto": "Alguém respondeu a cliente do orçamento?", "hora": "16:12"},
+    {"de": "cliente", "texto": "Achei que era você 😅", "hora": "16:20"},
+    {"de": "empresa", "texto": "Tá no meu celular ou no seu?", "hora": "16:21"},
+    {"de": "sistema", "texto": "Ninguém respondeu"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "01",
+   "titulo": "Começando sozinho: ==Free==",
+   "texto": "1 usuário e o chat do site. **Para sempre, sem cartão.** Teste antes de tudo."
+  },
+  {
+   "layout": "texto",
+   "tema": "claro",
+   "numero_etapa": "02",
+   "titulo": "Até 3 pessoas: ==Grow==",
+   "texto": "3 usuários e 2 canais. **Ex.: WhatsApp e Instagram na mesma caixa**, cada conversa com dono."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "03",
+   "titulo": "Time de vendas: ==Scale==",
+   "texto": "8 usuários, 4 canais, **Nexus IA e follow-up automático.** O mais escolhido."
+  },
+  {
+   "layout": "texto",
+   "tema": "azul",
+   "numero_etapa": "04",
+   "titulo": "Operação grande: ==Elite==",
+   "texto": "20 usuários, 6 canais, **Nexus IA multiagente**, SSO e sem marca Wavoo."
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "Vale pra ==todos os planos==",
+   "numerada": false,
+   "itens": [
+    "**Sem fidelidade** e sem multa",
+    "**Implantação assistida**",
+    "**Cresceu?** Sobe de plano",
+    "**Cancela** quando quiser"
+   ]
+  },
+  {
+   "layout": "cta",
+   "imagem": "img04.png",
+   "titulo": "Comece pelo ==Free==",
+   "texto": "Quer ajuda pra escolher o plano da sua equipe?",
+   "palavra": "AGENTE",
+   "canal": "comentario",
+   "acao": "que eu te mando o acesso no Direct"
+  }
+ ]
+}

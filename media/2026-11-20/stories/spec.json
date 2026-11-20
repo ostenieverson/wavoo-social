@@ -1,0 +1,28 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-20/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia ☕",
+   "titulo": "Quantas pessoas respondem ==cliente== aí?",
+   "texto": "1 = só eu · 2 = de 2 a 3 · 3 = 4 ou mais\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "Qual plano cabe na ==sua equipe==?",
+   "texto": "Toca no post e manda pro seu sócio 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "claro",
+   "kicker": "Dica de sexta",
+   "titulo": "Teste com a equipe ==antes de pagar==",
+   "texto": "O plano Free do WavooAI é para sempre e sem cartão.\nLink na bio."
+  }
+ ]
+}
