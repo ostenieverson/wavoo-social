@@ -1,0 +1,76 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-23/carrossel-leads-anuncio",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Novo no\nWavooAI",
+   "titulo": "Seu lead de anúncio ==esfriou== na planilha?",
+   "texto": "Agora ele entra direto no WavooAI, como contato.",
+   "notificacoes": [
+    {"app": "Anúncios", "nome": "Formulário de lead", "texto": "3 novos cadastros aguardando", "hora": "sex"},
+    {"app": "Anúncios", "nome": "Formulário de lead", "texto": "5 novos cadastros aguardando", "hora": "seg"}
+   ]
+  },
+  {
+   "layout": "chat",
+   "titulo": "Lead parado é isso",
+   "contato": "Sócio · clínica",
+   "mensagens": [
+    {"de": "empresa", "texto": "Alguém baixou a planilha dos leads do anúncio?", "hora": "18:40"},
+    {"de": "cliente", "texto": "Ia baixar segunda 😅", "hora": "18:52"},
+    {"de": "empresa", "texto": "A paciente do clareamento já marcou em outro lugar", "hora": "18:53"},
+    {"de": "sistema", "texto": "Lead respondido 4 dias depois"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "01",
+   "titulo": "Conecte a ==Página do Facebook==",
+   "texto": "Na caixa do WhatsApp (API oficial), aba **Saúde da conta**: Conectar Facebook e escolher a Página."
+  },
+  {
+   "layout": "texto",
+   "tema": "claro",
+   "numero_etapa": "02",
+   "titulo": "Escolha os ==formulários==",
+   "texto": "Sincronize e marque **Ativo** e **Criar contato**. O anúncio do Instagram entra pela mesma Página."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "03",
+   "titulo": "Filtre com ==condições==",
+   "texto": "Ex.: só cria o contato se o **telefone está preenchido**. Cadastro incompleto não vira tarefa."
+  },
+  {
+   "layout": "texto",
+   "tema": "azul",
+   "numero_etapa": "04",
+   "titulo": "Sem ==contato repetido==",
+   "texto": "Mesmo telefone ou e-mail? O WavooAI **atualiza o contato** em vez de criar outro."
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "Também ==nesta versão==",
+   "numerada": false,
+   "itens": [
+    "**Bloqueio de duplicidade** no funil do Kanban",
+    "**Avisos e menções** no Chat da equipe",
+    "**Follow-ups** no Dashboard Operacional",
+    "O lead chega como **contato**: o primeiro oi é do seu time"
+   ]
+  },
+  {
+   "layout": "cta",
+   "imagem": "img04.png",
+   "titulo": "Lead quente, ==resposta rápida==",
+   "texto": "Manda pra quem cuida dos seus anúncios. Passo a passo completo no blog.",
+   "acao": "Link na bio"
+  }
+ ]
+}
