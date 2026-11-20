@@ -280,6 +280,28 @@
    "horario": "09:00 / 13:00",
    "postiz_id": "cmwne1pew001p1m7edprpq332, cmwne1pfc001q1m7e179tesfn",
    "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-20",
+   "formato": "carrossel",
+   "pilar": "CONVERTER",
+   "tema": "Qual plano cabe na sua equipe (Free/Grow/Scale/Elite por tamanho do time, sem preços na arte)",
+   "gancho": "Qual plano cabe na sua equipe?",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-20/carrossel-plano-equipe",
+   "postiz_id": "cmwotby46001v1m7eyvlcc62z",
+   "status": "rascunho"
+  },
+  {
+   "data": "2026-11-20",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2/3: quantas pessoas respondem cliente + repost do carrossel + dica Free sem cartão",
+   "gancho": "Quantas pessoas respondem cliente aí?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-20/stories",
+   "postiz_id": "cmwotby4m001w1m7eqh8iqy8t,cmwotby5a001x1m7eo6s0kzt9,cmwotby60001y1m7elavetskx",
+   "status": "rascunho"
   }
  ]
 }
