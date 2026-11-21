@@ -1,0 +1,35 @@
+{
+ "provedor": "gemini",
+ "voz": "Charon",
+ "instrucoes": "Leia como um criador de conteúdo brasileiro de negócios contando uma história curta no Instagram: voz masculina jovem, energia alta, ritmo rápido, entonação bem variada, suspense leve nas viradas, tom de conversa com a dona de uma pequena loja. Ênfase forte na palavra-chave de cada frase e em AGENTE no final. Nada de locutor nem de pausa longa.",
+ "falas": [
+  {
+   "arquivo": "voz/cena01.mp3",
+   "texto": "Sábado, dez e doze. Uma cliente manda no Direct da loja: tem esse vestido no M? Ela quer buscar hoje."
+  },
+  {
+   "arquivo": "voz/cena02.mp3",
+   "texto": "Só que a loja tá cheia. A dona tá no balcão, e o Direct fica pra depois."
+  },
+  {
+   "arquivo": "voz/cena03.mp3",
+   "texto": "Dez e quarenta e cinco. Ela pergunta de novo: oi, alguém aí?"
+  },
+  {
+   "arquivo": "voz/cena04.mp3",
+   "texto": "Quatro e vinte da tarde, a resposta chega. Tarde demais: ela já comprou na loja ao lado."
+  },
+  {
+   "arquivo": "voz/cena05.mp3",
+   "texto": "E não é azar. Um estudo do MIT mostrou que responder em cinco minutos dá vinte e uma vezes mais chance do que em trinta."
+  },
+  {
+   "arquivo": "voz/cena06.mp3",
+   "texto": "Agora, o mesmo sábado com o WavooAI: Direct, WhatsApp e site na mesma caixa, a IA responde na hora com o seu catálogo, e a venda vira card no Kanban."
+  },
+  {
+   "arquivo": "voz/cena07.mp3",
+   "texto": "Loja cheia não precisa virar venda perdida. Comenta AGENTE que eu te mando no Direct."
+  }
+ ]
+}
