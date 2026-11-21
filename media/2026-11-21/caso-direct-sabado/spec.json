@@ -1,0 +1,133 @@
+{
+ "formato": "caso",
+ "saida": "media/2026-11-21/caso-direct-sabado",
+ "capitulos": [
+  "10H12",
+  "O BALCÃO",
+  "O NÚMERO",
+  "A SAÍDA"
+ ],
+ "fontes": [
+  "Lead Response Management Study (J. Oldroyd, MIT, com InsideSales.com, 2007)"
+ ],
+ "cenas": [
+  {
+   "capitulo": 0,
+   "duracao": 6,
+   "tipo": "foto",
+   "imagem": "img01.png",
+   "hora": "10h12",
+   "notificacoes": [
+    {
+     "app": "Instagram",
+     "nome": "Cliente nova",
+     "texto": "Oi! Tem esse vestido no M? Queria buscar hoje 😍",
+     "hora": "10:12"
+    }
+   ],
+   "linhas": [
+    "Ela quer",
+    "==buscar hoje.=="
+   ],
+   "narracao": "Sábado, dez e doze. Uma cliente manda no Direct da loja: tem esse vestido no M? Ela quer buscar hoje."
+  },
+  {
+   "capitulo": 0,
+   "duracao": 5,
+   "tipo": "foto",
+   "imagem": "img02.png",
+   "hora": "10h20",
+   "linhas": [
+    "Loja cheia.",
+    "O Direct fica",
+    "==pra depois.=="
+   ],
+   "narracao": "Só que a loja tá cheia. A dona tá no balcão, e o Direct fica pra depois."
+  },
+  {
+   "capitulo": 1,
+   "duracao": 5,
+   "tipo": "foto",
+   "imagem": "img01.png",
+   "hora": "10h45",
+   "notificacoes": [
+    {
+     "app": "Instagram",
+     "nome": "Cliente nova",
+     "texto": "Oi? Alguém aí?",
+     "hora": "10:45"
+    }
+   ],
+   "linhas": [
+    "33 minutos",
+    "==sem resposta.=="
+   ],
+   "narracao": "Dez e quarenta e cinco. Ela pergunta de novo: oi, alguém aí?"
+  },
+  {
+   "capitulo": 1,
+   "duracao": 6,
+   "tipo": "foto",
+   "imagem": "img04.png",
+   "hora": "16h20",
+   "notificacoes": [
+    {
+     "app": "Instagram",
+     "nome": "Cliente nova",
+     "texto": "Ah, obrigada! Já comprei em outra loja.",
+     "hora": "16:20"
+    }
+   ],
+   "texto": "Ela comprou **na loja ao lado**.",
+   "narracao": "Quatro e vinte da tarde, a resposta chega. Tarde demais: ela já comprou na loja ao lado."
+  },
+  {
+   "capitulo": 2,
+   "duracao": 7,
+   "tema": "escuro",
+   "tipo": "numero",
+   "kicker": "Estudo do MIT",
+   "titulo": "Responder em 5 minutos, em vez de 30, dá até",
+   "valor": "21x",
+   "texto": "mais chance de **qualificar o contato**.",
+   "nota": "Fonte: Lead Response Management Study (J. Oldroyd, MIT, com InsideSales.com, 2007)",
+   "narracao": "E não é azar. Um estudo do MIT mostrou que responder em cinco minutos dá vinte e uma vezes mais chance do que em trinta."
+  },
+  {
+   "capitulo": 3,
+   "duracao": 7,
+   "tema": "escuro",
+   "tipo": "fluxo",
+   "titulo": "O mesmo sábado, com o WavooAI:",
+   "passos": [
+    {
+     "icone": "inbox",
+     "texto": "Direct, WhatsApp e site na **mesma caixa**"
+    },
+    {
+     "icone": "bot",
+     "texto": "A Nexus IA **responde na hora** com o seu catálogo*"
+    },
+    {
+     "icone": "square-kanban",
+     "texto": "A venda vira **card no Kanban**: retirar hoje",
+     "marca": "check"
+    }
+   ],
+   "nota": "*Nexus IA nos planos Scale e Elite.",
+   "narracao": "Agora, o mesmo sábado com o WavooAI: Direct, WhatsApp e site na mesma caixa, a IA responde na hora com o seu catálogo, e a venda vira card no Kanban."
+  },
+  {
+   "capitulo": 3,
+   "duracao": 5.5,
+   "tema": "azul",
+   "tipo": "cta",
+   "titulo": "Loja cheia não é **venda perdida**.",
+   "texto": "Quer ver a Nexus IA respondendo seu Direct?",
+   "palavra": "AGENTE",
+   "canal": "comentario",
+   "acao": "que eu te mando no Direct",
+   "narracao": "Loja cheia não precisa virar venda perdida. Comenta AGENTE que eu te mando no Direct."
+  }
+ ]
+}

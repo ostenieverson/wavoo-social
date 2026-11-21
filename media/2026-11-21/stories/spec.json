@@ -1,0 +1,21 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-21/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia de sábado ☕",
+   "titulo": "Quem responde o ==Direct== no sábado?",
+   "texto": "1 = eu, entre um cliente e outro\n2 = alguém da equipe\n3 = fica pra segunda\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Reel novo no perfil",
+   "titulo": "A cliente das 10h12 ==não esperou==",
+   "texto": "Uma história de sábado que toda loja já viveu.\nToca no perfil e manda pra quem atende no balcão 👇"
+  }
+ ]
+}

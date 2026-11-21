@@ -164,7 +164,7 @@ def scene_html(s):
         if s.get("hora"):
             parts.append(A(t, html.escape(s["hora"]), "hora")); t += 0.4
         for n in s.get("notificacoes", []):
-            parts.append(A(t, f'<div class="nt-ic"></div><div class="nt-b"><div class="nt-h"><b>{html.escape(n.get("app","WhatsApp"))}</b><span>{html.escape(n.get("hora","agora"))}</span></div>'
+            parts.append(A(t, f'<div class="nt-ic"{" style=\"background:linear-gradient(135deg,#F58529,#DD2A7B,#8134AF)\"" if n.get("app")=="Instagram" else ""}></div><div class="nt-b"><div class="nt-h"><b>{html.escape(n.get("app","WhatsApp"))}</b><span>{html.escape(n.get("hora","agora"))}</span></div>'
                               f'<div class="nt-n">{html.escape(n.get("nome",""))}</div><div class="nt-t">{rich(n.get("texto",""))}</div></div>', "nt")); t += 0.6
         for ln in s.get("linhas", []):
             parts.append(A(t, rich(ln), "fl")); t += 0.6
