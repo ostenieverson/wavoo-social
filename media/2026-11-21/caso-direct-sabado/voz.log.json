@@ -1,0 +1,51 @@
+{
+ "voz/cena01.mp3": {
+  "status": "ok",
+  "provedor": "gemini",
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Charon",
+  "segundos": 4
+ },
+ "voz/cena02.mp3": {
+  "status": "ok",
+  "provedor": "gemini",
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Charon",
+  "segundos": 4
+ },
+ "voz/cena03.mp3": {
+  "status": "ok",
+  "provedor": "gemini",
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Charon",
+  "segundos": 3
+ },
+ "voz/cena04.mp3": {
+  "status": "ok",
+  "provedor": "gemini",
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Charon",
+  "segundos": 4
+ },
+ "voz/cena05.mp3": {
+  "status": "ok",
+  "provedor": "gemini",
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Charon",
+  "segundos": 34
+ },
+ "voz/cena06.mp3": {
+  "status": "ok",
+  "provedor": "gemini",
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Charon",
+  "segundos": 37
+ },
+ "voz/cena07.mp3": {
+  "status": "ok",
+  "provedor": "gemini",
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "voz": "Charon",
+  "segundos": 4
+ }
+}
