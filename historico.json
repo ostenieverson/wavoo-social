@@ -314,6 +314,29 @@
    "postiz_id": "cmwoynu2j00231m7e6wivgbps",
    "status": "rascunho no Postiz",
    "obs": "Criado pela skill atualizar-partner (passo 6). Ocupa o carrossel ATRAIR de segunda; stories do dia seguem com o agente diário."
+  },
+  {
+   "data": "2026-11-21",
+   "formato": "reel-caso",
+   "pilar": "ATRAIR",
+   "tema": "Sábado de loja cheia: cliente pergunta no Direct às 10h12, resposta só às 16h20, comprou na loja ao lado (dado MIT/InsideSales 21x, 5 vs 30 min); voz Charon",
+   "gancho": "Sábado, 10h12: tem esse vestido no M?",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-21/caso-direct-sabado",
+   "postiz_id": "cmwq8yg0900251m7e10n905fg",
+   "status": "rascunho no Postiz",
+   "obs": "Som: Kinetic Horizon (Neon Avenue), audio 15 / vídeo 100. Home wavoo.com.br não pôde ser lida nesta execução; fatos de brand/produto.md (17/11)."
+  },
+  {
+   "data": "2026-11-21",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2/3: quem responde o Direct no sábado + chamada para o reel",
+   "gancho": "Quem responde o Direct no sábado?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-21/stories",
+   "postiz_id": "cmwq8yg0n00261m7edqj5znr0, cmwq8yg1k00271m7ea847s60u",
+   "status": "rascunho no Postiz"
   }
  ]
 }
