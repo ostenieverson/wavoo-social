@@ -1,0 +1,14 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-22/story-dor",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Domingo, café e uma pergunta ☕",
+   "titulo": "O que mais ==te tira o sono== no atendimento?",
+   "texto": "1 = cliente que some depois do preço\n2 = demora pra responder\n3 = conversa perdida em vários celulares\n4 = outra, me conta\nResponde esse story com o número 👇"
+  }
+ ]
+}
