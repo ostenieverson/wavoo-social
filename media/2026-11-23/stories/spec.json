@@ -1,0 +1,21 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-23/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia, segunda ☕",
+   "titulo": "De onde chega a maioria dos seus ==clientes==?",
+   "texto": "1 = anúncio\n2 = indicação\n3 = Instagram orgânico\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "Lead de anúncio ==não pode esfriar== na planilha",
+   "texto": "Toca no post e manda pra quem cuida dos seus anúncios 👇"
+  }
+ ]
+}
