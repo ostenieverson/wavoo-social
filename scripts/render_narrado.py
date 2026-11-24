@@ -18,7 +18,7 @@ Spec:
 O texto de "fala" tem de ser igual ao de narracao.json (sem os **).
 Tipos:
   frase    linhas:[...] (entram uma a uma; ~~x~~ = riscado, ==x== = marca-texto azul) [kicker]
-  chat     nome, [status], mensagens:[{de:"cliente"|"loja"|"ia", texto, hora}] [rodape: "Visto às 10:02"]
+  chat     nome, [status], mensagens:[{de:"cliente"|"loja"|"ia", texto, hora}] [rodape: "Visto às 10:02"] [ia_tag: rótulo da bolha da IA, p/ outro idioma]
   notifs   itens:[{app:"WhatsApp"|"Instagram"|"Messenger"|"E-mail"|"Site", nome, texto, hora}] [titulo]
   inbox    [titulo] conversas:[{canal, nome, texto, tempo, [nao_lidas]}] [destaque: índice]
   kanban   colunas:[...], cards:[{titulo, sub, coluna}], [move:{card: índice, colunas:[1,2]}]
@@ -103,7 +103,7 @@ def scene_html(s, D):
         rows = []
         for t, m in zip(ts, ms):
             de = m.get("de", "cliente")
-            tag = f'<div class="iatag">{icon("sparkles", 26)} Sugestão da IA</div>' if de == "ia" else ""
+            tag = f'<div class="iatag">{icon("sparkles", 26)} {html.escape(s.get("ia_tag", "Sugestão da IA"))}</div>' if de == "ia" else ""
             tick = '<span class="tk">✓✓</span>' if de != "cliente" else ""
             rows.append(A(t, f'{tag}<div class="bt">{rich(m.get("texto",""))}</div><div class="bh">{html.escape(m.get("hora",""))}{tick}</div>',
                           f"bub {de}", "pop"))
@@ -151,7 +151,7 @@ def scene_html(s, D):
         parts = [A(0.05, rich(s.get("titulo", "")), "ctat", "pop")]
         t = 0.35
         if s.get("palavra"):
-            verbo = "Manda no Direct" if s.get("canal") == "direct" else "Comenta"
+            verbo = s.get("verbo") or ("Manda no Direct" if s.get("canal") == "direct" else "Comenta")
             parts.append(A(t, f'<span>{verbo}</span><b>{html.escape(s["palavra"])}</b>', "kw", "ping")); t += 0.4
         if s.get("texto"):
             parts.append(A(t, rich(s["texto"]), "ctx")); t += 0.35

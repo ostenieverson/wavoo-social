@@ -1,0 +1,54 @@
+{
+ "formato": "narrado",
+ "idioma": "en-US",
+ "saida": "media/2026-11-24/reel-dealer-florida-en",
+ "acelerar": 1.12,
+ "cenas": [
+  {"tipo": "frase", "fala": "Your dealership isn't losing buyers because of **price**.",
+   "kicker": "Florida car dealers 🌴",
+   "linhas": ["You don't", "lose buyers", "on ~~price~~."]},
+  {"tipo": "chat", "fala": "You're losing them because nobody answered **after hours**.",
+   "nome": "Mike R.", "status": "online",
+   "mensagens": [
+    {"de": "cliente", "texto": "Is the 2021 Camry still available? 🚗", "hora": "9:12 PM"},
+    {"de": "cliente", "texto": "What's the out-the-door price?", "hora": "9:13 PM"},
+    {"de": "cliente", "texto": "Hello?? 👀", "hora": "10:40 PM"},
+    {"de": "cliente", "texto": "Never mind, bought one down the street.", "hora": "8:05 AM"}
+   ]},
+  {"tipo": "notifs", "fala": "Leads come in on WhatsApp, Instagram, Messenger... all in **different places**.",
+   "titulo": "3 apps.\n==3 phones.==",
+   "itens": [
+    {"app": "WhatsApp", "nome": "Carlos", "texto": "Do you take trade-ins?", "hora": "now"},
+    {"app": "Instagram", "nome": "@miami.rides", "texto": "Price on the white F-150?", "hora": "1 min"},
+    {"app": "Messenger", "nome": "Jessica", "texto": "Can I test drive Saturday?", "hora": "3 min"}
+   ]},
+  {"tipo": "inbox", "fala": "With WavooAI, every lead lands in **one inbox**.",
+   "titulo": "Inbox", "destaque": 0,
+   "conversas": [
+    {"canal": "WhatsApp", "nome": "Carlos", "texto": "Do you take trade-ins?", "tempo": "now", "nao_lidas": 1},
+    {"canal": "Instagram", "nome": "@miami.rides", "texto": "Price on the white F-150?", "tempo": "1 min", "nao_lidas": 2},
+    {"canal": "Messenger", "nome": "Jessica", "texto": "Can I test drive Saturday?", "tempo": "3 min", "nao_lidas": 1},
+    {"canal": "WhatsApp", "nome": "Mike R.", "texto": "Is the 2021 Camry still available?", "tempo": "8 min"}
+   ]},
+  {"tipo": "kanban", "fala": "Every chat becomes a **deal card**, from new lead to test drive to sold.",
+   "titulo": "Sales pipeline",
+   "colunas": ["New lead", "Test drive", "Sold"],
+   "cards": [
+    {"titulo": "Mike R.", "sub": "2021 Camry", "coluna": 0},
+    {"titulo": "Carlos", "sub": "Trade-in", "coluna": 0},
+    {"titulo": "@miami.rides", "sub": "White F-150", "coluna": 1},
+    {"titulo": "Jessica", "sub": "Saturday", "coluna": 1}
+   ],
+   "move": {"card": 0, "colunas": [1, 2]}},
+  {"tipo": "chat", "fala": "AI drafts the reply, and the **follow-up** goes out on its own.",
+   "nome": "Mike R.", "status": "online", "ia_tag": "AI suggestion",
+   "mensagens": [
+    {"de": "cliente", "texto": "Is the 2021 Camry still available?", "hora": "9:12 PM"},
+    {"de": "ia", "texto": "Yes, it is! Want to come see it tomorrow at 10 AM? 🚗", "hora": "9:12 PM"},
+    {"de": "loja", "texto": "Hi Mike! The Camry is still here. Should I hold it for your test drive? 🔑", "hora": "Tomorrow 9:00 AM"}
+   ]},
+  {"tipo": "cta", "fala": "Hit the link in our bio and book your **free demo**.",
+   "titulo": "Sell more cars\nfrom every chat",
+   "texto": "Free demo · link in bio 🔗"}
+ ]
+}
