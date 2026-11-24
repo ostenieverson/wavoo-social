@@ -181,6 +181,7 @@ h1 .mk,h2 .mk{{padding:.02em .14em}}
 .msg.me{{background:#005C4B;align-self:flex-end;border-top-right-radius:6px}}
 .msg .time{{position:absolute;right:16px;bottom:6px;font-size:20px;color:#8696A0}}
 .kanban{{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}}
+.wrap.kanban{{display:flex;gap:0}}
 .kc{{background:{c['card']};border:2px solid {c['line']};border-radius:24px;padding:18px;display:flex;flex-direction:column;gap:14px}}
 .kh{{font:700 28px Outfit;display:flex;justify-content:space-between}} .kh span{{color:{c['muted']}}}
 .kcard{{background:{c['bg']};border-left:6px solid {c['pill_bg']};border-radius:14px;padding:16px;font-size:26px;line-height:1.25}}

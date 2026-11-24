@@ -1,0 +1,21 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-24/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia, terça ☕",
+   "titulo": "Onde você anota seus ==leads== hoje?",
+   "texto": "1 = caderno\n2 = planilha\n3 = na cabeça mesmo\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "Lead chegou? ==Já virou card.==",
+   "texto": "Toca no post e manda pra quem cuida das suas vendas 👇"
+  }
+ ]
+}

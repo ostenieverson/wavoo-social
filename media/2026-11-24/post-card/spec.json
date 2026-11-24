@@ -1,0 +1,20 @@
+{
+ "formato": "post",
+ "tema": "escuro",
+ "saida": "media/2026-11-24/post-card",
+ "slides": [
+  {
+   "layout": "kanban",
+   "imagem": "img01.png",
+   "selo": "Sem planilha.\nSem caderninho.",
+   "kicker": "CRM Kanban do WavooAI",
+   "titulo": "Lead chegou? ==Já virou card.==",
+   "colunas": [
+    {"titulo": "Novo", "cards": ["Marina · WhatsApp", "Rafael · Instagram"]},
+    {"titulo": "Atendendo", "cards": ["Lúcia · Chat do site"]},
+    {"titulo": "Proposta", "cards": ["Carlos · Orçamento"]}
+   ],
+   "texto": "Toda conversa que chega **entra no funil sozinha**. Você vê quem está parado e em qual etapa."
+  }
+ ]
+}
