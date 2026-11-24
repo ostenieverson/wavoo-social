@@ -360,6 +360,40 @@
    "pasta": "media/2026-11-23/stories",
    "postiz_id": "cmwt3lfbd002d1m7eclso029u,cmwt3lfc7002e1m7ezzfwpcsv",
    "status": "rascunho"
+  },
+  {
+   "data": "2026-11-24",
+   "formato": "post",
+   "pilar": "PROVAR",
+   "tema": "CRM Kanban: todo lead que chega vira card no funil automaticamente (sem planilha/caderninho)",
+   "gancho": "Lead chegou? Já virou card.",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-24/post-card",
+   "postiz_id": "cmwujag2h002h1m7eakknj2x4",
+   "status": "rascunho"
+  },
+  {
+   "data": "2026-11-24",
+   "formato": "reel-narrado",
+   "pilar": "ATRAIR",
+   "tema": "Série por segmento — clínica: remarcação no WhatsApp que ninguém viu vira horário vazio; caixa única, card no funil, responsável (voz Charon)",
+   "gancho": "Sua clínica não perde paciente na consulta. Perde no WhatsApp.",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-24/reel-clinica",
+   "postiz_id": "cmwujag2u002i1m7ew26frvw1",
+   "status": "rascunho",
+   "audio": "Love Funk Fever (Instrumental) — half.cool"
+  },
+  {
+   "data": "2026-11-24",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2/3: onde você anota seus leads (caderno, planilha, cabeça) + repost do post do Kanban",
+   "gancho": "Onde você anota seus leads hoje?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-24/stories",
+   "postiz_id": "cmwujag3c002j1m7e4wlkq4gw,cmwujag3t002k1m7e8y44ojoy",
+   "status": "rascunho"
   }
  ]
 }
