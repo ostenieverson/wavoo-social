@@ -3,43 +3,144 @@
  "saida": "media/2026-11-24/reel-clinica",
  "acelerar": 1.12,
  "cenas": [
-  {"tipo": "frase", "fala": "Sua clínica não perde paciente na consulta. Perde no **WhatsApp**.",
-   "linhas": ["Sua clínica não", "perde paciente", "na consulta.", "==Perde no WhatsApp.=="]},
-  {"tipo": "notifs", "fala": "Pedido de horário, remarcação, dúvida de valor… tudo no **mesmo celular**.",
+  {
+   "tipo": "frase",
+   "fala": "Sua clínica não perde paciente na consulta. Perde no **WhatsApp**.",
+   "linhas": [
+    "Sua clínica não",
+    "perde paciente",
+    "na consulta.",
+    "==Perde no WhatsApp.=="
+   ]
+  },
+  {
+   "tipo": "notifs",
+   "fala": "Pedido de horário, remarcação, dúvida de valor… tudo no **mesmo celular**.",
    "titulo": "Tudo no\n==mesmo celular.==",
    "itens": [
-    {"app": "WhatsApp", "nome": "Juliana", "texto": "Consigo passar minha consulta pra sexta?", "hora": "agora"},
-    {"app": "Instagram", "nome": "@carlos.m", "texto": "Quanto é a avaliação?", "hora": "6 min"},
-    {"app": "Site", "nome": "Visitante", "texto": "Tem horário no sábado?", "hora": "15 min"}
-   ]},
-  {"tipo": "chat", "fala": "A paciente pede pra remarcar, ninguém vê, e o **horário fica vazio**.",
-   "nome": "Juliana", "status": "online",
+    {
+     "app": "WhatsApp",
+     "nome": "Juliana",
+     "texto": "Consigo passar minha consulta pra sexta?",
+     "hora": "agora"
+    },
+    {
+     "app": "Instagram",
+     "nome": "@carlos.m",
+     "texto": "Quanto é a avaliação?",
+     "hora": "6 min"
+    },
+    {
+     "app": "Site",
+     "nome": "Visitante",
+     "texto": "Tem horário no sábado?",
+     "hora": "15 min"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "fala": "A paciente pede pra remarcar, ninguém vê, e o **horário fica vazio**.",
+   "nome": "Juliana",
+   "status": "online",
    "mensagens": [
-    {"de": "cliente", "texto": "Oi! Consigo passar minha consulta de amanhã pra sexta? 🙏", "hora": "19:48"},
-    {"de": "cliente", "texto": "Alguém viu? Não vou conseguir ir hoje", "hora": "08:12"},
-    {"de": "cliente", "texto": "Tudo bem, deixa pra lá.", "hora": "14:05"}
+    {
+     "de": "cliente",
+     "texto": "Oi! Consigo passar minha consulta de amanhã pra sexta? 🙏",
+     "hora": "19:48"
+    },
+    {
+     "de": "cliente",
+     "texto": "Alguém viu? Não vou conseguir ir hoje",
+     "hora": "08:12"
+    },
+    {
+     "de": "cliente",
+     "texto": "Tudo bem, deixa pra lá.",
+     "hora": "14:05"
+    }
    ],
-   "rodape": "14h00 · horário vazio na agenda"},
-  {"tipo": "inbox", "fala": "No WavooAI, WhatsApp, Instagram e chat do site caem numa **caixa só**.",
-   "titulo": "Caixa de entrada", "destaque": 0,
+   "rodape": "14h00 · horário vazio na agenda"
+  },
+  {
+   "tipo": "inbox",
+   "fala": "No WavooAI, WhatsApp, Instagram e chat do site caem numa **caixa só**.",
+   "titulo": "Caixa de entrada",
+   "destaque": 0,
    "conversas": [
-    {"canal": "WhatsApp", "nome": "Juliana", "texto": "Consigo passar minha consulta pra sexta?", "tempo": "agora", "nao_lidas": 1},
-    {"canal": "Instagram", "nome": "@carlos.m", "texto": "Quanto é a avaliação?", "tempo": "6 min", "nao_lidas": 1},
-    {"canal": "Site", "nome": "Visitante", "texto": "Tem horário no sábado?", "tempo": "15 min", "nao_lidas": 1}
-   ]},
-  {"tipo": "kanban", "fala": "Cada pedido vira um **card no funil**. Você vê na hora o que ficou sem resposta.",
-   "colunas": ["Novo", "Atendendo", "Agendado"],
-   "cards": [
-    {"titulo": "Juliana", "sub": "Remarcar consulta", "coluna": 0},
-    {"titulo": "@carlos.m", "sub": "Valor da avaliação", "coluna": 0},
-    {"titulo": "Visitante", "sub": "Horário sábado", "coluna": 1}
+    {
+     "canal": "WhatsApp",
+     "nome": "Juliana",
+     "texto": "Consigo passar minha consulta pra sexta?",
+     "tempo": "agora",
+     "nao_lidas": 1
+    },
+    {
+     "canal": "Instagram",
+     "nome": "@carlos.m",
+     "texto": "Quanto é a avaliação?",
+     "tempo": "6 min",
+     "nao_lidas": 1
+    },
+    {
+     "canal": "Site",
+     "nome": "Visitante",
+     "texto": "Tem horário no sábado?",
+     "tempo": "15 min",
+     "nao_lidas": 1
+    }
+   ]
+  },
+  {
+   "tipo": "kanban",
+   "fala": "Cada pedido vira um **card no funil**. Você vê na hora o que ficou sem resposta.",
+   "colunas": [
+    "Novo",
+    "Atendendo",
+    "Agendado"
    ],
-   "move": {"card": 0, "colunas": [1, 2]}},
-  {"tipo": "frase", "fala": "E cada conversa tem um **responsável**. A recepção sabe quem responde quem.",
+   "cards": [
+    {
+     "titulo": "Juliana",
+     "sub": "Remarcar consulta",
+     "coluna": 0
+    },
+    {
+     "titulo": "@carlos.m",
+     "sub": "Valor da avaliação",
+     "coluna": 0
+    },
+    {
+     "titulo": "Visitante",
+     "sub": "Horário sábado",
+     "coluna": 1
+    }
+   ],
+   "move": {
+    "card": 0,
+    "colunas": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "tipo": "frase",
+   "fala": "E cada conversa tem um **responsável**. A recepção sabe quem responde quem.",
    "kicker": "Dono visível em cada conversa",
-   "linhas": ["Cada conversa", "tem um", "==responsável.=="]},
-  {"tipo": "cta", "fala": "Comenta **AGENTE** que eu te mando o acesso grátis no Direct.",
-   "titulo": "Nenhum paciente\nsem resposta", "palavra": "AGENTE", "canal": "comentario",
-   "texto": "Te mando o acesso grátis no Direct 📩"}
+   "linhas": [
+    "Cada conversa",
+    "tem um",
+    "==responsável.=="
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "Comenta **AGENTE** que eu te mostro no Direct como funciona.",
+   "titulo": "Nenhum paciente\nsem resposta",
+   "palavra": "AGENTE",
+   "canal": "comentario",
+   "texto": "Te mostro como funciona no Direct 📩"
+  }
  ]
 }

@@ -10,11 +10,27 @@
    "kicker": "CRM Kanban do WavooAI",
    "titulo": "Lead chegou? ==Já virou card.==",
    "colunas": [
-    {"titulo": "Novo", "cards": ["Marina · WhatsApp", "Rafael · Instagram"]},
-    {"titulo": "Atendendo", "cards": ["Lúcia · Chat do site"]},
-    {"titulo": "Proposta", "cards": ["Carlos · Orçamento"]}
+    {
+     "titulo": "Novo",
+     "cards": [
+      "Marina · WhatsApp",
+      "Rafael · Instagram"
+     ]
+    },
+    {
+     "titulo": "Atendendo",
+     "cards": [
+      "Lúcia · Chat do site"
+     ]
+    },
+    {
+     "titulo": "Proposta",
+     "cards": [
+      "Carlos · Orçamento"
+     ]
+    }
    ],
-   "texto": "Toda conversa que chega **entra no funil sozinha**. Você vê quem está parado e em qual etapa."
+   "texto": "Cada conversa vira um **card com etapa, valor e responsável**. Você vê quem está parado e onde."
   }
  ]
 }
