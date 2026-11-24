@@ -1,7 +1,49 @@
-{"formato":"story","tema":"escuro","saida":"media/2026-11-24/story-usd-checkout-en","slides":[
- {"layout":"frase","kicker":"From the CEO 🇺🇸","titulo":"Big news for my US partners: ==USD checkout== goes live **next week**.","selo":"Coming soon"},
- {"layout":"lista","tema":"claro","kicker":"What changes for you","titulo":"Your US clients pay in **dollars**","itens":["They check out in USD, no currency conversion","You refer, they sign up, the account goes live","Same platform, same support, now priced for the US"]},
- {"layout":"lista","tema":"azul","kicker":"Partner program","titulo":"Recurring commission for **12 months**","numerada":false,"itens":["Bronze · 1–5 active clients · 10%","Silver · 6–10 active clients · 15%","Gold · 11+ active clients · 20%"]},
- {"layout":"frase","kicker":"Real example","titulo":"Who would you sell this to? Next story: a **Florida car dealership** 👉","texto":"Watch what it solves 🚗"},
- {"layout":"frase","tema":"azul","kicker":"Want in?","titulo":"Join the partner program before **USD launch** week.","texto":"Tap the link 👇"}
-]}
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-24/story-usd-checkout-en",
+ "slides": [
+  {
+   "layout": "frase",
+   "kicker": "From the CEO 🇺🇸",
+   "titulo": "Big news for my US partners: ==USD checkout== is **coming soon**.",
+   "selo": "Stay tuned"
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "kicker": "What changes for you",
+   "titulo": "Your US clients pay in **dollars**",
+   "itens": [
+    "They check out in USD, no currency conversion",
+    "You refer, they sign up, the account goes live",
+    "Same platform, same support, now priced for the US"
+   ]
+  },
+  {
+   "layout": "lista",
+   "tema": "azul",
+   "kicker": "Partner program",
+   "titulo": "Recurring commission for **12 months**",
+   "numerada": false,
+   "itens": [
+    "Bronze · 1–5 active clients · 10%",
+    "Silver · 6–10 active clients · 15%",
+    "Gold · 11+ active clients · 20%"
+   ]
+  },
+  {
+   "layout": "frase",
+   "kicker": "Real example",
+   "titulo": "Who would you sell this to? Next story: a **Florida car dealership** 👉",
+   "texto": "Watch what it solves 🚗"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Want in?",
+   "titulo": "Join the partner program before **USD checkout** goes live.",
+   "texto": "Tap the link 👇"
+  }
+ ]
+}
