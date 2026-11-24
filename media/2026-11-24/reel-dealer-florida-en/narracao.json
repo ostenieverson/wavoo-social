@@ -1,0 +1,15 @@
+{
+ "provedor": "gemini",
+ "voz": "Charon",
+ "idioma": "en-US",
+ "instrucoes": "Read in natural American English, like a young US business content creator in a short, punchy Instagram ad aimed at car dealership owners in Florida. Male voice, high energy, fast pace, varied intonation, a smile in the voice, conversational. Strong emphasis on the key word of each sentence. No announcer voice, no long pauses.",
+ "falas": [
+  {"arquivo": "voz/cena01.mp3", "texto": "Your dealership isn't losing buyers because of price."},
+  {"arquivo": "voz/cena02.mp3", "texto": "You're losing them because nobody answered after hours."},
+  {"arquivo": "voz/cena03.mp3", "texto": "Leads come in on WhatsApp, Instagram, Messenger... all in different places."},
+  {"arquivo": "voz/cena04.mp3", "texto": "With WavooAI, every lead lands in one inbox."},
+  {"arquivo": "voz/cena05.mp3", "texto": "Every chat becomes a deal card, from new lead to test drive to sold."},
+  {"arquivo": "voz/cena06.mp3", "texto": "AI drafts the reply, and the follow-up goes out on its own."},
+  {"arquivo": "voz/cena07.mp3", "texto": "Hit the link in our bio and book your free demo."}
+ ]
+}
