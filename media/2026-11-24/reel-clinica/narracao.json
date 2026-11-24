@@ -1,0 +1,35 @@
+{
+ "provedor": "gemini",
+ "voz": "Charon",
+ "instrucoes": "Leia como um criador de conteúdo brasileiro de negócios no Instagram, num anúncio curto que prende: voz masculina jovem, energia alta, ritmo rápido, entonação bem variada, sorriso na voz, tom de conversa com o dono de uma pequena clínica. Ênfase forte na palavra mais importante de cada frase. Nada de locutor nem de pausa longa.",
+ "falas": [
+  {
+   "arquivo": "voz/cena01.mp3",
+   "texto": "Sua clínica não perde paciente na consulta. Perde no WhatsApp."
+  },
+  {
+   "arquivo": "voz/cena02.mp3",
+   "texto": "Pedido de horário, remarcação, dúvida de valor… tudo no mesmo celular."
+  },
+  {
+   "arquivo": "voz/cena03.mp3",
+   "texto": "A paciente pede pra remarcar, ninguém vê, e o horário fica vazio."
+  },
+  {
+   "arquivo": "voz/cena04.mp3",
+   "texto": "No WavooAI, WhatsApp, Instagram e chat do site caem numa caixa só."
+  },
+  {
+   "arquivo": "voz/cena05.mp3",
+   "texto": "Cada pedido vira um card no funil. Você vê na hora o que ficou sem resposta."
+  },
+  {
+   "arquivo": "voz/cena06.mp3",
+   "texto": "E cada conversa tem um responsável. A recepção sabe quem responde quem."
+  },
+  {
+   "arquivo": "voz/cena07.mp3",
+   "texto": "Comenta AGENTE que eu te mando o acesso grátis no Direct."
+  }
+ ]
+}
