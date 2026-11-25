@@ -1,0 +1,75 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-25/carrossel-janela-24h",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Novo no\nWavooAI",
+   "titulo": "Seu follow-up ==morreu== na janela de 24h?",
+   "texto": "Agora ele sai com template aprovado da Meta.",
+   "notificacoes": [
+    {"app": "WhatsApp", "nome": "Cliente · proposta", "texto": "Vou ver a proposta e te aviso", "hora": "seg"}
+   ]
+  },
+  {
+   "layout": "chat",
+   "titulo": "Passou das ==24 horas==",
+   "contato": "Cliente · proposta",
+   "mensagens": [
+    {"de": "cliente", "texto": "Vou ver a proposta e te aviso", "hora": "seg 10:15"},
+    {"de": "sistema", "texto": "2 dias depois..."},
+    {"de": "empresa", "texto": "Oi! Conseguiu ver a proposta?", "hora": "qua 10:15"},
+    {"de": "sistema", "texto": "Janela de 24h fechada: só com template aprovado"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "01",
+   "titulo": "Tenha um ==template== aprovado",
+   "texto": "Crie o modelo e envie para análise da Meta. Aprovado, ele retoma conversas **fora da janela**."
+  },
+  {
+   "layout": "texto",
+   "tema": "claro",
+   "numero_etapa": "02",
+   "titulo": "Abra a ==etapa== do funil",
+   "texto": "No **CRM Kanban**, nas opções da etapa: **Automações da etapa** e **Adicionar etapa de follow-up**."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "03",
+   "titulo": "Escolha a ==inbox== de envio",
+   "texto": "Em **Inbox de envio**, selecione a inbox do WhatsApp oficial. Vazio usa a inbox da conversa do card."
+  },
+  {
+   "layout": "texto",
+   "tema": "azul",
+   "numero_etapa": "04",
+   "titulo": "Escolha o ==template da Meta==",
+   "texto": "Selecione o template, preencha as **variáveis** e defina dias, horas e minutos. Depois, **Salvar**."
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "Bom ==saber==",
+   "numerada": false,
+   "itens": [
+    "Dentro das 24h, o texto é **livre**",
+    "Fora da janela e sem template, o follow-up no WhatsApp oficial **não é enviado**",
+    "Dá para enviar só se o contato **não respondeu**",
+    "Contato sem conversa na inbox escolhida? O WavooAI **cria**, se ele puder receber"
+   ]
+  },
+  {
+   "layout": "cta",
+   "imagem": "img04.png",
+   "titulo": "Follow-up que ==chega==",
+   "texto": "Manda pra quem esquece de retomar proposta. Passo a passo completo no blog.",
+   "acao": "Link na bio"
+  }
+ ]
+}
