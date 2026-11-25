@@ -1,0 +1,28 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-25/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia, quarta ☕",
+   "titulo": "Cliente disse \"vou ver\". Quando você ==retoma==?",
+   "texto": "1 = no mesmo dia\n2 = depois de 2 ou 3 dias\n3 = sinceramente, esqueço\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "Seu follow-up morreu na ==janela de 24h==?",
+   "texto": "O passo a passo pra retomar com template aprovado. Toca no post e manda pra quem cuida das vendas 👇"
+  },
+  {
+   "layout": "frase",
+   "imagem": "st3.png",
+   "kicker": "Dica rápida",
+   "titulo": "Deixe o template ==aprovado antes==",
+   "texto": "No WhatsApp oficial, passou 24h sem resposta do cliente, só template aprovado pela Meta reabre a conversa. Crie hoje o seu de retomada de proposta."
+  }
+ ]
+}
