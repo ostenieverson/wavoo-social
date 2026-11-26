@@ -1,0 +1,101 @@
+{
+ "formato": "narrado",
+ "saida": "media/2026-11-26/reel-parceiros",
+ "acelerar": 1.12,
+ "cenas": [
+  {
+   "tipo": "frase",
+   "fala": "Seus clientes vivem te perguntando qual sistema usar no **WhatsApp**?",
+   "kicker": "Consultor, agência, contador",
+   "linhas": [
+    "Qual sistema",
+    "usar no",
+    "==WhatsApp?=="
+   ]
+  },
+  {
+   "tipo": "chat",
+   "fala": "Toda semana alguém pede uma **indicação**. E você indica de graça.",
+   "nome": "Ana · Loja da Ana",
+   "status": "online",
+   "mensagens": [
+    {
+     "de": "cliente",
+     "texto": "Me indica um sistema pro WhatsApp da loja? Tá uma bagunça 😩",
+     "hora": "10:02"
+    },
+    {
+     "de": "loja",
+     "texto": "Indico sim! Te mando o link 👍",
+     "hora": "10:05"
+    }
+   ],
+   "rodape": "E a indicação ficou de graça"
+  },
+  {
+   "tipo": "frase",
+   "fala": "No programa de parceiros do WavooAI, essa indicação vira **comissão recorrente**.",
+   "kicker": "Parceiros WavooAI",
+   "linhas": [
+    "Indicação",
+    "vira ==comissão==",
+    "recorrente."
+   ]
+  },
+  {
+   "tipo": "frase",
+   "fala": "Começa em **dez por cento** e chega a vinte, conforme seus clientes ativos.",
+   "kicker": "Clientes ativos",
+   "linhas": [
+    "1 a 5: 10%",
+    "6 a 10: 15%",
+    "==11+: 20%=="
+   ]
+  },
+  {
+   "tipo": "frase",
+   "fala": "Cai todo mês, por **doze meses**, direto no seu Pix.",
+   "linhas": [
+    "Todo mês.",
+    "Por 12 meses.",
+    "==No Pix.=="
+   ]
+  },
+  {
+   "tipo": "inbox",
+   "fala": "E o seu cliente sai da bagunça: todas as conversas numa **caixa só**.",
+   "titulo": "Caixa de entrada",
+   "destaque": 0,
+   "conversas": [
+    {
+     "canal": "WhatsApp",
+     "nome": "Marcos",
+     "texto": "Tem o modelo preto no 42?",
+     "tempo": "agora",
+     "nao_lidas": 1
+    },
+    {
+     "canal": "Instagram",
+     "nome": "Júlia",
+     "texto": "Qual o prazo de entrega?",
+     "tempo": "3 min",
+     "nao_lidas": 2
+    },
+    {
+     "canal": "Site",
+     "nome": "Visitante",
+     "texto": "Vocês parcelam?",
+     "tempo": "8 min"
+    }
+   ]
+  },
+  {
+   "tipo": "cta",
+   "fala": "Manda **AGENTE** no Direct que eu te explico o programa.",
+   "titulo": "Indique e\nganhe todo mês",
+   "palavra": "AGENTE",
+   "canal": "direct",
+   "texto": "Te explico o programa de parceiros 📩"
+  }
+ ]
+}

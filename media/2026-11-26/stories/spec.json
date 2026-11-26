@@ -1,0 +1,21 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-26/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia ☕",
+   "titulo": "Amanhã é ==Black Friday==. Sua loja vai entrar?",
+   "texto": "1 = sim, com oferta · 2 = não vou entrar · 3 = ainda decidindo\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "A Black Friday que ==ninguém respondeu==",
+   "texto": "4 ajustes pra fazer hoje. Toca no post e manda pra quem vai vender amanhã 👇"
+  }
+ ]
+}

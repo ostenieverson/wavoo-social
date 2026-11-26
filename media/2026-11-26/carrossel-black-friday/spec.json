@@ -1,0 +1,79 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-26/carrossel-black-friday",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Black Friday\né amanhã",
+   "titulo": "A Black Friday que ==ninguém respondeu==",
+   "texto": "A história da Bia, dona de uma loja de roupas."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "numero_etapa": "01",
+   "titulo": "9h: o celular ==não parou==",
+   "texto": "Direct, WhatsApp, comentário. **Tudo num celular só: o dela.**",
+   "notificacoes": [
+    {"app": "Instagram", "nome": "Carol", "texto": "Ainda tem o vestido azul no M?", "hora": "9:12"},
+    {"app": "WhatsApp", "nome": "Fernanda", "texto": "Entrega hoje? Aceita Pix?", "hora": "9:14"},
+    {"app": "Instagram", "nome": "@lu.ribeiro", "texto": "comentou: preço? 😍", "hora": "9:15"}
+   ]
+  },
+  {
+   "layout": "chat",
+   "titulo": "Ela viu. ==Às 19h48.==",
+   "contato": "Carol · Instagram",
+   "mensagens": [
+    {"de": "cliente", "texto": "Oi! Ainda tem o vestido azul no M? 😍", "hora": "09:12"},
+    {"de": "cliente", "texto": "Consigo buscar hoje?", "hora": "09:13"},
+    {"de": "empresa", "texto": "Oi Carol! Tem sim, desculpa a demora 🙏", "hora": "19:48"},
+    {"de": "cliente", "texto": "Ah, já comprei em outra loja. Obrigada!", "hora": "19:52"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "02",
+   "titulo": "Vendeu. Mas ==deixou venda na mesa==",
+   "texto": "Enquanto embalava pedidos, **as perguntas esfriavam no Direct.**"
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "Para amanhã: ==4 ajustes==",
+   "itens": [
+    "Respostas prontas para **tamanho, frete, prazo, Pix e troca**",
+    "Tudo numa **caixa só**, com mais gente respondendo",
+    "Aviso fora do horário: **\"te respondo às 9h\"**",
+    "Anote **quem perguntou e não fechou**"
+   ]
+  },
+  {
+   "layout": "texto",
+   "imagem": "img04.png",
+   "numero_etapa": "03",
+   "titulo": "Segunda: ==chame de novo==",
+   "texto": "Quem perguntou e não comprou ainda está interessado. **Uma mensagem na segunda reabre a conversa.**"
+  },
+  {
+   "layout": "comparacao",
+   "tema": "claro",
+   "titulo": "O que muda ==com o WavooAI==",
+   "antes": {"titulo": "Hoje", "itens": ["Tudo no celular da dona", "Direct e WhatsApp separados", "Ninguém sabe quem respondeu"]},
+   "depois": {"titulo": "WavooAI", "itens": ["Caixa de entrada compartilhada", "WhatsApp e Instagram juntos", "Cada conversa com um dono"]},
+   "texto": "Mais de um canal e equipe: a partir do plano Grow."
+  },
+  {
+   "layout": "cta",
+   "imagem": "img05.png",
+   "titulo": "Ninguém ==no vácuo== amanhã",
+   "texto": "Quer as mensagens prontas para chamar de novo quem sumiu?",
+   "palavra": "GUIA",
+   "canal": "comentario",
+   "acao": "que eu te mando o guia grátis no Direct"
+  }
+ ]
+}

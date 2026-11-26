@@ -1,0 +1,2 @@
+Story 1 (09:00): pergunta "Amanhã é Black Friday. Sua loja vai entrar?" com resposta 1/2/3 pela barra nativa.
+Story 2 (13:00): novo no feed (carrossel "A Black Friday que ninguém respondeu").
