@@ -438,6 +438,39 @@
    "pasta": "media/2026-11-25/stories",
    "postiz_id": "cmwvyfupc002u1m7e05qkzfud, cmwvyfupq002v1m7e7tmt4cu1, cmwvyfuqd002w1m7erdp2j76l",
    "obs": "3 rascunhos de story no Postiz (09:00, 13:00, 20:00; modo aprovacao); fotos reaproveitadas do carrossel do dia"
+  },
+  {
+   "data": "2026-11-26",
+   "formato": "carrossel-ia",
+   "pilar": "ATRAIR",
+   "tema": "Véspera de Black Friday: história ilustrativa da Bia (loja de roupas) com Direct sem resposta + 4 ajustes para amanhã + retomar na segunda",
+   "gancho": "A Black Friday que ninguém respondeu",
+   "palavra_chave": "GUIA",
+   "pasta": "media/2026-11-26/carrossel-black-friday",
+   "horario": "11:30",
+   "postiz_id": "cmwxe7zy100311m7e2ljeaer1"
+  },
+  {
+   "data": "2026-11-26",
+   "formato": "reel-narrado",
+   "pilar": "CONVERTER",
+   "tema": "Programa de parceiros: indicação vira comissão recorrente (10/15/20% por 12 meses via Pix) para consultores, agências e contadores (voz Charon, trilha 3, 2, 1 Instrumental)",
+   "gancho": "Te perguntam qual sistema usar no WhatsApp?",
+   "palavra_chave": "AGENTE (direct)",
+   "pasta": "media/2026-11-26/reel-parceiros",
+   "horario": "18:30",
+   "postiz_id": "cmwxe7zyh00321m7e79869610"
+  },
+  {
+   "data": "2026-11-26",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2/3: sua loja vai entrar na Black Friday + repost do carrossel",
+   "gancho": "Amanhã é Black Friday. Sua loja vai entrar?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-26/stories",
+   "horario": "09:00, 13:00",
+   "postiz_id": "cmwxe7zyv00331m7ei1c3wg1g, cmwxe7zz800341m7ec26b3md2"
   }
  ]
 }
