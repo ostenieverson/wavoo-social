@@ -1,0 +1,14 @@
+{
+ "provedor": "gemini",
+ "voz": "Charon",
+ "instrucoes": "Leia como um criador de conteúdo brasileiro de negócios no Instagram, num anúncio curto que prende: voz masculina jovem, energia alta, ritmo rápido, entonação bem variada, sorriso na voz, tom de conversa com um consultor ou dono de agência. Ênfase forte na palavra mais importante de cada frase. Nada de locutor nem de pausa longa.",
+ "falas": [
+  {"arquivo": "voz/cena01.mp3", "texto": "Seus clientes vivem te perguntando qual sistema usar no WhatsApp?"},
+  {"arquivo": "voz/cena02.mp3", "texto": "Toda semana alguém pede uma indicação. E você indica de graça."},
+  {"arquivo": "voz/cena03.mp3", "texto": "No programa de parceiros do WavooAI, essa indicação vira comissão recorrente."},
+  {"arquivo": "voz/cena04.mp3", "texto": "Começa em dez por cento e chega a vinte, conforme seus clientes ativos."},
+  {"arquivo": "voz/cena05.mp3", "texto": "Cai todo mês, por doze meses, direto no seu Pix."},
+  {"arquivo": "voz/cena06.mp3", "texto": "E o seu cliente sai da bagunça: todas as conversas numa caixa só."},
+  {"arquivo": "voz/cena07.mp3", "texto": "Manda AGENTE no Direct que eu te explico o programa."}
+ ]
+}
