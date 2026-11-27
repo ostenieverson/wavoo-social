@@ -471,6 +471,31 @@
    "pasta": "media/2026-11-26/stories",
    "horario": "09:00, 13:00",
    "postiz_id": "cmwxe7zyv00331m7ei1c3wg1g, cmwxe7zz800341m7ec26b3md2"
+  },
+  {
+   "data": "2026-11-27",
+   "formato": "carrossel",
+   "pilar": "CONVERTER",
+   "tema": "Juntar os canais é só o começo: 4 degraus (caixa única, Kanban, retomada automática, Nexus IA) e qual plano sobe cada degrau",
+   "gancho": "Juntar os canais é só o começo",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-27/carrossel-degraus",
+   "horario": "11:30",
+   "postiz_id": "cmwytfp7500391m7e8y5sot4n",
+   "status": "rascunho no Postiz",
+   "obs": "Banco de pautas #6. Home wavoo.com.br não pôde ser lida nesta execução; fatos de brand/produto.md (24/11)."
+  },
+  {
+   "data": "2026-11-27",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2/3: por quantos canais o cliente chama (Black Friday) + repost do carrossel + dica zere o Direct antes de dormir",
+   "gancho": "Seu cliente chama por quantos canais?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-27/stories",
+   "horario": "09:00 / 13:00 / 20:00",
+   "postiz_id": "cmwytfp7k003a1m7edj07qpqw, cmwytfp85003b1m7e17intjeb, cmwytfp8x003c1m7e96lxyyq1",
+   "status": "rascunho no Postiz"
   }
  ]
 }
