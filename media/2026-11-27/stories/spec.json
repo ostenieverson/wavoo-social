@@ -1,0 +1,28 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-27/stories",
+ "slides": [
+  {
+   "layout": "frase",
+   "imagem": "st1.png",
+   "kicker": "Bom dia, Black Friday ☕",
+   "titulo": "Seu cliente chama por ==quantos canais==?",
+   "texto": "1 = só WhatsApp\n2 = WhatsApp e Instagram\n3 = já perdi a conta\nResponde esse story com o número 👇"
+  },
+  {
+   "layout": "frase",
+   "tema": "azul",
+   "kicker": "Novo no feed",
+   "titulo": "Juntar os canais é ==só o começo==",
+   "texto": "Os 4 degraus de um atendimento que vende. Salva o post e manda pra quem cuida das vendas 👇"
+  },
+  {
+   "layout": "frase",
+   "imagem": "st3.png",
+   "kicker": "Dica de fim de Black Friday",
+   "titulo": "Antes de dormir, ==zere o Direct==",
+   "texto": "Quem perguntou hoje e ficou sem resposta ainda pode comprar amanhã. Responda agora, mesmo que seja só \"te confirmo cedo\"."
+  }
+ ]
+}

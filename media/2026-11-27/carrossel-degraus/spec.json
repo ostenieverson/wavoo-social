@@ -1,0 +1,77 @@
+{
+ "formato": "carrossel",
+ "tema": "escuro",
+ "saida": "media/2026-11-27/carrossel-degraus",
+ "slides": [
+  {
+   "layout": "capa",
+   "imagem": "img01.png",
+   "selo": "Salve antes\nde assinar",
+   "titulo": "Juntar os canais é ==só o começo==",
+   "texto": "Os 4 degraus de um atendimento que vende de verdade."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img02.png",
+   "titulo": "Juntou tudo. ==E agora?==",
+   "texto": "Mensagem chegando de todo lado não é organização. **É só uma fila maior.**",
+   "notificacoes": [
+    {"app": "WhatsApp", "nome": "Patrícia", "texto": "Fazem cozinha planejada? Quanto fica?", "hora": "10:02"},
+    {"app": "Instagram", "nome": "@casa.dos.lima", "texto": "Vocês entregam em Contagem?", "hora": "10:05"},
+    {"app": "WhatsApp", "nome": "Marcos", "texto": "E aí, saiu o orçamento?", "hora": "10:07"}
+   ]
+  },
+  {
+   "layout": "texto",
+   "tema": "claro",
+   "numero_etapa": "01",
+   "titulo": "Degrau 1: ==uma caixa só==",
+   "texto": "Os canais na mesma fila, com histórico completo e **um dono visível em cada conversa**. Ninguém responde duas vezes, ninguém fica sem resposta."
+  },
+  {
+   "layout": "kanban",
+   "kicker": "Degrau 2",
+   "titulo": "Cada conversa ==vira card==",
+   "colunas": [
+    {"titulo": "Novo", "cards": ["Patrícia · WhatsApp", "Casa dos Lima · Instagram"]},
+    {"titulo": "Orçamento", "cards": ["Marcos · Cozinha"]},
+    {"titulo": "Fechando", "cards": ["Joana · Closet"]}
+   ],
+   "texto": "No CRM Kanban, cada negociação tem **etapa, valor e responsável**. Você vê o funil inteiro."
+  },
+  {
+   "layout": "texto",
+   "imagem": "img03.png",
+   "numero_etapa": "03",
+   "titulo": "Degrau 3: ==ninguém no vácuo==",
+   "texto": "Retomada automática: proposta, confirmação em 2h, reengajamento em 2 dias, última chamada em 7. **Sem depender da memória de ninguém.**"
+  },
+  {
+   "layout": "texto",
+   "tema": "claro",
+   "numero_etapa": "04",
+   "titulo": "Degrau 4: IA ==ao lado do time==",
+   "texto": "O Nexus IA aprende com seus documentos, catálogo e políticas. **Sugere a resposta, resume a conversa e passa para um humano** quando precisa."
+  },
+  {
+   "layout": "lista",
+   "tema": "claro",
+   "titulo": "Qual plano ==sobe cada degrau==",
+   "itens": [
+    "**Free:** caixa de entrada única e histórico. Para sempre, sem cartão",
+    "**Grow:** 2 canais, CRM Kanban, funis e equipes",
+    "**Scale e Elite:** + retomada automática e Nexus IA",
+    "Todos **sem fidelidade**, com implantação assistida"
+   ]
+  },
+  {
+   "layout": "cta",
+   "imagem": "img04.png",
+   "titulo": "Em qual degrau ==você está==?",
+   "texto": "Te mostro o próximo passo do seu time, sem compromisso.",
+   "palavra": "AGENTE",
+   "canal": "comentario",
+   "acao": "que eu te mando no Direct"
+  }
+ ]
+}
