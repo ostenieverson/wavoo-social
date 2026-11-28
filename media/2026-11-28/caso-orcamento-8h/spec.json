@@ -1,0 +1,53 @@
+{
+ "formato": "caso",
+ "saida": "media/2026-11-28/caso-orcamento-8h",
+ "capitulos": ["8H03", "A ESCADA", "O NÚMERO", "A SAÍDA"],
+ "fontes": ["Termômetro Digital da América Latina — Mobile Time Latinoamérica e Blend/HSR (nov/2025, 5.059 entrevistados em 5 países)"],
+ "cenas": [
+  {"capitulo": 0, "duracao": 6, "tipo": "foto", "imagem": "img01.png", "hora": "8h03",
+   "notificacoes": [{"app": "WhatsApp", "nome": "Cliente nova", "texto": "Bom dia! Quanto fica instalar um split de 12 mil BTUs? Tô derretendo aqui 🥵", "hora": "08:03"}],
+   "linhas": ["Pedido de orçamento", "==às 8h03.=="],
+   "narracao": "Oito e três da manhã. Chega no WhatsApp do Rafa: quanto fica instalar um ar de doze mil BTUs?"},
+  {"capitulo": 0, "duracao": 5, "tipo": "foto", "imagem": "img02.png", "hora": "8h40",
+   "linhas": ["Rafa tá", "==em cima da escada.=="],
+   "narracao": "Só que o Rafa tá em cima da escada, terminando outra instalação. O celular fica no bolso."},
+  {"capitulo": 1, "duracao": 5, "tipo": "foto", "imagem": "img03.png", "hora": "11h30",
+   "notificacoes": [{"app": "WhatsApp", "nome": "Cliente nova", "texto": "Oi? Consegue me passar o valor hoje?", "hora": "11:30"}],
+   "linhas": ["3 horas", "==sem resposta.=="],
+   "narracao": "Onze e meia. A cliente pergunta de novo: consegue me passar o valor hoje?"},
+  {"capitulo": 1, "duracao": 6, "tipo": "foto", "imagem": "img04.png", "hora": "18h00",
+   "notificacoes": [{"app": "WhatsApp", "nome": "Cliente nova", "texto": "Ah, obrigada! Já fechei com quem me respondeu primeiro.", "hora": "18:02"}],
+   "texto": "Ela fechou com **quem respondeu primeiro**.",
+   "narracao": "Seis da tarde, o Rafa manda o orçamento. Ela agradece: já fechei com quem respondeu primeiro."},
+  {"capitulo": 2, "duracao": 7, "tema": "escuro", "tipo": "numero",
+   "kicker": "Pesquisa Mobile Time + Blend",
+   "titulo": "Brasileiros que já foram atendidos por empresas no WhatsApp:",
+   "valor": "74%",
+   "texto": "O cliente **já pede orçamento ali**.",
+   "nota": "Fonte: Termômetro Digital da América Latina, Mobile Time Latinoamérica e Blend/HSR (nov/2025)",
+   "narracao": "E não é azar. Setenta e quatro por cento dos brasileiros já foram atendidos por empresas no WhatsApp."},
+  {"capitulo": 2, "duracao": 6, "tema": "escuro", "tipo": "barras",
+   "titulo": "Já foram atendidos por empresas no WhatsApp:",
+   "barras": [
+    {"rotulo": "Brasil", "valor": 74, "texto_valor": "74%", "destaque": true},
+    {"rotulo": "Média de 5 países da América Latina", "valor": 57, "texto_valor": "57%"}
+   ],
+   "texto": "No Brasil, o WhatsApp **é o balcão**.",
+   "nota": "Fonte: Termômetro Digital da América Latina (nov/2025), 5.059 entrevistados",
+   "narracao": "No Brasil, o WhatsApp é o balcão. Aqui o número passa bem da média da América Latina."},
+  {"capitulo": 3, "duracao": 7, "tema": "escuro", "tipo": "fluxo",
+   "titulo": "O mesmo dia, com o WavooAI:",
+   "passos": [
+    {"icone": "inbox", "texto": "WhatsApp e Instagram na **mesma caixa**"},
+    {"icone": "bot", "texto": "Um **bot com menu** responde na hora e pede endereço e BTUs"},
+    {"icone": "square-kanban", "texto": "O pedido vira **card no Kanban**: orçamento*", "marca": "check"}
+   ],
+   "nota": "*CRM Kanban a partir do plano Grow.",
+   "narracao": "Agora, o mesmo dia com o WavooAI: WhatsApp e Instagram na mesma caixa, um bot com menu responde na hora e pede os dados, e o pedido vira card no Kanban."},
+  {"capitulo": 3, "duracao": 5.5, "tema": "azul", "tipo": "cta",
+   "titulo": "Quem responde primeiro **fecha primeiro**.",
+   "texto": "Quer ver como responder na hora, mesmo em cima da escada?",
+   "palavra": "AGENTE", "canal": "comentario", "acao": "que eu te mando no Direct",
+   "narracao": "Quem responde primeiro, fecha primeiro. Comenta AGENTE que eu te mando no Direct."}
+ ]
+}

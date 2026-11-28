@@ -1,0 +1,13 @@
+{
+ "formato": "story",
+ "tema": "escuro",
+ "saida": "media/2026-11-28/stories",
+ "slides": [
+  {"layout": "frase", "imagem": "st1.png", "kicker": "Bom dia de sábado ☕",
+   "titulo": "Quanto tempo leva pra ==mandar um orçamento==?",
+   "texto": "1 = na hora\n2 = no mesmo dia\n3 = quando dá, às vezes no outro dia\nResponde esse story com o número 👇"},
+  {"layout": "frase", "tema": "azul", "kicker": "Reel novo no perfil",
+   "titulo": "O orçamento das 8h03 ==chegou tarde==",
+   "texto": "Uma história que todo prestador de serviço já viveu.\nToca no perfil e manda pra quem vive em cima da escada 👇"}
+ ]
+}
