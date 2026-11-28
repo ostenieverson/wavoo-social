@@ -1,0 +1,15 @@
+{
+ "provedor": "gemini",
+ "voz": "Charon",
+ "instrucoes": "Leia como um criador de conteúdo brasileiro de negócios contando uma história curta no Instagram: voz masculina jovem, energia alta, ritmo rápido, entonação bem variada, suspense leve nas viradas, tom de conversa com um prestador de serviço autônomo. Ênfase forte na palavra-chave de cada frase e em AGENTE no final. Nada de locutor nem de pausa longa.",
+ "falas": [
+  {"arquivo": "voz/cena01.mp3", "texto": "Oito e três da manhã. Chega no WhatsApp do Rafa: quanto fica instalar um ar de doze mil BTUs?"},
+  {"arquivo": "voz/cena02.mp3", "texto": "Só que o Rafa tá em cima da escada, terminando outra instalação. O celular fica no bolso."},
+  {"arquivo": "voz/cena03.mp3", "texto": "Onze e meia. A cliente pergunta de novo: consegue me passar o valor hoje?"},
+  {"arquivo": "voz/cena04.mp3", "texto": "Seis da tarde, o Rafa manda o orçamento. Ela agradece: já fechei com quem respondeu primeiro."},
+  {"arquivo": "voz/cena05.mp3", "texto": "E não é azar. Setenta e quatro por cento dos brasileiros já foram atendidos por empresas no WhatsApp."},
+  {"arquivo": "voz/cena06.mp3", "texto": "No Brasil, o WhatsApp é o balcão. Aqui o número passa bem da média da América Latina."},
+  {"arquivo": "voz/cena07.mp3", "texto": "Agora, o mesmo dia com o WavooAI: WhatsApp e Instagram na mesma caixa, um bot com menu responde na hora e pede os dados, e o pedido vira card no Kanban."},
+  {"arquivo": "voz/cena08.mp3", "texto": "Quem responde primeiro, fecha primeiro. Comenta AGENTE que eu te mando no Direct."}
+ ]
+}
