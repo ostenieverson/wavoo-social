@@ -496,6 +496,26 @@
    "horario": "09:00 / 13:00 / 20:00",
    "postiz_id": "cmwytfp7k003a1m7edj07qpqw, cmwytfp85003b1m7e17intjeb, cmwytfp8x003c1m7e96lxyyq1",
    "status": "rascunho no Postiz"
+  },
+  {
+   "data": "2026-11-28",
+   "formato": "reel-caso",
+   "pilar": "ATRAIR",
+   "tema": "Série por segmento — prestador de serviço: Rafa (ilustrativo, instalador de ar-condicionado) recebe pedido de orçamento às 8h03, está na escada, responde às 18h e a cliente já fechou com quem respondeu primeiro (dado: 74% dos brasileiros já atendidos por empresas no WhatsApp, Termômetro Digital Mobile Time/Blend nov/2025); voz Charon, trilha Coming Back (Instrumental)",
+   "gancho": "Pedido de orçamento às 8h03",
+   "palavra_chave": "AGENTE",
+   "pasta": "media/2026-11-28/caso-orcamento-8h",
+   "postiz_id": "cmx090z7g003h1m7ehzwafszh"
+  },
+  {
+   "data": "2026-11-28",
+   "formato": "stories",
+   "pilar": "COMUNIDADE",
+   "tema": "Pergunta 1/2/3: quanto tempo leva pra mandar um orçamento + chamada para o reel",
+   "gancho": "Quanto tempo leva pra mandar um orçamento?",
+   "palavra_chave": null,
+   "pasta": "media/2026-11-28/stories",
+   "postiz_id": "cmx090z7v003i1m7efylq5uxe, cmx090z8a003j1m7exfrean75"
   }
  ]
 }
